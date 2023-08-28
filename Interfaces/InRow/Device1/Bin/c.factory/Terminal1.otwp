@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Terminal Name="Terminal1" Display="PGD1" Language="EN" BeginFromMask="Mask_1" Layout="SixKeys" Font="CAREL_TERM_EAST" ZoomCode="0" LoopFunction="TIMED_LOOP" Version="1.0">
+  <ShortCuts>
+    <ShortCut Name="ALARM" Code="12" />
+    <ShortCut Name="PRG" Code="5" />
+    <ShortCut Name="ESC" Code="0" />
+    <ShortCut Name="UP" Code="14" />
+    <ShortCut Name="ENTER" Code="13" />
+    <ShortCut Name="DOWN" Code="15" />
+  </ShortCuts>
+  <KeyBindings />
+  <Worksheet Name="Worksheet_1" Version="1.0.0">
+    <Mask Name="Mask" Type="Normal" X="0" Y="2">
+      <Fields>
+        <Field Type="Variable" Name="Variable" Row="1" Column="5" Content="U[1].Value" Class="CL_REAL_0" Format="o+3.0" Min="-999.0" Max="999.0" />
+        <Field Type="Variable" Name="Variable_2" Row="2" Column="5" Content="U[2].Value" Class="CL_REAL_0" Format="o+3.0" Min="-999.0" Max="999.0" />
+        <Field Type="Variable" Name="Variable_3" Row="3" Column="5" Content="U[3].Value" Class="CL_REAL_0" Format="o+3.0" Min="-999.0" Max="999.0" />
+        <Field Type="Variable" Name="Variable_4" Row="4" Column="5" Content="U[4].Value" Class="CL_REAL_0" Format="o+3.0" Min="-999.0" Max="999.0" />
+        <Field Type="Variable" Name="Variable_5" Row="5" Column="5" Content="U[5].Value" Class="CL_REAL_0" Format="o+3.0" Min="-999.0" Max="999.0" />
+        <Field Type="Variable" Name="Variable_6" Row="5" Column="15" Content="U[10].Value" Class="CL_REAL_0" Format="o+3.0" Min="-999.0" Max="999.0" />
+        <Field Type="Variable" Name="Variable_7" Row="3" Column="15" Content="U[8].Value" Class="CL_REAL_0" Format="o+3.0" Min="-999.0" Max="999.0" />
+        <Field Type="Variable" Name="Variable_8" Row="4" Column="15" Content="U[9].Value" Class="CL_REAL_0" Format="o+3.0" Min="-999.0" Max="999.0" />
+        <Field Type="Variable" Name="Variable_9" Row="1" Column="15" Content="U[6].Value" Class="CL_REAL_0" Format="o+3.0" Min="-999.0" Max="999.0" />
+        <Field Type="Variable" Name="Variable_10" Row="2" Column="15" Content="U[7].Value" Class="CL_REAL_0" Format="o+3.0" Min="-999.0" Max="999.0" />
+        <Field Type="Text" Name="Text" Row="1" Column="2" Content="6" />
+        <Field Type="Text" Name="Text_2" Row="2" Column="2" Content="7" />
+        <Field Type="Text" Name="Text_3" Row="3" Column="2" Content="8" />
+        <Field Type="Text" Name="Text_4" Row="4" Column="2" Content="9" />
+        <Field Type="Text" Name="Text_5" Row="5" Column="2" Content="10" />
+        <Field Type="Text" Name="Text_6" Row="4" Column="12" Content="11" />
+        <Field Type="Text" Name="Text_7" Row="5" Column="12" Content="12" />
+        <Field Type="Text" Name="Text_8" Row="2" Column="12" Content="13" />
+        <Field Type="Text" Name="Text_9" Row="3" Column="12" Content="14" />
+        <Field Type="Text" Name="Text_10" Row="1" Column="12" Content="15" />
+      </Fields>
+      <KeyBindings>
+        <KeyBinding Key="ESC" BindOn="Back" />
+      </KeyBindings>
+    </Mask>
+    <Loop Name="Loop_1" Type="Normal" X="0" Y="0">
+      <Mask Name="Mask_1" Type="Normal" X="0" Y="1" ZoomCode="5">
+        <Fields>
+          <Field Type="Text" Name="Text" Row="4" Column="3" Content="0" />
+          <Field Type="Text" Name="Text_2" Row="1" Column="1" Content="1" />
+          <Field Type="Text" Name="Text_3" Row="2" Column="1" Content="2" />
+          <Field Type="Text" Name="Text_4" Row="6" Column="14" Content="3" />
+          <Field Type="Text" Name="Text_5" Row="6" Column="19" Content="4" />
+          <Field Type="Text" Name="Text_6" Row="6" Column="17" Content="5" />
+          <Field Type="Variable" Name="Variable" Row="6" Column="16" Content="Boot.CurrVer.X" Class="CL_UINT" Format="o1" Min="0" Max="9" />
+          <Field Type="Variable" Name="Variable_2" Row="6" Column="18" Content="Boot.CurrVer.Y" Class="CL_UINT" Format="o1" Min="0" Max="9" />
+          <Field Type="Variable" Name="Variable_3" Row="6" Column="20" Content="Boot.CurrVer.Z" Class="CL_UINT" Format="o1" Min="0" Max="9" />
+        </Fields>
+        <KeyBindings>
+          <KeyBinding Key="ENTER" BindOn="Info" />
+        </KeyBindings>
+      </Mask>
+    </Loop>
+  </Worksheet>
+</Terminal>

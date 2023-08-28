@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<FormatFields>
+  <FormatField Name="CL_UINT" Format="io5">
+    <KeyBindings>
+      <KeyBinding Key="UP" BindOn="Increment_WORD" />
+      <KeyBinding Key="DOWN" BindOn="Decrement_WORD" />
+      <KeyBinding Key="ENTER" BindOn="SetCurrentValue" />
+    </KeyBindings>
+  </FormatField>
+  <FormatField Name="CL_REAL_0" Format="io+3.0">
+    <KeyBindings>
+      <KeyBinding Key="UP" BindOn="Increment_REAL_0" />
+      <KeyBinding Key="DOWN" BindOn="Decrement_REAL_0" />
+      <KeyBinding Key="ENTER" BindOn="SetCurrentValue" />
+    </KeyBindings>
+  </FormatField>
+</FormatFields>

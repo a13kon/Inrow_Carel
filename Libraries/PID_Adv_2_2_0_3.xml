@@ -1,0 +1,619 @@
+﻿<Manifest
+  Version="1.0.0"
+  IsLibrary="true">
+  <Libraries />
+  <Pou
+    Name="Reverse_MODE"
+    Moniker="Reverse_MODE.stf"
+    Language="ST"
+    IsIec61499="false"
+    Kind="Function"
+    Password="E4BDBA2BEF6CC4DC"
+    GenerateDebugInfo="false"
+    GeneratingMonitoringSymbols="true"
+    UserEdited="false"
+    Deprecated="false"
+    IsVisible="true">
+    <Variable
+      Name="RUN"
+      Comment="1 - Reverse Mode ON, 0 - Direct Mode"
+      DataType="BOOL"
+      Kind="VarInput" />
+    <Variable
+      Name="Yin"
+      Comment="Segnale da invertire (es. l'uscita di un controllore PID) "
+      DataType="REAL"
+      Kind="VarInput" />
+    <Variable
+      Name="MaxLim"
+      Comment="Limitazione superiore rispetto alla quale invertire (ES: UppLim del PID come nel limiter) "
+      DataType="REAL"
+      Kind="VarInput" />
+    <Variable
+      Name="Reverse_MODE"
+      Comment=""
+      DataType="REAL"
+      Kind="VarOutput" />
+  </Pou>
+  <Pou
+    Name="INTEGRALE"
+    Moniker="INTEGRALE.stf"
+    Language="ST"
+    IsIec61499="false"
+    Kind="FunctionBlock"
+    Password="E4BDBA2BEF6CC4DC"
+    GenerateDebugInfo="false"
+    GeneratingMonitoringSymbols="true"
+    UserEdited="false"
+    Deprecated="false"
+    IsVisible="true">
+    <Variable
+      Name="RUN"
+      Comment="1 - Integrate, 0 - Hold"
+      DataType="BOOL"
+      Kind="VarInput" />
+    <Variable
+      Name="R1"
+      Comment="Reset"
+      DataType="BOOL"
+      Kind="VarInput" />
+    <Variable
+      Name="X0"
+      Comment="Initial value"
+      DataType="REAL"
+      Kind="VarInput" />
+    <Variable
+      Name="XIN"
+      Comment="Input for integral"
+      DataType="REAL"
+      Kind="VarInput" />
+    <Variable
+      Name="Q"
+      Comment="1 - Not resetting, 0 - resetting now"
+      DataType="BOOL"
+      Kind="VarOutput" />
+    <Variable
+      Name="XOUT"
+      Comment="Integral output"
+      DataType="REAL"
+      Kind="VarOutput" />
+    <Variable
+      Name="CYCLE"
+      Comment="Latest cycle time (seconds)"
+      DataType="REAL"
+      Kind="Var" />
+    <Variable
+      Name="t"
+      Comment="Actual time (seconds)"
+      DataType="REAL"
+      Kind="Var" />
+    <Variable
+      Name="t_p"
+      Comment="Previous time (seconds)"
+      DataType="REAL"
+      Kind="Var" />
+  </Pou>
+  <Pou
+    Name="Heating_MODE"
+    Moniker="Heating_MODE.stf"
+    Language="ST"
+    IsIec61499="false"
+    Kind="Function"
+    Password="E4BDBA2BEF6CC4DC"
+    GenerateDebugInfo="false"
+    GeneratingMonitoringSymbols="true"
+    UserEdited="false"
+    Deprecated="false"
+    IsVisible="true">
+    <Variable
+      Name="RUN"
+      Comment="1 - Heating MODE attivo, 0 - Bypass IN-OUT"
+      DataType="BOOL"
+      Kind="VarInput" />
+    <Variable
+      Name="Yin"
+      Comment="Segnale di controllo ( = PID output)"
+      DataType="REAL"
+      Kind="VarInput" />
+    <Variable
+      Name="Heating_MODE"
+      Comment=""
+      DataType="REAL"
+      Kind="VarOutput" />
+  </Pou>
+  <Pou
+    Name="DERIVATIVE1"
+    Moniker="DERIVATIVE1.stf"
+    Language="ST"
+    IsIec61499="false"
+    Kind="FunctionBlock"
+    Password="E4BDBA2BEF6CC4DC"
+    GenerateDebugInfo="false"
+    GeneratingMonitoringSymbols="true"
+    UserEdited="false"
+    Deprecated="false"
+    IsVisible="true">
+    <Variable
+      Name="RUN"
+      Comment="0 - Reset, 1 - Compute derivative"
+      DataType="BOOL"
+      Kind="VarInput" />
+    <Variable
+      Name="XIN"
+      Comment="Input for derivative"
+      DataType="REAL"
+      Kind="VarInput" />
+    <Variable
+      Name="XOUT"
+      Comment="Derivative output"
+      DataType="REAL"
+      Kind="VarOutput" />
+    <Variable
+      Name="X1"
+      Comment="Previous input signal sample -1"
+      DataType="REAL"
+      Kind="Var" />
+    <Variable
+      Name="X2"
+      Comment="Previous input signal sample -2"
+      DataType="REAL"
+      Kind="Var" />
+    <Variable
+      Name="X3"
+      Comment="Previous input signal sample -3"
+      DataType="REAL"
+      Kind="Var" />
+    <Variable
+      Name="X4"
+      Comment="Previous input signal sample -4"
+      DataType="REAL"
+      Kind="Var" />
+    <Variable
+      Name="t1"
+      Comment="Time for previous input sample X1"
+      DataType="TIME"
+      Kind="Var" />
+    <Variable
+      Name="t2"
+      Comment="Time for previous input sample X2"
+      DataType="TIME"
+      Kind="Var" />
+    <Variable
+      Name="t3"
+      Comment="Time for previous input sample X3"
+      DataType="TIME"
+      Kind="Var" />
+    <Variable
+      Name="t4"
+      Comment="Time for previous input sample X4"
+      DataType="TIME"
+      Kind="Var" />
+    <Variable
+      Name="t"
+      Comment="Actual time (msec)"
+      DataType="TIME"
+      Kind="Var" />
+    <Variable
+      Name="t_1"
+      Comment="Tempo relativo a X1 riscalato su t4"
+      DataType="REAL"
+      Kind="Var" />
+    <Variable
+      Name="t_2"
+      Comment="Tempo relativo a X2 riscalato su t4"
+      DataType="REAL"
+      Kind="Var" />
+    <Variable
+      Name="t_3"
+      Comment="Tempo relativo a X3 riscalato su t4"
+      DataType="REAL"
+      Kind="Var" />
+    <Variable
+      Name="t_4"
+      Comment="Tempo relativo a X4 riscalato su t4"
+      DataType="REAL"
+      Kind="Var" />
+    <Variable
+      Name="t_0"
+      Comment="Tempo attuale riscalato su t4"
+      DataType="REAL"
+      Kind="Var" />
+    <Variable
+      Name="Sum_X"
+      Comment="SUM of Xi"
+      DataType="REAL"
+      Kind="Var" />
+    <Variable
+      Name="Sum_X2"
+      Comment="SUM of Xi^2"
+      DataType="REAL"
+      Kind="Var" />
+    <Variable
+      Name="Sum_t"
+      Comment="SUM of ti"
+      DataType="REAL"
+      Kind="Var" />
+    <Variable
+      Name="Sum_t2"
+      Comment="SUM of ti^2"
+      DataType="REAL"
+      Kind="Var" />
+    <Variable
+      Name="Sum_Xt"
+      Comment="SUM of Xi * ti"
+      DataType="REAL"
+      Kind="Var" />
+    <Variable
+      Name="DELTA"
+      Comment="5 Sum_t2 - (Sum_t)^2"
+      DataType="REAL"
+      Kind="Var" />
+  </Pou>
+  <Pou
+    Name="LIMITER"
+    Moniker="LIMITER.stf"
+    Language="ST"
+    IsIec61499="false"
+    Kind="FunctionBlock"
+    Password="E4BDBA2BEF6CC4DC"
+    GenerateDebugInfo="false"
+    GeneratingMonitoringSymbols="true"
+    UserEdited="false"
+    Deprecated="false"
+    IsVisible="true">
+    <Variable
+      Name="RUN"
+      Comment="1 - RUN, 0 - STOP"
+      DataType="BOOL"
+      Kind="VarInput" />
+    <Variable
+      Name="Sig_IN"
+      Comment="Input signal"
+      DataType="REAL"
+      Kind="VarInput" />
+    <Variable
+      Name="LowLim"
+      Comment="Lower limit "
+      DataType="REAL"
+      Kind="VarInput" />
+    <Variable
+      Name="UppLim"
+      Comment="Upper limit"
+      DataType="REAL"
+      Kind="VarInput" />
+    <Variable
+      Name="Sig_OUT"
+      Comment="Limited output signal between low an upper limits"
+      DataType="REAL"
+      Kind="VarOutput" />
+    <Variable
+      Name="Limit_ON"
+      Comment="LIMITER status: 1 - LIMITER ON, 0 - LIMITER OFF"
+      DataType="BOOL"
+      Kind="VarOutput" />
+  </Pou>
+  <Pou
+    Name="DEAD_BAND"
+    Moniker="DEAD_BAND.stf"
+    Language="ST"
+    IsIec61499="false"
+    Kind="FunctionBlock"
+    Password="E4BDBA2BEF6CC4DC"
+    GenerateDebugInfo="false"
+    GeneratingMonitoringSymbols="true"
+    UserEdited="false"
+    Deprecated="false"
+    IsVisible="true">
+    <Variable
+      Name="INPUT1"
+      Comment="Segnale di riferimento"
+      DataType="REAL"
+      Kind="VarInput" />
+    <Variable
+      Name="INPUT2"
+      Comment="Segnale condizionato "
+      DataType="REAL"
+      Kind="VarInput" />
+    <Variable
+      Name="DB"
+      Comment="Zona morta. "
+      DataType="REAL"
+      Kind="VarInput" />
+    <Variable
+      Name="SET"
+      Comment="Valore centrale della zona morta"
+      DataType="REAL"
+      Kind="VarInput" />
+    <Variable
+      Name="XOUT"
+      Comment=""
+      DataType="REAL"
+      Kind="VarOutput" />
+    <Variable
+      Name="Q"
+      Comment=""
+      DataType="BOOL"
+      Kind="VarOutput" />
+  </Pou>
+  <Pou
+    Name="PID_I_Kp"
+    Moniker="PID_I_Kp.stf"
+    Language="ST"
+    IsIec61499="false"
+    Kind="FunctionBlock"
+    Password="E4BDBA2BEF6CC4DC"
+    GenerateDebugInfo="false"
+    GeneratingMonitoringSymbols="true"
+    UserEdited="false"
+    Deprecated="false"
+    IsVisible="true">
+    <Variable
+      Name="MAN"
+      Comment="0 - Automatic, 1 - Manual "
+      DataType="BOOL"
+      Kind="VarInput" />
+    <Variable
+      Name="X0"
+      Comment="Manual output adjustment "
+      DataType="REAL"
+      Kind="VarInput" />
+    <Variable
+      Name="RI"
+      Comment="0 - HOLD, 1 - Reset Integral "
+      DataType="BOOL"
+      Kind="VarInput" />
+    <Variable
+      Name="I0"
+      Comment="Integral Initial value (also for reset)"
+      DataType="REAL"
+      Kind="VarInput" />
+    <Variable
+      Name="PV"
+      Comment="Process Variable"
+      DataType="REAL"
+      Kind="VarInput" />
+    <Variable
+      Name="SP"
+      Comment="Set Point"
+      DataType="REAL"
+      Kind="VarInput" />
+    <Variable
+      Name="Kp"
+      Comment="Proportional Constant "
+      DataType="REAL"
+      Kind="VarInput" />
+    <Variable
+      Name="Ti"
+      Comment="Integral Time Constant"
+      DataType="REAL"
+      Kind="VarInput" />
+    <Variable
+      Name="Td"
+      Comment="Derivative Time Constant"
+      DataType="REAL"
+      Kind="VarInput" />
+    <Variable
+      Name="RUN"
+      Comment="1 - Run, 0 - Stop"
+      DataType="BOOL"
+      Kind="VarInput" />
+    <Variable
+      Name="P"
+      Comment="Proportional term"
+      DataType="REAL"
+      Kind="VarOutput" />
+    <Variable
+      Name="I"
+      Comment="Integral term"
+      DataType="REAL"
+      Kind="VarOutput" />
+    <Variable
+      Name="D"
+      Comment="Derivative term"
+      DataType="REAL"
+      Kind="VarOutput" />
+    <Variable
+      Name="XOUT"
+      Comment="Overall PID output"
+      DataType="REAL"
+      Kind="VarOutput" />
+    <Variable
+      Name="ERROR"
+      Comment="Process error (PV - SP)"
+      DataType="REAL"
+      Kind="Var" />
+    <Variable
+      Name="INTEG"
+      Comment="Instance of &quot;INTEGRALE&quot; FB"
+      DataType="INTEGRALE"
+      Kind="Var" />
+    <Variable
+      Name="DERIV"
+      Comment="Instance of &quot;DERIVATIVE1&quot; FB"
+      DataType="DERIVATIVE1"
+      Kind="Var" />
+    <Variable
+      Name="Kp_1"
+      Comment="Variabile &quot;temporanea&quot; per la gestione del termine proporzionale. "
+      DataType="REAL"
+      Kind="Var" />
+  </Pou>
+  <Pou
+    Name="PID_Adv_2"
+    Moniker="PID_Adv_2.stf"
+    Language="ST"
+    IsIec61499="false"
+    Kind="FunctionBlock"
+    Password="E4BDBA2BEF6CC4DC"
+    GenerateDebugInfo="false"
+    GeneratingMonitoringSymbols="true"
+    UserEdited="false"
+    Deprecated="false"
+    IsVisible="true">
+    <Variable
+      Name="Input"
+      Comment="INPUT - Process Variable -"
+      DataType="REAL"
+      Kind="VarInput" />
+    <Variable
+      Name="SetP"
+      Comment="Set Point"
+      DataType="REAL"
+      Kind="VarInput" />
+    <Variable
+      Name="DeadBand"
+      Comment="Semi-amplitude dead band (0.0 = NO dead band)"
+      DataType="REAL"
+      Kind="VarInput" />
+    <Variable
+      Name="Kp"
+      Comment="Proportional coefficient"
+      DataType="REAL"
+      Kind="VarInput" />
+    <Variable
+      Name="Ti"
+      Comment="Integral coefficient"
+      DataType="REAL"
+      Kind="VarInput" />
+    <Variable
+      Name="Td"
+      Comment="Derivative coefficient"
+      DataType="REAL"
+      Kind="VarInput" />
+    <Variable
+      Name="LowLim"
+      Comment="Lower limit for PID output"
+      DataType="REAL"
+      Kind="VarInput" />
+    <Variable
+      Name="HighLim"
+      Comment="Upper limit for PID output"
+      DataType="REAL"
+      Kind="VarInput" />
+    <Variable
+      Name="ManMode"
+      Comment="FALSE: Automatic internal PID controller, TRUE: Manual internal PID output override"
+      DataType="BOOL"
+      Kind="VarInput" />
+    <Variable
+      Name="ManOut"
+      Comment="Manual internal PID output override"
+      DataType="REAL"
+      Kind="VarInput" />
+    <Variable
+      Name="ItermSet"
+      Comment="Set Integral term to a specified value"
+      DataType="BOOL"
+      Kind="VarInput" />
+    <Variable
+      Name="ItermVal"
+      Comment="Integral term value to be set"
+      DataType="REAL"
+      Kind="VarInput" />
+    <Variable
+      Name="CoolHeatMode"
+      Comment="TRUE: Heating MODE, FALSE: - Cooling MODE"
+      DataType="BOOL"
+      Kind="VarInput" />
+    <Variable
+      Name="DirRevMode"
+      Comment="TRUE: Reverse MODE, FALSE: Direct MODE"
+      DataType="BOOL"
+      Kind="VarInput" />
+    <Variable
+      Name="En_PID"
+      Comment="TRUE: Run, FALSE: Stop"
+      DataType="BOOL"
+      Kind="VarInput" />
+    <Variable
+      Name="Output"
+      Comment="Overall PID output"
+      DataType="REAL"
+      Kind="VarOutput" />
+    <Variable
+      Name="Pterm"
+      Comment="Proportional term"
+      DataType="REAL"
+      Kind="VarOutput" />
+    <Variable
+      Name="Iterm"
+      Comment="Integral term"
+      DataType="REAL"
+      Kind="VarOutput" />
+    <Variable
+      Name="Dterm"
+      Comment="Derivative term "
+      DataType="REAL"
+      Kind="VarOutput" />
+    <Variable
+      Name="LimitedMODE"
+      Comment="TURE: Limited PID output, FALSE: Unlimited PID output"
+      DataType="BOOL"
+      Kind="Var" />
+    <Variable
+      Name="Limit_er"
+      Comment="Instance of LIMITER Function Block"
+      DataType="LIMITER"
+      Kind="Var" />
+    <Variable
+      Name="DeadBand_PID"
+      Comment="Instance of DEADBAND Function Block"
+      DataType="DEAD_BAND"
+      Kind="Var" />
+    <Variable
+      Name="PID"
+      Comment="Instance of PID_I_Kp Function Block"
+      DataType="PID_I_Kp"
+      Kind="Var" />
+    <Variable
+      Name="XOUT_PID"
+      Comment="PID_I_Kp main output"
+      DataType="REAL"
+      Kind="Var" />
+    <Variable
+      Name="XOUT_DB"
+      Comment="DeadBand Function Block main output"
+      DataType="REAL"
+      Kind="Var" />
+    <Variable
+      Name="XOUT_HeatMODE"
+      Comment="Heating MODE Function Block main output"
+      DataType="REAL"
+      Kind="Var" />
+    <Variable
+      Name="XOUT_RevsMODE"
+      Comment="Reverse MODE Function Block main output"
+      DataType="REAL"
+      Kind="Var" />
+    <Variable
+      Name="XOUT_LimtMODE"
+      Comment="Limiter Function Block main output"
+      DataType="REAL"
+      Kind="Var" />
+    <Variable
+      Name="Limiter_ON"
+      Comment="TRUE: Limiter working, FALSE: Limiter off"
+      DataType="BOOL"
+      Kind="Var" />
+    <Variable
+      Name="Kp_1"
+      Comment="Variabile temporanea per la gestione del termine proporzionale"
+      DataType="REAL"
+      Kind="Var" />
+    <Variable
+      Name="RIvar"
+      Comment="Reset Integral term for internal managing (questa variabile di appoggio si rende necessaria perché non è possibile riassegnare le variabili in ingresso)"
+      DataType="BOOL"
+      Kind="Var" />
+    <Variable
+      Name="I0var"
+      Comment="Integral initial value for internal managing (questa variabile di appoggio si rende necessaria perché non è possibile riassegnare le variabili in ingresso)"
+      DataType="REAL"
+      Kind="Var" />
+    <Variable
+      Name="Iterm_p"
+      Comment="Integral term at previous program cycle "
+      DataType="REAL"
+      Kind="Var" />
+  </Pou>
+</Manifest>

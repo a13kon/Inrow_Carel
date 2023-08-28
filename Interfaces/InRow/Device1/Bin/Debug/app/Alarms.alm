@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Alarms UnitConversionZone="NoConversion">
+  <Alarm Name="Al_retain" Type="ManualReset" Trigger="Al_retain.Trigger" Active="Al_retain.Active" Description="Ошибка подсчета числа записей в постоянную память" />
+  <Alarm Name="Al_Err_retain_write" Type="ManualReset" Trigger="Al_Err_retain_write.Trigger" Active="Al_Err_retain_write.Active" Description="Ошибка записи в постоянную память" />
+  <Alarm Name="OfflineAlrm_CPCOE_1" Type="AutoReset" Description="Нет связи с модулем расширения. " Trigger="OfflineAlrm_CPCOE_1.Trigger" Active="OfflineAlrm_CPCOE_1.Active" />
+  <Alarm Name="CfgErrAlrm_CPCOE_1" Type="AutoReset" Description="Неправильная конфигурация модуля расширения." Trigger="CfgErrAlrm_CPCOE_1.Trigger" Active="CfgErrAlrm_CPCOE_1.Active" />
+  <Alarm Name="FLR_DPD_Filt" Type="AutoReset" Trigger="FLR_DPD_Filt.Trigger" Active="FLR_DPD_Filt.Active" Description="Засорение воздушного фильтра" />
+  <Alarm Name="WRN_FlowMeter" Type="AutoReset" Trigger="WRN_FlowMeter.Trigger" Active="WRN_FlowMeter.Active" Description="Неисправность расходометра" />
+  <Alarm Name="FLR_Fan_DPD" Type="ManualReset" Trigger="FLR_Fan_DPD.Trigger" Active="FLR_Fan_DPD.Active" Description="Неисправность датчика перепада по воздуху" />
+  <Alarm Name="FLR_CoolerValve" Type="ManualReset" Trigger="FLR_CoolerValve.Trigger" Active="FLR_CoolerValve.Active" Description="Неисправность привода регулирующего клапана на воде" />
+  <Alarm Name="FLR_Sens_Water" Type="ManualReset" Trigger="FLR_Sens_Water.Trigger" Active="FLR_Sens_Water.Active" Description="Неисправность датчиков температуры воды" />
+  <Alarm Name="FLR_Sens_Hum" Type="ManualReset" Trigger="FLR_Sens_Hum.Trigger" Active="FLR_Sens_Hum.Active" Description="Неисправность датчиков влажности на вх.и вых. кондиционера" />
+  <Alarm Name="FLR_Sens_Temp" Type="ManualReset" Trigger="FLR_Sens_Temp.Trigger" Active="FLR_Sens_Temp.Active" Description="Неисправность датчиков температуры на вх.и вых. кондиционера" />
+  <Alarm Name="FLR_Water_HighTemp" Type="ManualReset" Trigger="FLR_Water_HighTemp.Trigger" Active="FLR_Water_HighTemp.Active" Description="Высокая температура входящей воды" />
+  <Alarm Name="FLR_Cond_Overflow" Type="ManualReset" Trigger="FLR_Cond_Overflow.Trigger" Active="FLR_Cond_Overflow.Active" Description="Поддон конденсата переполнен" />
+  <Alarm Name="FLR_PhCtrlRelay" Type="ManualReset" Trigger="FLR_PhCtrlRelay.Trigger" Active="FLR_PhCtrlRelay.Active" Description="Напряжение питающей сети не соответствует норме" />
+  <Alarm Name="FLR_Fan_1" Type="ManualReset" Trigger="FLR_Fan_1.Trigger" Active="FLR_Fan_1.Active" Description="Авария вентилятора 1" />
+  <Alarm Name="FLR_Fan_2" Type="ManualReset" Trigger="FLR_Fan_2.Trigger" Active="FLR_Fan_2.Active" Description="Авария вентилятора 2" />
+  <Alarm Name="FLR_Fan_3" Type="ManualReset" Trigger="FLR_Fan_3.Trigger" Active="FLR_Fan_3.Active" Description="Авария вентилятора 3" />
+  <Alarm Name="FLR_OutHighTemp" Type="ManualReset" Trigger="FLR_OutHighTemp.Trigger" Active="FLR_OutHighTemp.Active" Description="Превышение значения температуры на вых.изкондиционера" />
+  <Alarm Name="FLR_WaterLeak" Type="ManualReset" Trigger="FLR_WaterLeak.Trigger" Active="FLR_WaterLeak.Active" Description="Протечка охлаждающей воды" />
+  <Alarm Name="WRN_GroupOffline" Type="AutoReset" Trigger="WRN_GroupOffline.Trigger" Active="WRN_GroupOffline.Active" Description="Потеря связи в группе" />
+  <Alarm Name="FLR_HeatThermostat" Type="ManualReset" Trigger="FLR_HeatThermostat.Trigger" Active="FLR_HeatThermostat.Active" Description="Перегрев ТЭНов" />
+  <Alarm Name="WRN_SteamHumid" Type="AutoReset" Trigger="WRN_SteamHumid.Trigger" Active="WRN_SteamHumid.Active" Description="Авария увлажнителя" />
+  <Alarm Name="WRN_NoFlow" Type="AutoReset" Trigger="WRN_NoFlow.Trigger" Active="WRN_NoFlow.Active" Description="Нет расхода воды" />
+  <Alarm Name="FLR_CoolerValve_BS" Type="ManualReset" Trigger="FLR_CoolerValve_BS.Trigger" Active="FLR_CoolerValve_BS.Active" Description="Нет обратной связи от регулирующего клапана" />
+  <Alarm Name="FLR_PgdtOffline" Type="AutoReset" Trigger="FLR_PgdtOffline.Trigger" Active="FLR_PgdtOffline.Active" Description="Потеря связи с HMI-панелью PGDT" />
+  <Alarm Name="WRN_Condensate" Type="AutoReset" Trigger="WRN_Condensate.Trigger" Active="WRN_Condensate.Active" Description="Опасность выпадения конденсата" />
+  <Alarm Name="OfflineAlrm_CPCOE_2" Type="AutoReset" Trigger="OfflineAlrm_CPCOE_2.Trigger" Active="OfflineAlrm_CPCOE_2.Active" Description="Нет связи с модулем расширения. " />
+  <Alarm Name="CfgErrAlrm_CPCOE_2" Type="AutoReset" Trigger="CfgErrAlrm_CPCOE_2.Trigger" Active="CfgErrAlrm_CPCOE_2.Active" Description="Неправильная конфигурация модуля расширения." />
+</Alarms>

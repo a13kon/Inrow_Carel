@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Manifest
+  Name="Buzzer_Mng"
+  Version="1.1.0">
+  <Variables>
+    <Variable
+      Name="Control"
+      Comment=""
+      DataType="INT"
+      Kind="Var"
+      IO="false"
+      Protocol="true"
+      UI="false"
+      Default="false"
+      LogPV="false"
+      IsRetained="false"
+      Alarm="false"
+      UoM="NoUnits"
+      Access="ReadWrite"
+      Acronym=""
+      Min=""
+      Max=""
+      StringSize="0" />
+  </Variables>
+</Manifest>

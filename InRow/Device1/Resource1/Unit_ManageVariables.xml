@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Manifest
+  Name="Unit_Manage"
+  Version="1.1.0">
+  <Variables>
+    <Variable
+      Name="Restore_UnitOn"
+      Comment=""
+      DataType="BOOL"
+      Kind="Var"
+      IO="false"
+      Protocol="true"
+      UI="false"
+      Default="true"
+      LogPV="false"
+      IsRetained="true"
+      Alarm="false"
+      UoM="NoUnits"
+      Access="ReadWrite"
+      Acronym=""
+      Min=""
+      Max=""
+      StringSize="0" />
+    <Variable
+      Name="Save_UnitOn"
+      Comment=""
+      DataType="BOOL"
+      Kind="Var"
+      IO="false"
+      Protocol="false"
+      UI="false"
+      Default="false"
+      LogPV="false"
+      IsRetained="false"
+      Alarm="false"
+      UoM="NoUnits"
+      Access="ReadWrite"
+      Acronym=""
+      Min=""
+      Max=""
+      StringSize="0" />
+    <Variable
+      Name="UnitOn_Retain"
+      Comment=""
+      DataType="BOOL"
+      Kind="Var"
+      IO="false"
+      Protocol="false"
+      UI="false"
+      Default="true"
+      LogPV="false"
+      IsRetained="true"
+      Alarm="false"
+      UoM="NoUnits"
+      Access="ReadWrite"
+      Acronym=""
+      Min=""
+      Max=""
+      StringSize="0" />
+  </Variables>
+</Manifest>

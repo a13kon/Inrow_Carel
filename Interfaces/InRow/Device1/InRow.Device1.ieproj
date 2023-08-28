@@ -1,0 +1,25 @@
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">pCO</Platform>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>46005d8a-700d-4dba-afcb-73b3eb914269</ProjectGuid>
+    <RepositoryPath>..\..\..\Configurations\InRow\Device1.otr</RepositoryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>Bin\Debug\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>Bin\Release\</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Terminal1\Code.st" />
+    <Compile Include="Terminal1\Classes.otsf" />
+    <Compile Include="Terminal1\Layout.otwp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Terminal1\" />
+    <Folder Include="Resources\" />
+  </ItemGroup>
+  <Import Project="$(DevEnvDir)\PackagesToLoad\Targets\Carel.targets" />
+</Project>

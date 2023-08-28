@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Manifest Version="1.1.0">
+  <Variables>
+    <Variable Name="MaxLim" Comment="Limitazione superiore rispetto alla quale invertire (ES: UppLim del PID come nel limiter) " DataType="REAL" Kind="VarInput" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Access="ReadWrite" Decimals="1" Min="" Max="" StringSize="0" />
+    <Variable Name="Reverse_MODE" Comment="" DataType="REAL" Kind="VarOutput" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Access="ReadWrite" Decimals="1" Min="" Max="" StringSize="0" />
+    <Variable Name="RUN" Comment="1 - Reverse Mode ON, 0 - Direct Mode" DataType="BOOL" Kind="VarInput" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Access="ReadWrite" Min="" Max="" StringSize="0" />
+    <Variable Name="Yin" Comment="Segnale da invertire (es. l'uscita di un controllore PID) " DataType="REAL" Kind="VarInput" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Access="ReadWrite" Decimals="1" Min="" Max="" StringSize="0" />
+  </Variables>
+</Manifest>

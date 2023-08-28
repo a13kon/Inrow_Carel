@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Solution>
+  <Info ManifestVersion="1.1.0">
+    <Name>InRow</Name>
+    <Description>Проект для рядных прецизионных кондиционеров</Description>
+    <Version>1.1.13</Version>
+    <CreationDate>2020-02-12T09:31:21.8054866Z</CreationDate>
+    <Owner>TechnoGroup</Owner>
+    <StorageToolManaged>false</StorageToolManaged>
+    <CSuiteVersion>5.1.6</CSuiteVersion>
+    <TeamWorkingManaged>false</TeamWorkingManaged>
+  </Info>
+</Solution>

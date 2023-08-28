@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Pou FileVersion="200.00.003" Name="Split_DINT_ARR" ElementGuid="b24d9ef6-eac5-491c-ab9c-0dca73939b29" Comment="" SingleTextLine="" Language="ST" CustomFbd="0" Localization="Prj" GroupName="(User defined)" Password="E4BDBA2BEF6CC4DC" GenDebugInfo="false" UseResPassword="true" GenerateSymbMon="true" Is1499="false">
+  <FunctionBlock IdentifierNb="0" Keyword="" InitInstance="false" SymbMonExtraBytes="128" />
+  <LocalVars>
+    <Variable Name="IN" DataType="DINT" InitialValue="" Comment="" Address="" Modifier="Constant" Kind="VarInput" Alias="" AccessRights="Read" StringSize="0" Direction="Input" CommentFields="" Attributes="0" />
+    <Variable Name="byteOut" DataType="BYTE" InitialValue="" Comment="" Address="" Modifier="Constant" Kind="VarOutput" Alias="" AccessRights="ReadWrite" StringSize="0" Direction="Output" CommentFields="" Attributes="0">
+      <Dimension Lower="0" Upper="3" />
+    </Variable>
+    <Variable Name="tempDINT" DataType="DINT" InitialValue="" Comment="" Address="" Modifier="Constant" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" Direction="Local" CommentFields="" Attributes="0" />
+  </LocalVars>
+  <PouBody><![CDATA[gFQnV1NbWi9dZGUTZGofaWwxMzU3g1NLR1dLTk4ehklLQEkhUzGobHBcRkhOFZtEVlEPCyhr5AgOCtKl0cIUuNS504fQ+RWKJNKC0bCRc9Ww07fRu5Fx1bnTutCPYYBMSlci0b2RdCUwI2B4dCTkKwkJC2N5NaFKcXdZMV1h6SXVgtOD0PEVhdWL0rnQ9OTVtdO60IKQTykJCQtjeTWhSnF3WTJdYekl1L/SutDxFLHVi9K50PTqCA4pKwwKI71xYUx3dVtymT85I0NPWR6QSltBW1VFaY1LLTgPC3QkqXVASkxVOnzkVkxRKkhObeQ9LTgPC2I4sGBLdnZaMhz+OCRCTFhfFYtaRlpWRCg1oWh0R0tPVGj/CA53Z2xwBY1LUDk/IVMJli1wZm9xRAiKUSgjOig7TM5nfXdnTnU1nzRZOT8hQQ+dWlBMXUNZFYEtcGZvcUQIilEtOA8LdCSpdUBKTFU6fORWTFEqdWUstEFNTVYtIHntPgkJYHh0JItwcFgyXDp85ERKWl1VTx6GXFBGKnVlLLRBTU1WKDtMzkBKR11HVQ+HUU1MTF5CDYtGTw==]]></PouBody>
+  <PouUIProperties><![CDATA[PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjxSb290IFZlcnNpb249IjciPg0KICA8TGFuZ3VhZ2VDb250YWluZXJTdHlsZSBDb21tZW50VGV4dENvbG9yPSJHcmVlbiIgQ29tbWVudEZvbnQ9IkNvdXJpZXIgTmV3LCAxMnB0IiBQb25jdHVhdGlvblRleHRDb2xvcj0iQmxhY2siIFBvbmN0dWF0aW9uRm9udD0iQ291cmllciBOZXcsIDEycHQiIElkZW50aWZpZXJUZXh0Q29sb3I9IkJsYWNrIiBJZGVudGlmaWVyRm9udD0iQ291cmllciBOZXcsIDEycHQiIE9wZXJhdG9yVGV4dENvbG9yPSJCbGFjayIgT3BlcmF0b3JGb250PSJDb3VyaWVyIE5ldywgMTJwdCIgUmVzZXJ2ZWRXb3JkVGV4dENvbG9yPSJCbHVlIiBSZXNlcnZlZFdvcmRGb250PSJDb3VyaWVyIE5ldywgMTJwdCIgUG91VGV4dENvbG9yPSJCbHVlVmlvbGV0IiBQb3VGb250PSJDb3VyaWVyIE5ldywgMTJwdCIgTnVtYmVyVGV4dENvbG9yPSJEYXJrUmVkIiBOdW1iZXJGb250PSJDb3VyaWVyIE5ldywgMTJwdCIgU3RyaW5nVGV4dENvbG9yPSJEYXJrUmVkIiBTdHJpbmdGb250PSJDb3VyaWVyIE5ldywgMTJwdCIgRWRpdG9yVGV4dEFyZWFCYWNrZ3JvdW5kQ29sb3I9IkxpZ2h0R3JleSIgRWRpdG9yRm9udD0iQ291cmllciBOZXcsIDEycHQiIEluZGV4PSIwIiAvPg0KPC9Sb290Pg==]]></PouUIProperties>
+</Pou>

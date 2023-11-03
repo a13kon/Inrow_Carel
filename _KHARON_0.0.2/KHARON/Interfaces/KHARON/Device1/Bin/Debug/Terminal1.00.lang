@@ -1,0 +1,8 @@
+[DEFAULT]
+KHARON  v.0.0.2
+Address
+Baudrate     19200
+Data length      8
+Stop bit         1
+Parity        None
+[DEFAULT]

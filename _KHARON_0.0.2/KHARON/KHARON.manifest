@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Solution>
+  <Info ManifestVersion="1.1.0">
+    <Name>KHARON</Name>
+    <Description>An empty project template.</Description>
+    <Version>0.0.2</Version>
+    <CreationDate>2023-02-10T08:50:18.3856451Z</CreationDate>
+    <Owner>technogroup</Owner>
+    <StorageToolManaged>false</StorageToolManaged>
+    <CSuiteVersion>5.1.6</CSuiteVersion>
+    <TeamWorkingManaged>false</TeamWorkingManaged>
+  </Info>
+</Solution>

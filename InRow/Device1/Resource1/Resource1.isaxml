@@ -292,8 +292,12 @@
     <Variable Name="Name" DataType="UDINT" InitialValue="" Comment="Имя установки" Address="" Modifier="NonRetain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
     <Variable Name="Conv" DataType="CRTUtoMRTU" InitialValue="2" Comment="" Address="" Modifier="Retain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="1,0,1,((2(0),0,0,2(0),0,0,0,2(0)),(2(0),0,0,2(0),0,0,0,2(0)),(2(0),0,0,2(0),0,0,0,2(0)),(2(0),0,0,2(0),0,0,0,2(0)),(2(0),0,0,2(0),0,0,0,2(0)),(2(0),0,0,2(0),0,0,0,2(0)),(2(0),0,0,2(0),0,0,0,2(0)),(2(0),0,0,2(0),0,0,0,2(0)),(2(0),0,0,2(0),0,0,0,2(0)),(2(0),0,0,2(0),0,0,0,2(0))),((0,0,3(0)),(0,0,3(0)),(0,0,3(0)),(0,0,3(0)),(0,0,3(0)),(0,0,3(0)))" CommentFields="" Attributes="0" GroupName="" />
     <Variable Name="FlowTupe_0_10" DataType="BOOL" InitialValue="TRUE" Comment="Тип датчика протока" Address="" Modifier="Retain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="TraySensor" DataType="BOOL" InitialValue="" Comment="Датчик уровня поддона" Address="" Modifier="NonRetain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
     <Variable Name="Par_FTi" DataType="REAL" InitialValue="300.0" Comment="" Address="" Modifier="Retain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
     <Variable Name="GroupName" DataType="UDINT" InitialValue="" Comment="Имя группы" Address="" Modifier="NonRetain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="Fire" DataType="BOOL" InitialValue="" Comment="Сигнал пожар" Address="" Modifier="NonRetain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="FLR_Fire" DataType="ALM" InitialValue="" Comment="Пожарная тревога" Address="" Modifier="NonRetain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="FLR_TRSensor" DataType="ALM" InitialValue="" Comment="Заполнение поддона" Address="" Modifier="NonRetain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
   </GlobalVars>
   <Devices />
   <ExportedGroups />

@@ -1,0 +1,130 @@
+****** __RDCC_MODULE_ID ******
+00000000 :  43 41 52 45 4C 5F 50 43  -  4F 00 00 00 00 00 00 00   * Target Name : CAREL_PCO
+00000010 :  00 00 00 0C   * RDCC format version number
+00000014 :  EE 44 E6 1C   * Resource check sum
+00000018 :  1C 41 90 71   * Module check sum
+0000001C :  00 00 00 00   * Module ID parameter
+00000020 :  00 00 01 40   * Total size
+00000024 :  00 00 00 B8   * Size without __RDCC_MODULE_ID
+00000028 :  00 00 00 44   * Offset -> resource name
+0000002C :  00 00 00 5D   * Offset -> module name
+00000030 :  00 00 00 88   * Offset -> beginning of the data block
+00000034 :  63 E6 05 58   * Compilation generation date
+00000038 :  00 00 00 40   * Compilation version number
+0000003C :  00 00 00 00   * User module version number
+00000040 :  00 00 00 6E   * Offset -> target auto-validation data
+00000044 :  4B 48 41 52 4F 4E 5C 44  -  45 56 49 43 45 31 5C 52 
+00000054 :  45 53 4F 55 52 43 45 31  -  00   * Resource name : KHARON\DEVICE1\RESOURCE1
+0000005D :  43 4F 4E 53 54 41 4E 54  -  53 5F 4D 4F 44 55 4C 45 
+0000006D :  00   * Module name : CONSTANTS_MODULE
+0000006E :  11   * SYNC <0x11>
+0000006F :  02   * Bit 0 = Intel/Motorola, bit 1 = Large/Medium, bit 2 = Strict/non-strict alignment
+00000070 :  22   * SYNC <0x22>
+00000071 :  04   * Alignment value
+00000072 :  33   * SYNC <0x33>
+00000073 :  01   * Memory quantum
+00000074 :  44   * SYNC <0x44>
+00000075 :  01   * UCHAR size
+00000076 :  55   * SYNC <0x55>
+00000077 :  02   * UINT16 size
+00000078 :  66   * SYNC <0x66>
+00000079 :  04   * UINT32 size
+0000007A :  77   * SYNC <0x77>
+0000007B :  04   * Pointer size
+0000007C :  88   * SYNC <0x88>
+0000007D :  FF   * Max block size (MSB)
+0000007E :  FF   * Max block size
+0000007F :  FF   * Max block size
+00000080 :  FF   * Max block size (LSB)
+00000081 :  99   * SYNC <0x99>
+00000082 :  00   * Target capability flags (MSB)
+00000083 :  08   * Target capability flags
+00000084 :  08   * Target capability flags
+00000085 :  08   * Target capability flags (LSB)
+00000086 :  AA   * SYNC <0xAA>
+00000087 :  00 
+
+
+****** __INITVAR ******
+00000088 :  00 00 00 F0   * Address of __INIT_BOOL
+0000008C :  00 00 00 F8   * Address of __INIT_SINT_USINT
+00000090 :  00 00 01 00   * Address of __INIT_DINT_UDINT_REAL_TIME_DATE
+00000094 :  00 00 01 08   * Address of __INIT_STRING
+00000098 :  00 00 01 10   * Address of __INIT_MAXSTRING
+0000009C :  00 00 01 1C   * Address of __INIT_BLOCK
+000000A0 :  00 00 00 00   * Cst. Nb. in __INIT_BOOL
+000000A4 :  00 00 00 00   * Total Elt. in __INIT_BOOL
+000000A8 :  00 00 00 00   * Cst. Nb. in __INIT_SINT_USINT
+000000AC :  00 00 00 00   * Total Elt. in __INIT_SINT_USINT
+000000B0 :  00 00 00 00   * Cst. Nb. in __INIT_DINT_UDINT_REAL_TIME_DATE
+000000B4 :  00 00 00 00   * Total Elt. in __INIT_DINT_UDINT_REAL_TIME_DATE
+000000B8 :  00 00 00 00   * Cst. Nb. in __INIT_STRING
+000000BC :  00 00 00 00   * Total Elt. in __INIT_STRING
+000000C0 :  00 00 00 00   * Total Elt. in __INIT_MAXSTRING
+000000C4 :  00 00 00 00   * Cst. Nb. in __INIT_BLOCK
+000000C8 :  00 00 00 00   * Total Elt. in __INIT_BLOCK
+000000CC :  00 00 01 2C   * Address of __INIT_INT_UINT
+000000D0 :  00 00 00 00   * Cst. Nb. in __INIT_INT_UINT
+000000D4 :  00 00 00 00   * Total Elt. in __INIT_INT_UINT
+000000D8 :  00 00 01 34   * Address of __INIT_LINT_ULINT_LREAL
+000000DC :  00 00 00 00   * Cst. Nb. in __INIT_LINT_ULINT_LREAL
+000000E0 :  00 00 00 00   * Total Elt. in __INIT_LINT_ULINT_LREAL
+000000E4 :  00 00 00 F4   * Address of __INIT_BOOL_FALSE
+000000E8 :  00 00 00 00   * Cst. Nb. in __INIT_BOOL_FALSE
+000000EC :  00 00 00 00   * Total Elt. in __INIT_BOOL_FALSE
+
+
+****** __INIT_BOOL ******
+000000F0 :  00 00 00 00   * Terminator
+
+
+****** __INIT_BOOL_FALSE ******
+000000F4 :  00 00 00 00   * Terminator
+
+
+****** __INIT_SINT_USINT ******
+000000F8 :  00 00 00 00   * Terminator
+000000FC :  00   * Terminator
+000000FD :  00 00 00  
+
+
+
+****** __INIT_DINT_UDINT_REAL_TIME_DATE ******
+00000100 :  00 00 00 00   * Terminator
+00000104 :  00 00 00 00   * Terminator
+
+
+****** __INIT_STRING ******
+00000108 :  00 00 00 00   * Terminator
+0000010C :  00   * Terminator
+0000010D :  00 00 00  
+
+
+
+****** __INIT_MAXSTRING ******
+00000110 :  00 00 00 00   * Terminator
+00000114 :  00 00 00 00   * Terminator
+00000118 :  00   * Terminator
+00000119 :  00 00 00  
+
+
+
+****** __INIT_BLOCK ******
+0000011C :  00 00 00 00   * Terminator
+00000120 :  00 00 00 00   * Terminator
+00000124 :  00 00 00 00   * Terminator
+00000128 :  00 00 00 00   * Terminator
+
+
+****** __INIT_INT_UINT ******
+0000012C :  00 00 00 00   * Terminator
+00000130 :  00 00   * Terminator
+00000132 :  00 00  
+
+
+
+****** __INIT_LINT_ULINT_LREAL ******
+00000134 :  00 00 00 00   * Terminator
+00000138 :  00 00 00 00 00 00 00 00   * Terminator
+
+

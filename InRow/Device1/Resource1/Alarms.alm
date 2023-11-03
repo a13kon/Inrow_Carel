@@ -28,4 +28,6 @@
   <Alarm Name="WRN_Condensate" Type="AutoReset" Trigger="WRN_Condensate.Trigger" Active="WRN_Condensate.Active" Description="Опасность выпадения конденсата" />
   <Alarm Name="OfflineAlrm_CPCOE_2" Type="AutoReset" Trigger="OfflineAlrm_CPCOE_2.Trigger" Active="OfflineAlrm_CPCOE_2.Active" Description="Нет связи с модулем расширения. " />
   <Alarm Name="CfgErrAlrm_CPCOE_2" Type="AutoReset" Trigger="CfgErrAlrm_CPCOE_2.Trigger" Active="CfgErrAlrm_CPCOE_2.Active" Description="Неправильная конфигурация модуля расширения." />
+  <Alarm Name="FLR_Fire" Type="AutoReset" Trigger="FLR_Fire.Trigger" Active="FLR_Fire.Active" Description="Пожарная тревога" />
+  <Alarm Name="FLR_TRSensor" Type="AutoReset" Trigger="FLR_TRSensor.Trigger" Active="FLR_TRSensor.Active" Description="Заполнение поддона" />
 </Alarms>

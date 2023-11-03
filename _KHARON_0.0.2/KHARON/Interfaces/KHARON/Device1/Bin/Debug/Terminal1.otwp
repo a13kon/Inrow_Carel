@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Terminal Name="Terminal1" Display="PGD1" Language="EN" BeginFromMask="Main" Layout="SixKeys" Font="CAREL_TERM_STD" ZoomCode="0" LoopFunction="TIMED_LOOP" Version="1.0">
+  <ShortCuts>
+    <ShortCut Name="ALARM" Code="12" />
+    <ShortCut Name="PRG" Code="5" />
+    <ShortCut Name="ESC" Code="0" />
+    <ShortCut Name="UP" Code="14" />
+    <ShortCut Name="ENTER" Code="13" />
+    <ShortCut Name="DOWN" Code="15" />
+  </ShortCuts>
+  <KeyBindings />
+  <Worksheet Name="Worksheet_1" Version="1.0.0">
+    <Loop Name="Loop_1" Type="Normal" X="0" Y="0">
+      <Mask Name="Main" Type="Normal" X="0" Y="1">
+        <Fields>
+          <Field Type="Text" Name="Text" Row="7" Column="3" Content="0" />
+          <Field Type="Variable" Name="Variable" Row="1" Column="16" Content="Local_Address" Class="CL_INT" Format="io+3" Min="1" Max="255" />
+          <Field Type="Text" Name="Text_2" Row="1" Column="2" Content="1" />
+          <Field Type="Text" Name="Text_3" Row="2" Column="2" Content="2" />
+          <Field Type="Text" Name="Text_4" Row="3" Column="2" Content="3" />
+          <Field Type="Text" Name="Text_5" Row="4" Column="2" Content="4" />
+          <Field Type="Text" Name="Text_6" Row="5" Column="2" Content="5" />
+          <Field Name="Variable_2" Type="Variable" Content="dummy" Column="0" Row="0" Class="CL_Move" Format="ib" Min="0" Max="1" />
+        </Fields>
+      </Mask>
+    </Loop>
+  </Worksheet>
+</Terminal>

@@ -22929,6 +22929,24 @@
         StringSize="0" />
     </Variable>
     <Variable
+      Name="Fire"
+      Comment="Сигнал пожар"
+      DataType="BOOL"
+      Kind="Var"
+      IO="false"
+      Protocol="true"
+      UI="false"
+      Default="false"
+      LogPV="false"
+      IsRetained="false"
+      Alarm="false"
+      UoM="NoUnits"
+      Access="ReadWrite"
+      Acronym=""
+      Min=""
+      Max=""
+      StringSize="0" />
+    <Variable
       Name="FlowMeter"
       Comment=""
       DataType="STCT_FlowMeter"
@@ -23406,6 +23424,48 @@
         StringSize="0" />
     </Variable>
     <Variable
+      Name="FLR_Fire"
+      Comment="Пожарная тревога"
+      DataType="ALM"
+      Kind="Var">
+      <Variable
+        Name="Trigger"
+        DataType="BOOL"
+        IO="false"
+        Protocol="true"
+        UI="true"
+        Default="false"
+        LogPV="false"
+        IsRetained="false"
+        Alarm="true"
+        UoM="NoUnits"
+        Comment="Alarm status Trigger"
+        Kind="Var"
+        Access="ReadWrite"
+        Acronym=""
+        Min=""
+        Max=""
+        StringSize="0" />
+      <Variable
+        Name="Active"
+        DataType="BOOL"
+        IO="false"
+        Protocol="true"
+        UI="true"
+        Default="false"
+        LogPV="false"
+        IsRetained="false"
+        Alarm="true"
+        UoM="NoUnits"
+        Comment="Alarm status"
+        Kind="Var"
+        Access="ReadWrite"
+        Acronym=""
+        Min=""
+        Max=""
+        StringSize="0" />
+    </Variable>
+    <Variable
       Name="FLR_HeatThermostat"
       Comment="Перегрев ТЭНов"
       DataType="ALM"
@@ -23660,6 +23720,48 @@
     <Variable
       Name="FLR_Sens_Water"
       Comment="Неисправность датчиков температуры воды"
+      DataType="ALM"
+      Kind="Var">
+      <Variable
+        Name="Trigger"
+        DataType="BOOL"
+        IO="false"
+        Protocol="true"
+        UI="true"
+        Default="false"
+        LogPV="false"
+        IsRetained="false"
+        Alarm="true"
+        UoM="NoUnits"
+        Comment="Alarm status Trigger"
+        Kind="Var"
+        Access="ReadWrite"
+        Acronym=""
+        Min=""
+        Max=""
+        StringSize="0" />
+      <Variable
+        Name="Active"
+        DataType="BOOL"
+        IO="false"
+        Protocol="true"
+        UI="true"
+        Default="false"
+        LogPV="false"
+        IsRetained="false"
+        Alarm="true"
+        UoM="NoUnits"
+        Comment="Alarm status"
+        Kind="Var"
+        Access="ReadWrite"
+        Acronym=""
+        Min=""
+        Max=""
+        StringSize="0" />
+    </Variable>
+    <Variable
+      Name="FLR_TRSensor"
+      Comment="Заполнение поддона"
       DataType="ALM"
       Kind="Var">
       <Variable
@@ -32940,6 +33042,24 @@
       Access="ReadWrite"
       Acronym=""
       Decimals="1"
+      Min=""
+      Max=""
+      StringSize="0" />
+    <Variable
+      Name="TraySensor"
+      Comment="Датчик уровня поддона"
+      DataType="BOOL"
+      Kind="Var"
+      IO="false"
+      Protocol="true"
+      UI="false"
+      Default="false"
+      LogPV="false"
+      IsRetained="false"
+      Alarm="false"
+      UoM="NoUnits"
+      Access="ReadWrite"
+      Acronym=""
       Min=""
       Max=""
       StringSize="0" />

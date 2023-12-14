@@ -1,16 +1,16 @@
 ****** __RDCC_MODULE_ID ******
 00000000 :  43 41 52 45 4C 5F 50 43  -  4F 00 00 00 00 00 00 00   * Target Name : CAREL_PCO
 00000010 :  00 00 00 0C   * RDCC format version number
-00000014 :  50 C8 A4 7D   * Resource check sum
-00000018 :  FE 4F ED 88   * Module check sum
+00000014 :  CB A3 65 91   * Resource check sum
+00000018 :  D6 4C 2C 73   * Module check sum
 0000001C :  00 00 00 04   * Module ID parameter
 00000020 :  00 00 39 94   * Total size
 00000024 :  00 00 39 10   * Size without __RDCC_MODULE_ID
 00000028 :  00 00 00 44   * Offset -> resource name
 0000002C :  00 00 00 5C   * Offset -> module name
 00000030 :  00 00 00 84   * Offset -> beginning of the data block
-00000034 :  65 44 AE AD   * Compilation generation date
-00000038 :  00 00 01 7C   * Compilation version number
+00000034 :  65 7A F9 81   * Compilation generation date
+00000038 :  00 00 01 7D   * Compilation version number
 0000003C :  00 00 00 00   * User module version number
 00000040 :  00 00 00 6B   * Offset -> target auto-validation data
 00000044 :  49 4E 52 4F 57 5C 44 45  -  56 49 43 45 31 5C 52 45 
@@ -71,8 +71,8 @@
 000000D0 :  00 00 00 00   * size of POU 0
 000000D4 :  00 00 00 B0   * size of INFO
 000000D8 :  00 00 0D 78   * size of BOOT
-000000DC :  00 00 14 AC   * size of ALARMS
-000000E0 :  00 00 A6 94   * size of IO_MANAGE
+000000DC :  00 00 14 A0   * size of ALARMS
+000000E0 :  00 00 A4 78   * size of IO_MANAGE
 000000E4 :  00 00 03 E4   * size of CPCOE
 000000E8 :  00 00 02 DC   * size of UNIT_MANAGE
 000000EC :  00 00 07 F0   * size of FANS_MNG
@@ -404,7 +404,7 @@
 ****** __INIT_BOOL ******
 0000054C :  00 00 04 00   * TRUE
 00000550 :  00 00 04 0D   * CONDPROTECT
-00000554 :  00 00 04 18   * FLOWTUPE_0_10
+00000554 :  00 00 04 17   * FLOWTUPE_0_10
 00000558 :  00 00 13 30   * CPCOE2 -> STCT_CPCOE -> STCT_CPCOE.EN -> BOOL
 0000055C :  00 00 17 54   * CPCOE1 -> STCT_CPCOE -> STCT_CPCOE.EN -> BOOL
 00000560 :  00 00 19 90   * AIR_PRES -> STCT_ANALOGSENS -> STCT_ANALOGSENS.USE -> BOOL
@@ -481,7 +481,7 @@
 00000640 :  00 00 47 C1   * __USINT_NULL
 00000644 :  00   * 0
 00000645 :  00 00 00  
-00000648 :  00 00 04 50   * SUM_ONLINE
+00000648 :  00 00 04 4F   * SUM_ONLINE
 0000064C :  01   * 1
 0000064D :  00 00 00  
 00000650 :  00 00 11 41   * CPCOE2 -> STCT_CPCOE -> STCT_CPCOE.CFG -> CFG_CPCOE.STOPBITS -> USINT
@@ -3064,7 +3064,7 @@
 00002D1C :  00 00 48 DC   * __UINT_NULL
 00002D20 :  00 00   * 0
 00002D22 :  00 00  
-00002D24 :  00 00 05 0A   * PAR_FLUIDDENSITY
+00002D24 :  00 00 05 08   * PAR_FLUIDDENSITY
 00002D28 :  03 E8   * 1000
 00002D2A :  00 00  
 00002D2C :  00 00 11 42   * CPCOE2 -> STCT_CPCOE -> STCT_CPCOE.CFG -> CFG_CPCOE.SLVTIMEOUT -> UINT
@@ -3115,7 +3115,7 @@
 
 
 ****** __RETAIN ******
-00002DA0 :  3B F3 B9 89   * CRC
+00002DA0 :  D3 E0 A8 E2   * CRC
 00002DA4 :  52 65 74 61 69 6E 52 65  -  73 31 00 00 00 00 00 00 
 00002DB4 :  00 00 00 00 00 00 00 00  -  00 00 00 00 00 00 00 00 
 00002DC4 :  00 00 00 00 00 00 00 00  -  00 00 00 00 00 00 00 00 
@@ -3131,19 +3131,19 @@
 00002E30 :  00 00 04 0B   * Va of a block
 00002E34 :  00 00 00 08   * Block size (bytes)
 00002E38 :  00 00 00 01   * Identifier 
-00002E3C :  00 00 04 18   * Va of a block
+00002E3C :  00 00 04 17   * Va of a block
 00002E40 :  00 00 00 01   * Block size (bytes)
 00002E44 :  00 00 00 02   * Identifier 
-00002E48 :  00 00 04 1E   * Va of a block
+00002E48 :  00 00 04 1D   * Va of a block
 00002E4C :  00 00 00 02   * Block size (bytes)
 00002E50 :  00 00 00 03   * Identifier 
-00002E54 :  00 00 04 4E   * Va of a block
+00002E54 :  00 00 04 4D   * Va of a block
 00002E58 :  00 00 00 02   * Block size (bytes)
 00002E5C :  00 00 00 04   * Identifier 
-00002E60 :  00 00 04 52   * Va of a block
+00002E60 :  00 00 04 50   * Va of a block
 00002E64 :  00 00 00 04   * Block size (bytes)
 00002E68 :  00 00 00 05   * Identifier 
-00002E6C :  00 00 05 0A   * Va of a block
+00002E6C :  00 00 05 08   * Va of a block
 00002E70 :  00 00 00 02   * Block size (bytes)
 00002E74 :  00 00 00 06   * Identifier 
 00002E78 :  00 00 05 24   * Va of a block

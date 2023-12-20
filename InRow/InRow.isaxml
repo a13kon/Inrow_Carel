@@ -340,8 +340,9 @@
         <Variable Name="Code" DataType="UINT" Comment="Код сигнала, привязанного к вх/вых" StringSize="0" Order="8" />
         <Variable Name="Manual" DataType="BOOL" Comment="Флаг ручного управления" StringSize="0" Order="9" />
         <Variable Name="Cur_Value" DataType="REAL" Comment="Текущее значение" StringSize="0" Order="10" />
-        <Variable Name="Offset" DataType="REAL" Comment="Коррекция входа" StringSize="0" Order="11" />
-        <Variable Name="Inversion" DataType="BOOL" Comment="Инверсия для " StringSize="0" Order="12" />
+        <Variable Name="Offset" DataType="REAL" Comment="" StringSize="0" Order="11" />
+        <Variable Name="Inversion" DataType="BOOL" Comment="Инверсия для DI" StringSize="0" Order="12" />
+        <Variable Name="Cur_Val_Bool" DataType="BOOL" Comment="Текущее значение для DI" StringSize="0" Order="13" />
       </Struct>
     </DataType>
     <DataType Name="UNIVCH_CPCOE" Comment="Universal channels values" Access="ReadOnly">
@@ -428,6 +429,7 @@
       <Struct FieldOrder="0" Order="1">
         <Variable Name="Value" DataType="BOOL" Comment="" StringSize="0" Order="1" />
         <Variable Name="Use" DataType="BOOL" Comment="" StringSize="0" Order="2" />
+        <Variable Name="Status" DataType="BOOL" Comment="Статус работы" StringSize="0" Order="3" />
       </Struct>
     </DataType>
     <DataType Name="STCT_Heater" Comment="" Access="UserDefined">
@@ -550,6 +552,8 @@
         <Variable Name="StartSpeed" DataType="REAL" Comment="Скорость разгона" StringSize="0" Order="12" />
         <Variable Name="StartTime" DataType="UINT" Comment="" StringSize="0" Order="13" />
         <Variable Name="K_Factor" DataType="REAL" Comment="Коэффициент k для расчета скорости вентиляторов" StringSize="0" Order="14" />
+        <Variable Name="OnOffTime" DataType="INT" Comment="Время запуска и останова вентиляторов (се)" StringSize="0" Order="15" />
+        <Variable Name="EnStatusControl" DataType="BOOL" Comment="Активировать функцию контроля статуса вент-ров" StringSize="0" Order="16" />
       </Struct>
     </DataType>
     <DataType Name="STCT_Valve" Comment="" Access="UserDefined">

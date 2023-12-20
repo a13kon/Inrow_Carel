@@ -341,6 +341,7 @@
         <Variable Name="Manual" DataType="BOOL" Comment="Флаг ручного управления" StringSize="0" Order="9" />
         <Variable Name="Cur_Value" DataType="REAL" Comment="Текущее значение" StringSize="0" Order="10" />
         <Variable Name="Offset" DataType="REAL" Comment="Коррекция входа" StringSize="0" Order="11" />
+        <Variable Name="Inversion" DataType="BOOL" Comment="Инверсия для " StringSize="0" Order="12" />
       </Struct>
     </DataType>
     <DataType Name="UNIVCH_CPCOE" Comment="Universal channels values" Access="ReadOnly">

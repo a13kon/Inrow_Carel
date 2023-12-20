@@ -1028,6 +1028,24 @@
             Min=""
             Max=""
             StringSize="0" />
+          <Variable
+            Name="Inversion"
+            DataType="BOOL"
+            IO="false"
+            Protocol="false"
+            UI="false"
+            Default="false"
+            LogPV="false"
+            IsRetained="false"
+            Alarm="false"
+            UoM="NoUnits"
+            Comment="Инверсия для "
+            Kind="Var"
+            Access="ReadWrite"
+            Acronym=""
+            Min=""
+            Max=""
+            StringSize="0" />
         </Variable>
         <Variable
           Name="U[2]"
@@ -1232,6 +1250,24 @@
             Access="ReadWrite"
             Acronym=""
             Decimals="1"
+            Min=""
+            Max=""
+            StringSize="0" />
+          <Variable
+            Name="Inversion"
+            DataType="BOOL"
+            IO="false"
+            Protocol="false"
+            UI="false"
+            Default="false"
+            LogPV="false"
+            IsRetained="false"
+            Alarm="false"
+            UoM="NoUnits"
+            Comment="Инверсия для "
+            Kind="Var"
+            Access="ReadWrite"
+            Acronym=""
             Min=""
             Max=""
             StringSize="0" />
@@ -1442,6 +1478,24 @@
             Min=""
             Max=""
             StringSize="0" />
+          <Variable
+            Name="Inversion"
+            DataType="BOOL"
+            IO="false"
+            Protocol="false"
+            UI="false"
+            Default="false"
+            LogPV="false"
+            IsRetained="false"
+            Alarm="false"
+            UoM="NoUnits"
+            Comment="Инверсия для "
+            Kind="Var"
+            Access="ReadWrite"
+            Acronym=""
+            Min=""
+            Max=""
+            StringSize="0" />
         </Variable>
         <Variable
           Name="U[4]"
@@ -1646,6 +1700,24 @@
             Access="ReadWrite"
             Acronym=""
             Decimals="1"
+            Min=""
+            Max=""
+            StringSize="0" />
+          <Variable
+            Name="Inversion"
+            DataType="BOOL"
+            IO="false"
+            Protocol="false"
+            UI="false"
+            Default="false"
+            LogPV="false"
+            IsRetained="false"
+            Alarm="false"
+            UoM="NoUnits"
+            Comment="Инверсия для "
+            Kind="Var"
+            Access="ReadWrite"
+            Acronym=""
             Min=""
             Max=""
             StringSize="0" />
@@ -1856,6 +1928,24 @@
             Min=""
             Max=""
             StringSize="0" />
+          <Variable
+            Name="Inversion"
+            DataType="BOOL"
+            IO="false"
+            Protocol="false"
+            UI="false"
+            Default="false"
+            LogPV="false"
+            IsRetained="false"
+            Alarm="false"
+            UoM="NoUnits"
+            Comment="Инверсия для "
+            Kind="Var"
+            Access="ReadWrite"
+            Acronym=""
+            Min=""
+            Max=""
+            StringSize="0" />
         </Variable>
         <Variable
           Name="U[6]"
@@ -2060,6 +2150,24 @@
             Access="ReadWrite"
             Acronym=""
             Decimals="1"
+            Min=""
+            Max=""
+            StringSize="0" />
+          <Variable
+            Name="Inversion"
+            DataType="BOOL"
+            IO="false"
+            Protocol="false"
+            UI="false"
+            Default="false"
+            LogPV="false"
+            IsRetained="false"
+            Alarm="false"
+            UoM="NoUnits"
+            Comment="Инверсия для "
+            Kind="Var"
+            Access="ReadWrite"
+            Acronym=""
             Min=""
             Max=""
             StringSize="0" />
@@ -2270,6 +2378,24 @@
             Min=""
             Max=""
             StringSize="0" />
+          <Variable
+            Name="Inversion"
+            DataType="BOOL"
+            IO="false"
+            Protocol="false"
+            UI="false"
+            Default="false"
+            LogPV="false"
+            IsRetained="false"
+            Alarm="false"
+            UoM="NoUnits"
+            Comment="Инверсия для "
+            Kind="Var"
+            Access="ReadWrite"
+            Acronym=""
+            Min=""
+            Max=""
+            StringSize="0" />
         </Variable>
         <Variable
           Name="U[8]"
@@ -2474,6 +2600,24 @@
             Access="ReadWrite"
             Acronym=""
             Decimals="1"
+            Min=""
+            Max=""
+            StringSize="0" />
+          <Variable
+            Name="Inversion"
+            DataType="BOOL"
+            IO="false"
+            Protocol="false"
+            UI="false"
+            Default="false"
+            LogPV="false"
+            IsRetained="false"
+            Alarm="false"
+            UoM="NoUnits"
+            Comment="Инверсия для "
+            Kind="Var"
+            Access="ReadWrite"
+            Acronym=""
             Min=""
             Max=""
             StringSize="0" />
@@ -2684,6 +2828,24 @@
             Min=""
             Max=""
             StringSize="0" />
+          <Variable
+            Name="Inversion"
+            DataType="BOOL"
+            IO="false"
+            Protocol="false"
+            UI="false"
+            Default="false"
+            LogPV="false"
+            IsRetained="false"
+            Alarm="false"
+            UoM="NoUnits"
+            Comment="Инверсия для "
+            Kind="Var"
+            Access="ReadWrite"
+            Acronym=""
+            Min=""
+            Max=""
+            StringSize="0" />
         </Variable>
         <Variable
           Name="U[10]"
@@ -2888,6 +3050,24 @@
             Access="ReadWrite"
             Acronym=""
             Decimals="1"
+            Min=""
+            Max=""
+            StringSize="0" />
+          <Variable
+            Name="Inversion"
+            DataType="BOOL"
+            IO="false"
+            Protocol="false"
+            UI="false"
+            Default="false"
+            LogPV="false"
+            IsRetained="false"
+            Alarm="false"
+            UoM="NoUnits"
+            Comment="Инверсия для "
+            Kind="Var"
+            Access="ReadWrite"
+            Acronym=""
             Min=""
             Max=""
             StringSize="0" />
@@ -8801,6 +8981,24 @@
             Max=""
             InitialValue="0.0"
             StringSize="0" />
+          <Variable
+            Name="Inversion"
+            DataType="BOOL"
+            IO="false"
+            Protocol="false"
+            UI="false"
+            Default="false"
+            LogPV="false"
+            IsRetained="false"
+            Alarm="false"
+            UoM="NoUnits"
+            Comment="Инверсия для "
+            Kind="Var"
+            Access="ReadWrite"
+            Acronym=""
+            Min=""
+            Max=""
+            StringSize="0" />
         </Variable>
         <Variable
           Name="U[2]"
@@ -9008,6 +9206,24 @@
             Min=""
             Max=""
             InitialValue="0.0"
+            StringSize="0" />
+          <Variable
+            Name="Inversion"
+            DataType="BOOL"
+            IO="false"
+            Protocol="false"
+            UI="false"
+            Default="false"
+            LogPV="false"
+            IsRetained="false"
+            Alarm="false"
+            UoM="NoUnits"
+            Comment="Инверсия для "
+            Kind="Var"
+            Access="ReadWrite"
+            Acronym=""
+            Min=""
+            Max=""
             StringSize="0" />
         </Variable>
         <Variable
@@ -9217,6 +9433,24 @@
             Max=""
             InitialValue="0.0"
             StringSize="0" />
+          <Variable
+            Name="Inversion"
+            DataType="BOOL"
+            IO="false"
+            Protocol="false"
+            UI="false"
+            Default="false"
+            LogPV="false"
+            IsRetained="false"
+            Alarm="false"
+            UoM="NoUnits"
+            Comment="Инверсия для "
+            Kind="Var"
+            Access="ReadWrite"
+            Acronym=""
+            Min=""
+            Max=""
+            StringSize="0" />
         </Variable>
         <Variable
           Name="U[4]"
@@ -9424,6 +9658,24 @@
             Min=""
             Max=""
             InitialValue="0.0"
+            StringSize="0" />
+          <Variable
+            Name="Inversion"
+            DataType="BOOL"
+            IO="false"
+            Protocol="false"
+            UI="false"
+            Default="false"
+            LogPV="false"
+            IsRetained="false"
+            Alarm="false"
+            UoM="NoUnits"
+            Comment="Инверсия для "
+            Kind="Var"
+            Access="ReadWrite"
+            Acronym=""
+            Min=""
+            Max=""
             StringSize="0" />
         </Variable>
         <Variable
@@ -9633,6 +9885,24 @@
             Max=""
             InitialValue="0.0"
             StringSize="0" />
+          <Variable
+            Name="Inversion"
+            DataType="BOOL"
+            IO="false"
+            Protocol="false"
+            UI="false"
+            Default="false"
+            LogPV="false"
+            IsRetained="false"
+            Alarm="false"
+            UoM="NoUnits"
+            Comment="Инверсия для "
+            Kind="Var"
+            Access="ReadWrite"
+            Acronym=""
+            Min=""
+            Max=""
+            StringSize="0" />
         </Variable>
         <Variable
           Name="U[6]"
@@ -9840,6 +10110,24 @@
             Min=""
             Max=""
             InitialValue="0.0"
+            StringSize="0" />
+          <Variable
+            Name="Inversion"
+            DataType="BOOL"
+            IO="false"
+            Protocol="false"
+            UI="false"
+            Default="false"
+            LogPV="false"
+            IsRetained="false"
+            Alarm="false"
+            UoM="NoUnits"
+            Comment="Инверсия для "
+            Kind="Var"
+            Access="ReadWrite"
+            Acronym=""
+            Min=""
+            Max=""
             StringSize="0" />
         </Variable>
         <Variable
@@ -10049,6 +10337,24 @@
             Max=""
             InitialValue="0.0"
             StringSize="0" />
+          <Variable
+            Name="Inversion"
+            DataType="BOOL"
+            IO="false"
+            Protocol="false"
+            UI="false"
+            Default="false"
+            LogPV="false"
+            IsRetained="false"
+            Alarm="false"
+            UoM="NoUnits"
+            Comment="Инверсия для "
+            Kind="Var"
+            Access="ReadWrite"
+            Acronym=""
+            Min=""
+            Max=""
+            StringSize="0" />
         </Variable>
         <Variable
           Name="U[8]"
@@ -10256,6 +10562,24 @@
             Min=""
             Max=""
             InitialValue="0.0"
+            StringSize="0" />
+          <Variable
+            Name="Inversion"
+            DataType="BOOL"
+            IO="false"
+            Protocol="false"
+            UI="false"
+            Default="false"
+            LogPV="false"
+            IsRetained="false"
+            Alarm="false"
+            UoM="NoUnits"
+            Comment="Инверсия для "
+            Kind="Var"
+            Access="ReadWrite"
+            Acronym=""
+            Min=""
+            Max=""
             StringSize="0" />
         </Variable>
         <Variable
@@ -10465,6 +10789,24 @@
             Max=""
             InitialValue="0.0"
             StringSize="0" />
+          <Variable
+            Name="Inversion"
+            DataType="BOOL"
+            IO="false"
+            Protocol="false"
+            UI="false"
+            Default="false"
+            LogPV="false"
+            IsRetained="false"
+            Alarm="false"
+            UoM="NoUnits"
+            Comment="Инверсия для "
+            Kind="Var"
+            Access="ReadWrite"
+            Acronym=""
+            Min=""
+            Max=""
+            StringSize="0" />
         </Variable>
         <Variable
           Name="U[10]"
@@ -10672,6 +11014,24 @@
             Min=""
             Max=""
             InitialValue="0.0"
+            StringSize="0" />
+          <Variable
+            Name="Inversion"
+            DataType="BOOL"
+            IO="false"
+            Protocol="false"
+            UI="false"
+            Default="false"
+            LogPV="false"
+            IsRetained="false"
+            Alarm="false"
+            UoM="NoUnits"
+            Comment="Инверсия для "
+            Kind="Var"
+            Access="ReadWrite"
+            Acronym=""
+            Min=""
+            Max=""
             StringSize="0" />
         </Variable>
       </Variable>
@@ -15491,6 +15851,24 @@
             Max=""
             InitialValue="0.0"
             StringSize="0" />
+          <Variable
+            Name="Inversion"
+            DataType="BOOL"
+            IO="false"
+            Protocol="false"
+            UI="false"
+            Default="false"
+            LogPV="false"
+            IsRetained="false"
+            Alarm="false"
+            UoM="NoUnits"
+            Comment="Инверсия для "
+            Kind="Var"
+            Access="ReadWrite"
+            Acronym=""
+            Min=""
+            Max=""
+            StringSize="0" />
         </Variable>
         <Variable
           Name="U[2]"
@@ -15698,6 +16076,24 @@
             Min=""
             Max=""
             InitialValue="0.0"
+            StringSize="0" />
+          <Variable
+            Name="Inversion"
+            DataType="BOOL"
+            IO="false"
+            Protocol="false"
+            UI="false"
+            Default="false"
+            LogPV="false"
+            IsRetained="false"
+            Alarm="false"
+            UoM="NoUnits"
+            Comment="Инверсия для "
+            Kind="Var"
+            Access="ReadWrite"
+            Acronym=""
+            Min=""
+            Max=""
             StringSize="0" />
         </Variable>
         <Variable
@@ -15907,6 +16303,24 @@
             Max=""
             InitialValue="0.0"
             StringSize="0" />
+          <Variable
+            Name="Inversion"
+            DataType="BOOL"
+            IO="false"
+            Protocol="false"
+            UI="false"
+            Default="false"
+            LogPV="false"
+            IsRetained="false"
+            Alarm="false"
+            UoM="NoUnits"
+            Comment="Инверсия для "
+            Kind="Var"
+            Access="ReadWrite"
+            Acronym=""
+            Min=""
+            Max=""
+            StringSize="0" />
         </Variable>
         <Variable
           Name="U[4]"
@@ -16114,6 +16528,24 @@
             Min=""
             Max=""
             InitialValue="0.0"
+            StringSize="0" />
+          <Variable
+            Name="Inversion"
+            DataType="BOOL"
+            IO="false"
+            Protocol="false"
+            UI="false"
+            Default="false"
+            LogPV="false"
+            IsRetained="false"
+            Alarm="false"
+            UoM="NoUnits"
+            Comment="Инверсия для "
+            Kind="Var"
+            Access="ReadWrite"
+            Acronym=""
+            Min=""
+            Max=""
             StringSize="0" />
         </Variable>
         <Variable
@@ -16323,6 +16755,24 @@
             Max=""
             InitialValue="0.0"
             StringSize="0" />
+          <Variable
+            Name="Inversion"
+            DataType="BOOL"
+            IO="false"
+            Protocol="false"
+            UI="false"
+            Default="false"
+            LogPV="false"
+            IsRetained="false"
+            Alarm="false"
+            UoM="NoUnits"
+            Comment="Инверсия для "
+            Kind="Var"
+            Access="ReadWrite"
+            Acronym=""
+            Min=""
+            Max=""
+            StringSize="0" />
         </Variable>
         <Variable
           Name="U[6]"
@@ -16530,6 +16980,24 @@
             Min=""
             Max=""
             InitialValue="0.0"
+            StringSize="0" />
+          <Variable
+            Name="Inversion"
+            DataType="BOOL"
+            IO="false"
+            Protocol="false"
+            UI="false"
+            Default="false"
+            LogPV="false"
+            IsRetained="false"
+            Alarm="false"
+            UoM="NoUnits"
+            Comment="Инверсия для "
+            Kind="Var"
+            Access="ReadWrite"
+            Acronym=""
+            Min=""
+            Max=""
             StringSize="0" />
         </Variable>
         <Variable
@@ -16739,6 +17207,24 @@
             Max=""
             InitialValue="0.0"
             StringSize="0" />
+          <Variable
+            Name="Inversion"
+            DataType="BOOL"
+            IO="false"
+            Protocol="false"
+            UI="false"
+            Default="false"
+            LogPV="false"
+            IsRetained="false"
+            Alarm="false"
+            UoM="NoUnits"
+            Comment="Инверсия для "
+            Kind="Var"
+            Access="ReadWrite"
+            Acronym=""
+            Min=""
+            Max=""
+            StringSize="0" />
         </Variable>
         <Variable
           Name="U[8]"
@@ -16946,6 +17432,24 @@
             Min=""
             Max=""
             InitialValue="0.0"
+            StringSize="0" />
+          <Variable
+            Name="Inversion"
+            DataType="BOOL"
+            IO="false"
+            Protocol="false"
+            UI="false"
+            Default="false"
+            LogPV="false"
+            IsRetained="false"
+            Alarm="false"
+            UoM="NoUnits"
+            Comment="Инверсия для "
+            Kind="Var"
+            Access="ReadWrite"
+            Acronym=""
+            Min=""
+            Max=""
             StringSize="0" />
         </Variable>
         <Variable
@@ -17155,6 +17659,24 @@
             Max=""
             InitialValue="0.0"
             StringSize="0" />
+          <Variable
+            Name="Inversion"
+            DataType="BOOL"
+            IO="false"
+            Protocol="false"
+            UI="false"
+            Default="false"
+            LogPV="false"
+            IsRetained="false"
+            Alarm="false"
+            UoM="NoUnits"
+            Comment="Инверсия для "
+            Kind="Var"
+            Access="ReadWrite"
+            Acronym=""
+            Min=""
+            Max=""
+            StringSize="0" />
         </Variable>
         <Variable
           Name="U[10]"
@@ -17362,6 +17884,24 @@
             Min=""
             Max=""
             InitialValue="0.0"
+            StringSize="0" />
+          <Variable
+            Name="Inversion"
+            DataType="BOOL"
+            IO="false"
+            Protocol="false"
+            UI="false"
+            Default="false"
+            LogPV="false"
+            IsRetained="false"
+            Alarm="false"
+            UoM="NoUnits"
+            Comment="Инверсия для "
+            Kind="Var"
+            Access="ReadWrite"
+            Acronym=""
+            Min=""
+            Max=""
             StringSize="0" />
         </Variable>
       </Variable>
@@ -33259,6 +33799,24 @@
           Max=""
           InitialValue="0.0"
           StringSize="0" />
+        <Variable
+          Name="Inversion"
+          DataType="BOOL"
+          IO="false"
+          Protocol="false"
+          UI="false"
+          Default="false"
+          LogPV="false"
+          IsRetained="false"
+          Alarm="false"
+          UoM="NoUnits"
+          Comment=""
+          Kind="Var"
+          Access="ReadWrite"
+          Acronym=""
+          Min=""
+          Max=""
+          StringSize="0" />
       </Variable>
       <Variable
         Name="U[2]"
@@ -33468,6 +34026,24 @@
           Min=""
           Max=""
           InitialValue="0.0"
+          StringSize="0" />
+        <Variable
+          Name="Inversion"
+          DataType="BOOL"
+          IO="false"
+          Protocol="false"
+          UI="false"
+          Default="false"
+          LogPV="false"
+          IsRetained="false"
+          Alarm="false"
+          UoM="NoUnits"
+          Comment=""
+          Kind="Var"
+          Access="ReadWrite"
+          Acronym=""
+          Min=""
+          Max=""
           StringSize="0" />
       </Variable>
       <Variable
@@ -33679,6 +34255,24 @@
           Max=""
           InitialValue="0.0"
           StringSize="0" />
+        <Variable
+          Name="Inversion"
+          DataType="BOOL"
+          IO="false"
+          Protocol="false"
+          UI="false"
+          Default="false"
+          LogPV="false"
+          IsRetained="false"
+          Alarm="false"
+          UoM="NoUnits"
+          Comment=""
+          Kind="Var"
+          Access="ReadWrite"
+          Acronym=""
+          Min=""
+          Max=""
+          StringSize="0" />
       </Variable>
       <Variable
         Name="U[4]"
@@ -33888,6 +34482,24 @@
           Min=""
           Max=""
           InitialValue="0.0"
+          StringSize="0" />
+        <Variable
+          Name="Inversion"
+          DataType="BOOL"
+          IO="false"
+          Protocol="false"
+          UI="false"
+          Default="false"
+          LogPV="false"
+          IsRetained="false"
+          Alarm="false"
+          UoM="NoUnits"
+          Comment=""
+          Kind="Var"
+          Access="ReadWrite"
+          Acronym=""
+          Min=""
+          Max=""
           StringSize="0" />
       </Variable>
       <Variable
@@ -34099,6 +34711,24 @@
           Max=""
           InitialValue="0.0"
           StringSize="0" />
+        <Variable
+          Name="Inversion"
+          DataType="BOOL"
+          IO="false"
+          Protocol="false"
+          UI="false"
+          Default="false"
+          LogPV="false"
+          IsRetained="false"
+          Alarm="false"
+          UoM="NoUnits"
+          Comment=""
+          Kind="Var"
+          Access="ReadWrite"
+          Acronym=""
+          Min=""
+          Max=""
+          StringSize="0" />
       </Variable>
       <Variable
         Name="U[6]"
@@ -34308,6 +34938,24 @@
           Min=""
           Max=""
           InitialValue="0.0"
+          StringSize="0" />
+        <Variable
+          Name="Inversion"
+          DataType="BOOL"
+          IO="false"
+          Protocol="false"
+          UI="false"
+          Default="false"
+          LogPV="false"
+          IsRetained="false"
+          Alarm="false"
+          UoM="NoUnits"
+          Comment=""
+          Kind="Var"
+          Access="ReadWrite"
+          Acronym=""
+          Min=""
+          Max=""
           StringSize="0" />
       </Variable>
       <Variable
@@ -34519,6 +35167,24 @@
           Max=""
           InitialValue="0.0"
           StringSize="0" />
+        <Variable
+          Name="Inversion"
+          DataType="BOOL"
+          IO="false"
+          Protocol="false"
+          UI="false"
+          Default="false"
+          LogPV="false"
+          IsRetained="false"
+          Alarm="false"
+          UoM="NoUnits"
+          Comment=""
+          Kind="Var"
+          Access="ReadWrite"
+          Acronym=""
+          Min=""
+          Max=""
+          StringSize="0" />
       </Variable>
       <Variable
         Name="U[8]"
@@ -34729,6 +35395,24 @@
           Max=""
           InitialValue="0.0"
           StringSize="0" />
+        <Variable
+          Name="Inversion"
+          DataType="BOOL"
+          IO="false"
+          Protocol="false"
+          UI="false"
+          Default="false"
+          LogPV="false"
+          IsRetained="false"
+          Alarm="false"
+          UoM="NoUnits"
+          Comment=""
+          Kind="Var"
+          Access="ReadWrite"
+          Acronym=""
+          Min=""
+          Max=""
+          StringSize="0" />
       </Variable>
       <Variable
         Name="U[9]"
@@ -34937,6 +35621,24 @@
           Max=""
           InitialValue="0.0"
           StringSize="0" />
+        <Variable
+          Name="Inversion"
+          DataType="BOOL"
+          IO="false"
+          Protocol="false"
+          UI="false"
+          Default="false"
+          LogPV="false"
+          IsRetained="false"
+          Alarm="false"
+          UoM="NoUnits"
+          Comment=""
+          Kind="Var"
+          Access="ReadWrite"
+          Acronym=""
+          Min=""
+          Max=""
+          StringSize="0" />
       </Variable>
       <Variable
         Name="U[10]"
@@ -35144,6 +35846,24 @@
           Min=""
           Max=""
           InitialValue="0.0"
+          StringSize="0" />
+        <Variable
+          Name="Inversion"
+          DataType="BOOL"
+          IO="false"
+          Protocol="false"
+          UI="false"
+          Default="false"
+          LogPV="false"
+          IsRetained="false"
+          Alarm="false"
+          UoM="NoUnits"
+          Comment=""
+          Kind="Var"
+          Access="ReadWrite"
+          Acronym=""
+          Min=""
+          Max=""
           StringSize="0" />
       </Variable>
     </Variable>
@@ -35839,6 +36559,24 @@
           Min=""
           Max=""
           StringSize="0" />
+        <Variable
+          Name="Inversion"
+          DataType="BOOL"
+          IO="false"
+          Protocol="false"
+          UI="false"
+          Default="false"
+          LogPV="false"
+          IsRetained="false"
+          Alarm="false"
+          UoM="NoUnits"
+          Comment=""
+          Kind="Var"
+          Access="ReadWrite"
+          Acronym=""
+          Min=""
+          Max=""
+          StringSize="0" />
       </Variable>
       <Variable
         Name="Y[2]"
@@ -36043,6 +36781,24 @@
           Access="ReadWrite"
           Acronym=""
           Decimals="1"
+          Min=""
+          Max=""
+          StringSize="0" />
+        <Variable
+          Name="Inversion"
+          DataType="BOOL"
+          IO="false"
+          Protocol="false"
+          UI="false"
+          Default="false"
+          LogPV="false"
+          IsRetained="false"
+          Alarm="false"
+          UoM="NoUnits"
+          Comment=""
+          Kind="Var"
+          Access="ReadWrite"
+          Acronym=""
           Min=""
           Max=""
           StringSize="0" />
@@ -36253,6 +37009,24 @@
           Min=""
           Max=""
           StringSize="0" />
+        <Variable
+          Name="Inversion"
+          DataType="BOOL"
+          IO="false"
+          Protocol="false"
+          UI="false"
+          Default="false"
+          LogPV="false"
+          IsRetained="false"
+          Alarm="false"
+          UoM="NoUnits"
+          Comment=""
+          Kind="Var"
+          Access="ReadWrite"
+          Acronym=""
+          Min=""
+          Max=""
+          StringSize="0" />
       </Variable>
       <Variable
         Name="Y[4]"
@@ -36457,6 +37231,24 @@
           Access="ReadWrite"
           Acronym=""
           Decimals="1"
+          Min=""
+          Max=""
+          StringSize="0" />
+        <Variable
+          Name="Inversion"
+          DataType="BOOL"
+          IO="false"
+          Protocol="false"
+          UI="false"
+          Default="false"
+          LogPV="false"
+          IsRetained="false"
+          Alarm="false"
+          UoM="NoUnits"
+          Comment=""
+          Kind="Var"
+          Access="ReadWrite"
+          Acronym=""
           Min=""
           Max=""
           StringSize="0" />
@@ -36667,6 +37459,24 @@
           Min=""
           Max=""
           StringSize="0" />
+        <Variable
+          Name="Inversion"
+          DataType="BOOL"
+          IO="false"
+          Protocol="false"
+          UI="false"
+          Default="false"
+          LogPV="false"
+          IsRetained="false"
+          Alarm="false"
+          UoM="NoUnits"
+          Comment=""
+          Kind="Var"
+          Access="ReadWrite"
+          Acronym=""
+          Min=""
+          Max=""
+          StringSize="0" />
       </Variable>
       <Variable
         Name="Y[6]"
@@ -36871,6 +37681,24 @@
           Access="ReadWrite"
           Acronym=""
           Decimals="1"
+          Min=""
+          Max=""
+          StringSize="0" />
+        <Variable
+          Name="Inversion"
+          DataType="BOOL"
+          IO="false"
+          Protocol="false"
+          UI="false"
+          Default="false"
+          LogPV="false"
+          IsRetained="false"
+          Alarm="false"
+          UoM="NoUnits"
+          Comment=""
+          Kind="Var"
+          Access="ReadWrite"
+          Acronym=""
           Min=""
           Max=""
           StringSize="0" />

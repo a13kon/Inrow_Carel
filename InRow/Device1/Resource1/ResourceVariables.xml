@@ -23998,11 +23998,11 @@
         Name="EnStatusControl"
         DataType="BOOL"
         IO="false"
-        Protocol="false"
+        Protocol="true"
         UI="false"
-        Default="false"
+        Default="true"
         LogPV="false"
-        IsRetained="false"
+        IsRetained="true"
         Alarm="false"
         UoM="NoUnits"
         Comment="Активировать функцию контроля статуса вент-ров"
@@ -24011,6 +24011,7 @@
         Acronym=""
         Min=""
         Max=""
+        InitialValue="TRUE"
         StringSize="0" />
     </Variable>
     <Variable

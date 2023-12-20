@@ -5,6 +5,6 @@ Offset2=0x4640
 Offset3=0x4640
 Memory Usage Estimate(Code)=0x424F0
 Memory Usage Estimate(Data)=0x147A0
-Memory Usage Estimate(Retain)=0x60A
+Memory Usage Estimate(Retain)=0x60B
 Memory Usage Estimate(Temporary variables)=0x2364
 Offset4=0x400

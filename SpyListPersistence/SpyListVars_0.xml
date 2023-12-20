@@ -1,105 +1,18 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <SpyListVars_0>
   <ConfigurationInfo>
-    <SpyListName>Slave0</SpyListName>
+    <SpyListName>Spy List Name[2]</SpyListName>
     <ConfigFileVersion>3</ConfigFileVersion>
     <ToolWindowPaneIndex>0</ToolWindowPaneIndex>
     <DefaultRefreshRateMonitoring>500</DefaultRefreshRateMonitoring>
   </ConfigurationInfo>
   <Variable>
-    <FullName>InRow.Device1.Resource1.Group.Is_master</FullName>
+    <FullName>InRow.Device1.Resource1.Alarms.TON_Fan1_Status</FullName>
   </Variable>
   <Variable>
-    <FullName>InRow.Device1.Resource1.Network.ID</FullName>
+    <FullName>InRow.Device1.Resource1.Fans.FB_Fan1.Status</FullName>
   </Variable>
   <Variable>
-    <FullName>InRow.Device1.Resource1.UnitStatus</FullName>
-  </Variable>
-  <Variable>
-    <FullName>InRow.Device1.Resource1.Group.Average_Temp_In</FullName>
-  </Variable>
-  <Variable>
-    <FullName>InRow.Device1.Resource1.Group.Average_Temp_Out</FullName>
-  </Variable>
-  <Variable>
-    <FullName>InRow.Device1.Resource1.Network.IP_byte</FullName>
-  </Variable>
-  <Variable>
-    <FullName>InRow.Device1.Resource1.Group.Mask</FullName>
-  </Variable>
-  <Variable>
-    <FullName>InRow.Device1.Resource1.Group.Slave</FullName>
-  </Variable>
-  <Variable>
-    <FullName>InRow.Device1.Resource1.Group.UnitOn_BMS</FullName>
-  </Variable>
-  <Variable>
-    <FullName>InRow.Device1.Resource1.UnitOn</FullName>
-  </Variable>
-  <Variable>
-    <FullName>InRow.Device1.Resource1.Alarm</FullName>
-  </Variable>
-  <Variable>
-    <FullName>InRow.Device1.Resource1.Standby</FullName>
-  </Variable>
-  <Variable>
-    <FullName>InRow.Device1.Resource1.Par_SetPoint</FullName>
-  </Variable>
-  <Variable>
-    <FullName>InRow.Device1.Resource1.Group.Mode</FullName>
-  </Variable>
-  <Variable>
-    <FullName>InRow.Device1.Resource1.Group.Init.Status</FullName>
-  </Variable>
-  <Variable>
-    <FullName>InRow.Device1.Resource1.SNMP.License</FullName>
-  </Variable>
-  <Variable>
-    <FullName>InRow.Device1.Resource1.EHeater.PID</FullName>
-  </Variable>
-  <Variable>
-    <FullName>InRow.Device1.Resource1.en_EHeater</FullName>
-  </Variable>
-  <Variable>
-    <FullName>InRow.Device1.Resource1.Heater_Mng.Hister_EH</FullName>
-  </Variable>
-  <Variable>
-    <FullName>InRow.Device1.Resource1.EHeater.Use</FullName>
-  </Variable>
-  <Variable>
-    <FullName>InRow.Device1.Resource1.EHeater.Block</FullName>
-  </Variable>
-  <Variable>
-    <FullName>InRow.Device1.Resource1.CoolerValve.Value</FullName>
-  </Variable>
-  <Variable>
-    <FullName>InRow.Device1.Resource1.CoolerValve.FeedBack.Value</FullName>
-  </Variable>
-  <Variable>
-    <FullName>InRow.Device1.Resource1.Heater_Mng.TON_1</FullName>
-  </Variable>
-  <Variable>
-    <FullName>InRow.Device1.Resource1.Group.UDP.Address</FullName>
-  </Variable>
-  <Variable>
-    <FullName>InRow.Device1.Resource1.HeadColor</FullName>
-  </Variable>
-  <Variable>
-    <FullName>InRow.Device1.Resource1.U[2].Cur_Value</FullName>
-  </Variable>
-  <Variable>
-    <FullName>InRow.Device1.Resource1.Y[2].Manual</FullName>
-  </Variable>
-  <Variable>
-    <FullName>InRow.Device1.Resource1.Y[2].Cur_Value</FullName>
-  </Variable>
-  <Variable>
-    <FullName>InRow.Device1.Resource1.CondProtect</FullName>
-  </Variable>
-  <Variable>
-    <FullName>InRow.Device1.Resource1.Filter.AlarmIsWarning</FullName>
-  </Variable>
-  <Variable>
-    <FullName>InRow.Device1.Resource1.Filter.DPD.Value</FullName>
+    <FullName>InRow.Device1.Resource1.Fans.On</FullName>
   </Variable>
 </SpyListVars_0>

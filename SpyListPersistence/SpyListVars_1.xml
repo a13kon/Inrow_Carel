@@ -156,4 +156,7 @@
   <Variable>
     <FullName>InRow.Device1.Resource1.FlowMeter.Rate.BreakSens</FullName>
   </Variable>
+  <Variable>
+    <FullName>InRow.Device1.Resource1.Alarms.TON_Fan1_Status</FullName>
+  </Variable>
 </SpyListVars_1>

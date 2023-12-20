@@ -48,7 +48,7 @@
           <Field Type="Text" Name="Text_6" Row="6" Column="17" Content="5" />
           <Field Type="Variable" Name="Variable" Row="6" Column="16" Content="Boot.CurrVer.X" Class="CL_UINT" Format="o1" Min="0" Max="9" />
           <Field Type="Variable" Name="Variable_2" Row="6" Column="18" Content="Boot.CurrVer.Y" Class="CL_UINT" Format="o1" Min="0" Max="9" />
-          <Field Type="Variable" Name="Variable_3" Row="6" Column="20" Content="Boot.CurrVer.Z" Class="CL_UINT" Format="o1" Min="0" Max="9" />
+          <Field Type="Variable" Name="Variable_3" Row="6" Column="20" Content="Boot.CurrVer.Z" Class="CL_UINT" Format="o2z" Min="0" Max="9" />
         </Fields>
         <KeyBindings>
           <KeyBinding Key="ENTER" BindOn="Info" />

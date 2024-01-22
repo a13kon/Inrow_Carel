@@ -732,6 +732,8 @@
         <Variable Name="Mask" DataType="ARR_Mask" Comment="Отображение на панели" StringSize="0" Order="22" />
         <Variable Name="Total_Online" DataType="BYTE" Comment="Счетчик устройств онлайн" StringSize="0" Order="23" />
         <Variable Name="UDP" DataType="STCT_UDP" Comment="" StringSize="0" Order="24" />
+        <Variable Name="old_InRow_qua" DataType="DINT" Comment="" StringSize="0" Order="25" />
+        <Variable Name="UnitOn" DataType="BOOL" Comment="Флаг включения работы группы" StringSize="0" Order="26" />
       </Struct>
     </DataType>
     <DataType Name="ARR_SYSWRITE_REBOOT" Comment="" Access="UserDefined">
@@ -864,6 +866,31 @@
       <Struct FieldOrder="1" Order="4">
         <Variable Name="Trigger" DataType="BOOL" Comment="Alarm status Trigger" StringSize="0" Order="1" />
         <Variable Name="Active" DataType="BOOL" Comment="Alarm status" StringSize="0" Order="2" />
+      </Struct>
+    </DataType>
+    <DataType Name="STCT_SORTING_DEVICES" Comment="" Access="UserDefined">
+      <Struct FieldOrder="0" Order="1">
+        <Variable Name="Al" DataType="BOOL" Comment="Статус устройства" StringSize="0" Order="1" />
+        <Variable Name="En" DataType="BOOL" Comment="Активация устройства" StringSize="0" Order="2" />
+        <Variable Name="WorkTime" DataType="UDINT" Comment="Время работы без перерыва" StringSize="0" Order="3" />
+        <Variable Name="TotalTime" DataType="UDINT" Comment="Время наработки" StringSize="0" Order="4" />
+        <Variable Name="DownTime" DataType="UDINT" Comment="Минимальное время простоя после ротации" StringSize="0" Order="5" />
+        <Variable Name="LowPrio" DataType="BOOL" Comment="Флаг низкого приоритета после ротации" StringSize="0" Order="6" />
+        <Variable Name="Prio" DataType="DINT" Comment="Приоритет устройства" StringSize="0" Order="7" />
+        <Variable Name="On" DataType="BOOL" Comment="" StringSize="0" Order="8" />
+      </Struct>
+    </DataType>
+    <DataType Name="ARR_SORTING" Comment="" Access="UserDefined">
+      <Array Order="1" DataType="STCT_SORTING_DEVICES" StringSize="0">
+        <Dimension Lower="0" Upper="11" />
+      </Array>
+    </DataType>
+    <DataType Name="STCT_SORING" Comment="" Access="UserDefined">
+      <Struct FieldOrder="0" Order="1">
+        <Variable Name="Dev" DataType="ARR_SORTING" Comment="" StringSize="0" Order="1" />
+        <Variable Name="byteOn" DataType="UDINT" Comment="" StringSize="0" Order="2" />
+        <Variable Name="totalOn" DataType="DINT" Comment="" StringSize="0" Order="3" />
+        <Variable Name="countOn" DataType="DINT" Comment="" StringSize="0" Order="4" />
       </Struct>
     </DataType>
   </DataTypes>

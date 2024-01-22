@@ -1,45 +1,33 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <SpyListVars_0>
   <ConfigurationInfo>
-    <SpyListName>Spy List Name[3]</SpyListName>
+    <SpyListName>Sorting</SpyListName>
     <ConfigFileVersion>3</ConfigFileVersion>
     <ToolWindowPaneIndex>0</ToolWindowPaneIndex>
     <DefaultRefreshRateMonitoring>500</DefaultRefreshRateMonitoring>
   </ConfigurationInfo>
   <Variable>
-    <FullName>InRow.Device1.Resource1.Fans_Mng.PID_Adv_2_2</FullName>
+    <FullName>InRow.Device1.Resource1.Sort.Dev</FullName>
   </Variable>
   <Variable>
-    <FullName>InRow.Device1.Resource1.Sa_Temp.Value</FullName>
+    <FullName>InRow.Device1.Resource1.Group.old_InRow_qua</FullName>
   </Variable>
   <Variable>
-    <FullName>InRow.Device1.Resource1.Ea_Temp.Value</FullName>
+    <FullName>InRow.Device1.Resource1.Group.InRow_qua</FullName>
   </Variable>
   <Variable>
-    <FullName>InRow.Device1.Resource1.Group.UnitOn_BMS</FullName>
+    <FullName>InRow.Device1.Resource1.Rotation_Mng.j</FullName>
   </Variable>
   <Variable>
-    <FullName>InRow.Device1.Resource1.Fans.On</FullName>
+    <FullName>InRow.Device1.Resource1.Rotation_Mng.i</FullName>
   </Variable>
   <Variable>
-    <FullName>InRow.Device1.Resource1.Fans_Mng.calcSpeed</FullName>
+    <FullName>InRow.Device1.Resource1.Sort.countOn</FullName>
   </Variable>
   <Variable>
-    <FullName>InRow.Device1.Resource1.Fans.Speed</FullName>
+    <FullName>InRow.Device1.Resource1.Sort.totalOn</FullName>
   </Variable>
   <Variable>
-    <FullName>InRow.Device1.Resource1.Fans_Mng.deltaTemp</FullName>
-  </Variable>
-  <Variable>
-    <FullName>InRow.Device1.Resource1.Par_DeltaTemp</FullName>
-  </Variable>
-  <Variable>
-    <FullName>InRow.Device1.Resource1.Par_FKp</FullName>
-  </Variable>
-  <Variable>
-    <FullName>InRow.Device1.Resource1.Par_FTi</FullName>
-  </Variable>
-  <Variable>
-    <FullName>InRow.Device1.Resource1.Y[2].Value</FullName>
+    <FullName>InRow.Device1.Resource1.Rotation_Mng.index</FullName>
   </Variable>
 </SpyListVars_0>

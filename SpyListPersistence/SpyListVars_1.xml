@@ -159,4 +159,7 @@
   <Variable>
     <FullName>InRow.Device1.Resource1.Alarms.TON_Fan1_Status</FullName>
   </Variable>
+  <Variable>
+    <FullName>InRow.Device1.Resource1.Sort.countOn</FullName>
+  </Variable>
 </SpyListVars_1>

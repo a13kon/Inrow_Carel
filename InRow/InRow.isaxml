@@ -326,6 +326,7 @@
     <DefineWord Name="DF_cpCOmini" Define="14" Comment="" Access="UserDefined" />
     <DefineWord Name="DF_INPUT_TYPE_ON_OFF" Define="5" Comment="" Access="UserDefined" />
     <DefineWord Name="DF_FILTER_NUM_ON_OFF" Define="2" Comment="" Access="UserDefined" />
+    <DefineWord Name="DF_REED_SWITCH" Define="5" Comment="" Access="UserDefined" />
   </DefineWords>
   <DataTypes>
     <DataType Name="STCT_Analog_IO" Comment="Переменные входов/выходов" Access="UserDefined">
@@ -781,6 +782,7 @@
         <Variable Name="Cool_Capacity" DataType="REAL" Comment="Cool_Capacity" StringSize="0" Order="13" />
         <Variable Name="ID" DataType="BYTE" Comment="" StringSize="0" Order="14" />
         <Variable Name="Status" DataType="USINT" Comment="" StringSize="0" Order="15" />
+        <Variable Name="UnitOn" DataType="BOOL" Comment="Команда включения с мастера" StringSize="0" Order="16" />
       </Struct>
     </DataType>
     <DataType Name="ARR_IP_byte" Comment="" Access="UserDefined">

@@ -78,6 +78,9 @@
   <AcfElementGuid Guid="24a12295-1ce1-4429-9c71-9b3fb4f06ae7">
     <File>PriorityMng_REAL_CPY.acfmlge</File>
   </AcfElementGuid>
+  <AcfElementGuid Guid="267007bb-892f-4833-a1c3-2300f20144ea">
+    <File>Rotation_Mng.AcfMlge</File>
+  </AcfElementGuid>
   <AcfElementGuid Guid="28288e18-7b55-4121-9dcf-f1a758b96e45">
     <File>TimeCounter_INT.acfmlge</File>
   </AcfElementGuid>

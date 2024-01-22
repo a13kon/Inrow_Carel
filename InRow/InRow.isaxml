@@ -898,7 +898,6 @@
     </Network>
   </Networks>
   <NetworkInstances>
-    <NetworkInstance NetworkName="ISARSI" Name="USB1" />
     <NetworkInstance NetworkName="ETCP" Name="ETCP1" />
   </NetworkInstances>
   <Targets>

@@ -1,18 +1,45 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <SpyListVars_0>
   <ConfigurationInfo>
-    <SpyListName>Spy List Name[2]</SpyListName>
+    <SpyListName>Spy List Name[3]</SpyListName>
     <ConfigFileVersion>3</ConfigFileVersion>
     <ToolWindowPaneIndex>0</ToolWindowPaneIndex>
     <DefaultRefreshRateMonitoring>500</DefaultRefreshRateMonitoring>
   </ConfigurationInfo>
   <Variable>
-    <FullName>InRow.Device1.Resource1.Alarms.TON_Fan1_Status</FullName>
+    <FullName>InRow.Device1.Resource1.Fans_Mng.PID_Adv_2_2</FullName>
   </Variable>
   <Variable>
-    <FullName>InRow.Device1.Resource1.Fans.FB_Fan1.Status</FullName>
+    <FullName>InRow.Device1.Resource1.Sa_Temp.Value</FullName>
+  </Variable>
+  <Variable>
+    <FullName>InRow.Device1.Resource1.Ea_Temp.Value</FullName>
+  </Variable>
+  <Variable>
+    <FullName>InRow.Device1.Resource1.Group.UnitOn_BMS</FullName>
   </Variable>
   <Variable>
     <FullName>InRow.Device1.Resource1.Fans.On</FullName>
+  </Variable>
+  <Variable>
+    <FullName>InRow.Device1.Resource1.Fans_Mng.calcSpeed</FullName>
+  </Variable>
+  <Variable>
+    <FullName>InRow.Device1.Resource1.Fans.Speed</FullName>
+  </Variable>
+  <Variable>
+    <FullName>InRow.Device1.Resource1.Fans_Mng.deltaTemp</FullName>
+  </Variable>
+  <Variable>
+    <FullName>InRow.Device1.Resource1.Par_DeltaTemp</FullName>
+  </Variable>
+  <Variable>
+    <FullName>InRow.Device1.Resource1.Par_FKp</FullName>
+  </Variable>
+  <Variable>
+    <FullName>InRow.Device1.Resource1.Par_FTi</FullName>
+  </Variable>
+  <Variable>
+    <FullName>InRow.Device1.Resource1.Y[2].Value</FullName>
   </Variable>
 </SpyListVars_0>

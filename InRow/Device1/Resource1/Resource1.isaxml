@@ -139,6 +139,7 @@
     <Program Name="Cooler_Mng" ElementGuid="0965de98-b3a2-4081-8c9a-f2ecb2fce10d" Language="ST" CustomFbd="0" Is1499="false" />
     <Program Name="Group_Mng" ElementGuid="fdbb0137-b28f-46af-bbbe-44767b5788b5" Language="ST" CustomFbd="0" Is1499="false" />
     <Program Name="Answer_Modbus_mng" ElementGuid="cb378c18-8a2d-4825-beb1-70470be93080" Language="ST" CustomFbd="0" Is1499="false" />
+    <Program Name="Rotation_Mng" ElementGuid="267007bb-892f-4833-a1c3-2300f20144ea" Language="ST" CustomFbd="0" Is1499="false" />
     <Program Name="IP_Conf_Mng" ElementGuid="e5adc8b7-3a83-4a68-8bb1-3ae99c445953" Language="ST" CustomFbd="0" Is1499="false" />
     <Program Name="Local_Group_Mng" ElementGuid="86e661b6-b8d9-467f-a2b1-98dcf06ee000" Language="ST" CustomFbd="0" Is1499="false" />
     <Program Name="Buzzer_Mng" ElementGuid="63385e75-f6eb-4039-a093-bf73c13e16df" Language="ST" CustomFbd="0" Is1499="false" />

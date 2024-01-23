@@ -34318,7 +34318,7 @@
           Name="Dev[0]"
           DataType="STCT_SORTING_DEVICES">
           <Variable
-            Name="Ok"
+            Name="Al"
             DataType="BOOL"
             IO="false"
             Protocol="false"
@@ -34466,7 +34466,7 @@
           Name="Dev[1]"
           DataType="STCT_SORTING_DEVICES">
           <Variable
-            Name="Ok"
+            Name="Al"
             DataType="BOOL"
             IO="false"
             Protocol="false"
@@ -34614,7 +34614,7 @@
           Name="Dev[2]"
           DataType="STCT_SORTING_DEVICES">
           <Variable
-            Name="Ok"
+            Name="Al"
             DataType="BOOL"
             IO="false"
             Protocol="false"
@@ -34762,7 +34762,7 @@
           Name="Dev[3]"
           DataType="STCT_SORTING_DEVICES">
           <Variable
-            Name="Ok"
+            Name="Al"
             DataType="BOOL"
             IO="false"
             Protocol="false"
@@ -34910,7 +34910,7 @@
           Name="Dev[4]"
           DataType="STCT_SORTING_DEVICES">
           <Variable
-            Name="Ok"
+            Name="Al"
             DataType="BOOL"
             IO="false"
             Protocol="false"
@@ -35058,7 +35058,7 @@
           Name="Dev[5]"
           DataType="STCT_SORTING_DEVICES">
           <Variable
-            Name="Ok"
+            Name="Al"
             DataType="BOOL"
             IO="false"
             Protocol="false"
@@ -35206,7 +35206,7 @@
           Name="Dev[6]"
           DataType="STCT_SORTING_DEVICES">
           <Variable
-            Name="Ok"
+            Name="Al"
             DataType="BOOL"
             IO="false"
             Protocol="false"
@@ -35354,7 +35354,7 @@
           Name="Dev[7]"
           DataType="STCT_SORTING_DEVICES">
           <Variable
-            Name="Ok"
+            Name="Al"
             DataType="BOOL"
             IO="false"
             Protocol="false"
@@ -35502,7 +35502,7 @@
           Name="Dev[8]"
           DataType="STCT_SORTING_DEVICES">
           <Variable
-            Name="Ok"
+            Name="Al"
             DataType="BOOL"
             IO="false"
             Protocol="false"
@@ -35650,7 +35650,7 @@
           Name="Dev[9]"
           DataType="STCT_SORTING_DEVICES">
           <Variable
-            Name="Ok"
+            Name="Al"
             DataType="BOOL"
             IO="false"
             Protocol="false"
@@ -35798,7 +35798,7 @@
           Name="Dev[10]"
           DataType="STCT_SORTING_DEVICES">
           <Variable
-            Name="Ok"
+            Name="Al"
             DataType="BOOL"
             IO="false"
             Protocol="false"
@@ -35946,7 +35946,7 @@
           Name="Dev[11]"
           DataType="STCT_SORTING_DEVICES">
           <Variable
-            Name="Ok"
+            Name="Al"
             DataType="BOOL"
             IO="false"
             Protocol="false"

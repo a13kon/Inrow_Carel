@@ -28,9 +28,9 @@
     <FullName>InRow.Device1.Resource1.Sort.totalOn</FullName>
   </Variable>
   <Variable>
-    <FullName>InRow.Device1.Resource1.Rotation_Mng.index</FullName>
+    <FullName>InRow.Device1.Resource1.Rotation_Mng.indexOn</FullName>
   </Variable>
   <Variable>
-    <FullName>InRow.Device1.Resource1.Rotation_Mng.startSort</FullName>
+    <FullName>InRow.Device1.Resource1.Rotation_Mng.indexOff</FullName>
   </Variable>
 </SpyListVars_0>

@@ -36397,7 +36397,7 @@
         Acronym=""
         Min=""
         Max=""
-        InitialValue="20"
+        InitialValue="5"
         StringSize="0" />
       <Variable
         Name="totalMain"
@@ -36417,6 +36417,25 @@
         Min=""
         Max=""
         InitialValue="1"
+        StringSize="0" />
+      <Variable
+        Name="rotationTime"
+        DataType="UDINT"
+        IO="false"
+        Protocol="false"
+        UI="false"
+        Default="true"
+        LogPV="false"
+        IsRetained="true"
+        Alarm="false"
+        UoM="NoUnits"
+        Comment=""
+        Kind="Var"
+        Access="ReadWrite"
+        Acronym=""
+        Min=""
+        Max=""
+        InitialValue="20"
         StringSize="0" />
     </Variable>
     <Variable

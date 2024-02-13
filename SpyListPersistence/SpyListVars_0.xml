@@ -7,12 +7,6 @@
     <DefaultRefreshRateMonitoring>500</DefaultRefreshRateMonitoring>
   </ConfigurationInfo>
   <Variable>
-    <FullName>InRow.Device1.Resource1.Hours_Mng.available</FullName>
-  </Variable>
-  <Variable>
-    <FullName>InRow.Device1.Resource1.Hours_Mng.swapCondition</FullName>
-  </Variable>
-  <Variable>
     <FullName>InRow.Device1.Resource1.Sort.totalOn</FullName>
   </Variable>
   <Variable>
@@ -22,19 +16,7 @@
     <FullName>InRow.Device1.Resource1.Hours_Mng.HoursCounterSwap.Hours</FullName>
   </Variable>
   <Variable>
-    <FullName>InRow.Device1.Resource1.Sort.Dev[0].WorkTime</FullName>
-  </Variable>
-  <Variable>
     <FullName>InRow.Device1.Resource1.Sort.swapTime</FullName>
-  </Variable>
-  <Variable>
-    <FullName>InRow.Device1.Resource1.StartupJmp</FullName>
-  </Variable>
-  <Variable>
-    <FullName>InRow.Device1.Resource1.Group.Is_slave</FullName>
-  </Variable>
-  <Variable>
-    <FullName>InRow.Device1.Resource1.Hours_Mng.RS_Swap</FullName>
   </Variable>
   <Variable>
     <FullName>InRow.Device1.Resource1.Sort.countOn</FullName>
@@ -50,5 +32,23 @@
   </Variable>
   <Variable>
     <FullName>InRow.Device1.Resource1.Rotation_Mng.indexOn</FullName>
+  </Variable>
+  <Variable>
+    <FullName>InRow.Device1.Resource1.DEBUG</FullName>
+  </Variable>
+  <Variable>
+    <FullName>InRow.Device1.Resource1.Hours_Mng.SwapCounter</FullName>
+  </Variable>
+  <Variable>
+    <FullName>InRow.Device1.Resource1.Hours_Mng.lowPCondition</FullName>
+  </Variable>
+  <Variable>
+    <FullName>InRow.Device1.Resource1.Sort.Dev[0].On</FullName>
+  </Variable>
+  <Variable>
+    <FullName>InRow.Device1.Resource1.Sort.Dev[1].On</FullName>
+  </Variable>
+  <Variable>
+    <FullName>InRow.Device1.Resource1.Sort.Dev[2].On</FullName>
   </Variable>
 </SpyListVars_0>

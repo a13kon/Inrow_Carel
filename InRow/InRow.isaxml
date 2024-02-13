@@ -495,6 +495,7 @@
         <Variable Name="countOn" DataType="DINT" Comment="" StringSize="0" Order="4" />
         <Variable Name="swapTime" DataType="UDINT" Comment="Время ротации" StringSize="0" Order="5" />
         <Variable Name="totalMain" DataType="DINT" Comment="Кол-во одновременно работающих (не резервных)" StringSize="0" Order="6" />
+        <Variable Name="rotationTime" DataType="UDINT" Comment="" StringSize="0" Order="7" />
       </Struct>
     </DataType>
     <DataType Name="STCT_Filter" Comment="" Access="UserDefined">

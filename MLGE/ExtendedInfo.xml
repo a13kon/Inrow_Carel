@@ -381,6 +381,9 @@
   <AcfElementGuid Guid="e331218b-b732-4113-bb7c-a7d97991c4c7">
     <File>MoistureContent.AcfMlge</File>
   </AcfElementGuid>
+  <AcfElementGuid Guid="e4919c5c-7005-41ce-90a9-7e5fee9ab435">
+    <File>Hours_Mng.AcfMlge</File>
+  </AcfElementGuid>
   <AcfElementGuid Guid="e5adc8b7-3a83-4a68-8bb1-3ae99c445953">
     <File>IP_Conf_Mng.AcfMlge</File>
   </AcfElementGuid>

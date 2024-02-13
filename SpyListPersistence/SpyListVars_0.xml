@@ -1,36 +1,54 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <SpyListVars_0>
   <ConfigurationInfo>
-    <SpyListName>Sorting</SpyListName>
+    <SpyListName>Hours</SpyListName>
     <ConfigFileVersion>3</ConfigFileVersion>
     <ToolWindowPaneIndex>0</ToolWindowPaneIndex>
     <DefaultRefreshRateMonitoring>500</DefaultRefreshRateMonitoring>
   </ConfigurationInfo>
   <Variable>
-    <FullName>InRow.Device1.Resource1.Sort.Dev</FullName>
+    <FullName>InRow.Device1.Resource1.Hours_Mng.available</FullName>
   </Variable>
   <Variable>
-    <FullName>InRow.Device1.Resource1.Group.old_InRow_qua</FullName>
-  </Variable>
-  <Variable>
-    <FullName>InRow.Device1.Resource1.Group.InRow_qua</FullName>
-  </Variable>
-  <Variable>
-    <FullName>InRow.Device1.Resource1.Rotation_Mng.j</FullName>
-  </Variable>
-  <Variable>
-    <FullName>InRow.Device1.Resource1.Rotation_Mng.i</FullName>
-  </Variable>
-  <Variable>
-    <FullName>InRow.Device1.Resource1.Sort.countOn</FullName>
+    <FullName>InRow.Device1.Resource1.Hours_Mng.swapCondition</FullName>
   </Variable>
   <Variable>
     <FullName>InRow.Device1.Resource1.Sort.totalOn</FullName>
   </Variable>
   <Variable>
-    <FullName>InRow.Device1.Resource1.Rotation_Mng.indexOn</FullName>
+    <FullName>InRow.Device1.Resource1.Sort.totalMain</FullName>
+  </Variable>
+  <Variable>
+    <FullName>InRow.Device1.Resource1.Hours_Mng.HoursCounterSwap.Hours</FullName>
+  </Variable>
+  <Variable>
+    <FullName>InRow.Device1.Resource1.Sort.Dev[0].WorkTime</FullName>
+  </Variable>
+  <Variable>
+    <FullName>InRow.Device1.Resource1.Sort.swapTime</FullName>
+  </Variable>
+  <Variable>
+    <FullName>InRow.Device1.Resource1.StartupJmp</FullName>
+  </Variable>
+  <Variable>
+    <FullName>InRow.Device1.Resource1.Group.Is_slave</FullName>
+  </Variable>
+  <Variable>
+    <FullName>InRow.Device1.Resource1.Hours_Mng.RS_Swap</FullName>
+  </Variable>
+  <Variable>
+    <FullName>InRow.Device1.Resource1.Sort.countOn</FullName>
+  </Variable>
+  <Variable>
+    <FullName>InRow.Device1.Resource1.Sort.Dev</FullName>
+  </Variable>
+  <Variable>
+    <FullName>InRow.Device1.Resource1.Group.InRow_qua</FullName>
   </Variable>
   <Variable>
     <FullName>InRow.Device1.Resource1.Rotation_Mng.indexOff</FullName>
+  </Variable>
+  <Variable>
+    <FullName>InRow.Device1.Resource1.Rotation_Mng.indexOn</FullName>
   </Variable>
 </SpyListVars_0>

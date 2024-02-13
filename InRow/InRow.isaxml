@@ -477,9 +477,8 @@
         <Variable Name="TotalTime" DataType="UDINT" Comment="Время наработки" StringSize="0" Order="4" />
         <Variable Name="DownTime" DataType="UDINT" Comment="Минимальное время простоя после ротации" StringSize="0" Order="5" />
         <Variable Name="LowPrio" DataType="BOOL" Comment="Флаг низкого приоритета после ротации" StringSize="0" Order="6" />
-        <Variable Name="Prio" DataType="DINT" Comment="Приоритет устройства" StringSize="0" Order="7" />
-        <Variable Name="On" DataType="BOOL" Comment="Флаг включения" StringSize="0" Order="8" />
-        <Variable Name="TotalTimeRetain" DataType="UDINT" Comment="Энергонезависимое время наработки" StringSize="0" Order="9" />
+        <Variable Name="On" DataType="BOOL" Comment="Флаг включения" StringSize="0" Order="7" />
+        <Variable Name="TotalTimeRetain" DataType="UDINT" Comment="Энергонезависимое время наработки" StringSize="0" Order="8" />
       </Struct>
     </DataType>
     <DataType Name="ARR_SORTING" Comment="" Access="UserDefined">

@@ -51,4 +51,7 @@
   <Variable>
     <FullName>InRow.Device1.Resource1.Sort.Dev[2].On</FullName>
   </Variable>
+  <Variable>
+    <FullName>InRow.Device1.Resource1.Hours_Mng.offByLP</FullName>
+  </Variable>
 </SpyListVars_0>

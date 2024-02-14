@@ -52,6 +52,15 @@
     <FullName>InRow.Device1.Resource1.Sort.Dev[2].On</FullName>
   </Variable>
   <Variable>
+    <FullName>InRow.Device1.Resource1.Sort.Dev[3].On</FullName>
+  </Variable>
+  <Variable>
     <FullName>InRow.Device1.Resource1.Hours_Mng.offByLP</FullName>
+  </Variable>
+  <Variable>
+    <FullName>InRow.Device1.Resource1.Rotation_Mng.i</FullName>
+  </Variable>
+  <Variable>
+    <FullName>InRow.Device1.Resource1.Rotation_Mng.j</FullName>
   </Variable>
 </SpyListVars_0>

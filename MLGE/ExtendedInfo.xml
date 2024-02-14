@@ -189,6 +189,9 @@
   <AcfElementGuid Guid="64cef381-f4ba-4d3c-a87a-d163ed17b631">
     <File>Sel_BOOL.acfmlge</File>
   </AcfElementGuid>
+  <AcfElementGuid Guid="6a6737da-5d39-41a5-b9d8-93ff8be1e11a">
+    <File>Align_Mng.AcfMlge</File>
+  </AcfElementGuid>
   <AcfElementGuid Guid="6b5af844-a341-407a-be84-c77293692761">
     <File>REdge.acfmlge</File>
   </AcfElementGuid>

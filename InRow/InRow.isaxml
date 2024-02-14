@@ -479,6 +479,9 @@
         <Variable Name="LowPrio" DataType="BOOL" Comment="Флаг низкого приоритета после ротации" StringSize="0" Order="6" />
         <Variable Name="On" DataType="BOOL" Comment="Флаг включения" StringSize="0" Order="7" />
         <Variable Name="TotalTimeRetain" DataType="UDINT" Comment="Энергонезависимое время наработки" StringSize="0" Order="8" />
+        <Variable Name="AlignL" DataType="BOOL" Comment="Уменьшить время ротации" StringSize="0" Order="9" />
+        <Variable Name="AlignG" DataType="BOOL" Comment="Увеличить время ротации" StringSize="0" Order="10" />
+        <Variable Name="rotationTime" DataType="UDINT" Comment="Конечное время ротации устройства" StringSize="0" Order="11" />
       </Struct>
     </DataType>
     <DataType Name="ARR_SORTING" Comment="" Access="UserDefined">
@@ -495,6 +498,7 @@
         <Variable Name="swapTime" DataType="UDINT" Comment="Время ротации" StringSize="0" Order="5" />
         <Variable Name="totalMain" DataType="DINT" Comment="Кол-во одновременно работающих (не резервных)" StringSize="0" Order="6" />
         <Variable Name="rotationTime" DataType="UDINT" Comment="" StringSize="0" Order="7" />
+        <Variable Name="align" DataType="STCT_Align" Comment="Автоматическое выравнивание наработки" StringSize="0" Order="8" />
       </Struct>
     </DataType>
     <DataType Name="STCT_Filter" Comment="" Access="UserDefined">
@@ -896,6 +900,19 @@
         <Variable Name="Trigger" DataType="BOOL" Comment="Alarm status Trigger" StringSize="0" Order="1" />
         <Variable Name="Active" DataType="BOOL" Comment="Alarm status" StringSize="0" Order="2" />
       </Struct>
+    </DataType>
+    <DataType Name="STCT_Align" Comment="Выравнивание наработки" Access="UserDefined">
+      <Struct FieldOrder="0" Order="1">
+        <Variable Name="en" DataType="BOOL" Comment="Флаг включения" StringSize="0" Order="1" />
+        <Variable Name="diff" DataType="UDINT" Comment="Разница между максимальной и минимальной наработками" StringSize="0" Order="2" />
+        <Variable Name="compens" DataType="UDINT" Comment="Компенсация ротации" StringSize="0" Order="3" />
+        <Variable Name="least" DataType="DINT" Comment="Индекс наименьшей наработки" StringSize="0" Order="4" />
+        <Variable Name="greatest" DataType="DINT" Comment="Индекс наибольшей наработки" StringSize="0" Order="5" />
+        <Variable Name="active" DataType="BOOL" Comment="Активация при разнице наработок" StringSize="0" Order="6" />
+      </Struct>
+    </DataType>
+    <DataType Name="lowest" Comment="" Access="UserDefined">
+      <Struct FieldOrder="0" Order="1" />
     </DataType>
   </DataTypes>
   <Networks>

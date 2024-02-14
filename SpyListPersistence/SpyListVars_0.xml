@@ -34,9 +34,6 @@
     <FullName>InRow.Device1.Resource1.Rotation_Mng.indexOn</FullName>
   </Variable>
   <Variable>
-    <FullName>InRow.Device1.Resource1.DEBUG</FullName>
-  </Variable>
-  <Variable>
     <FullName>InRow.Device1.Resource1.Hours_Mng.SwapCounter</FullName>
   </Variable>
   <Variable>
@@ -62,5 +59,32 @@
   </Variable>
   <Variable>
     <FullName>InRow.Device1.Resource1.Rotation_Mng.j</FullName>
+  </Variable>
+  <Variable>
+    <FullName>InRow.Device1.Resource1.Sort.align.least</FullName>
+  </Variable>
+  <Variable>
+    <FullName>InRow.Device1.Resource1.Sort.align.greatest</FullName>
+  </Variable>
+  <Variable>
+    <FullName>InRow.Device1.Resource1.Rotation_Mng.DEBUG</FullName>
+  </Variable>
+  <Variable>
+    <FullName>InRow.Device1.Resource1.Align_Mng.DEBUG</FullName>
+  </Variable>
+  <Variable>
+    <FullName>InRow.Device1.Resource1.Hours_Mng.DEBUG</FullName>
+  </Variable>
+  <Variable>
+    <FullName>InRow.Device1.Resource1.Sort.align.active</FullName>
+  </Variable>
+  <Variable>
+    <FullName>InRow.Device1.Resource1.Sort.align.en</FullName>
+  </Variable>
+  <Variable>
+    <FullName>InRow.Device1.Resource1.Sort.align.compens</FullName>
+  </Variable>
+  <Variable>
+    <FullName>InRow.Device1.Resource1.Sort.align.diff</FullName>
   </Variable>
 </SpyListVars_0>

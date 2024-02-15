@@ -2,8 +2,8 @@
 Memory Usage Estimate(Temporary variables)=0x25B4
 Biggest online change user variable memory block size=0x0
 Currently added user variables=0x0
-Total data size=0x5440
-User variables size=0x2E8C
+Total data size=0x5444
+User variables size=0x2E90
 Maximum size for temporary variables=0x125B4
-Memory Usage Estimate(Data)=0x15440
+Memory Usage Estimate(Data)=0x15444
 Free memory for user variables=0x0

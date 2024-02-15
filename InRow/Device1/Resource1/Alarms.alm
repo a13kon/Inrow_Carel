@@ -30,4 +30,5 @@
   <Alarm Name="CfgErrAlrm_CPCOE_2" Type="AutoReset" Trigger="CfgErrAlrm_CPCOE_2.Trigger" Active="CfgErrAlrm_CPCOE_2.Active" Description="Неправильная конфигурация модуля расширения." />
   <Alarm Name="FLR_Fire" Type="AutoReset" Trigger="FLR_Fire.Trigger" Active="FLR_Fire.Active" Description="Пожарная тревога" />
   <Alarm Name="FLR_TRSensor" Type="AutoReset" Trigger="FLR_TRSensor.Trigger" Active="FLR_TRSensor.Active" Description="Заполнение поддона" />
+  <Alarm Name="FLR_ReedSwitch" Type="AutoReset" Trigger="FLR_ReedSwitch.Trigger" Active="FLR_ReedSwitch.Active" Description="Концевой выключатель двери" />
 </Alarms>

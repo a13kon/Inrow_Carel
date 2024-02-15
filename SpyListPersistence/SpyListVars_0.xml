@@ -66,4 +66,7 @@
   <Variable>
     <FullName>InRow.Device1.Resource1.UnitOn</FullName>
   </Variable>
+  <Variable>
+    <FullName>InRow.Device1.Resource1.UnitStatus</FullName>
+  </Variable>
 </SpyListVars_0>

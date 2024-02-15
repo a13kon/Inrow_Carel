@@ -7,22 +7,7 @@
     <DefaultRefreshRateMonitoring>500</DefaultRefreshRateMonitoring>
   </ConfigurationInfo>
   <Variable>
-    <FullName>InRow.Device1.Resource1.Sort.totalOn</FullName>
-  </Variable>
-  <Variable>
-    <FullName>InRow.Device1.Resource1.Sort.totalMain</FullName>
-  </Variable>
-  <Variable>
     <FullName>InRow.Device1.Resource1.Hours_Mng.HoursCounterSwap.Hours</FullName>
-  </Variable>
-  <Variable>
-    <FullName>InRow.Device1.Resource1.Sort.swapTime</FullName>
-  </Variable>
-  <Variable>
-    <FullName>InRow.Device1.Resource1.Sort.countOn</FullName>
-  </Variable>
-  <Variable>
-    <FullName>InRow.Device1.Resource1.Sort.Dev</FullName>
   </Variable>
   <Variable>
     <FullName>InRow.Device1.Resource1.Group.InRow_qua</FullName>
@@ -40,18 +25,6 @@
     <FullName>InRow.Device1.Resource1.Hours_Mng.lowPCondition</FullName>
   </Variable>
   <Variable>
-    <FullName>InRow.Device1.Resource1.Sort.Dev[0].On</FullName>
-  </Variable>
-  <Variable>
-    <FullName>InRow.Device1.Resource1.Sort.Dev[1].On</FullName>
-  </Variable>
-  <Variable>
-    <FullName>InRow.Device1.Resource1.Sort.Dev[2].On</FullName>
-  </Variable>
-  <Variable>
-    <FullName>InRow.Device1.Resource1.Sort.Dev[3].On</FullName>
-  </Variable>
-  <Variable>
     <FullName>InRow.Device1.Resource1.Hours_Mng.offByLP</FullName>
   </Variable>
   <Variable>
@@ -59,12 +32,6 @@
   </Variable>
   <Variable>
     <FullName>InRow.Device1.Resource1.Rotation_Mng.j</FullName>
-  </Variable>
-  <Variable>
-    <FullName>InRow.Device1.Resource1.Sort.align.least</FullName>
-  </Variable>
-  <Variable>
-    <FullName>InRow.Device1.Resource1.Sort.align.greatest</FullName>
   </Variable>
   <Variable>
     <FullName>InRow.Device1.Resource1.Rotation_Mng.DEBUG</FullName>
@@ -76,15 +43,27 @@
     <FullName>InRow.Device1.Resource1.Hours_Mng.DEBUG</FullName>
   </Variable>
   <Variable>
-    <FullName>InRow.Device1.Resource1.Sort.align.active</FullName>
+    <FullName>InRow.Device1.Resource1.Hours_Mng.switchTime</FullName>
   </Variable>
   <Variable>
-    <FullName>InRow.Device1.Resource1.Sort.align.en</FullName>
+    <FullName>InRow.Device1.Resource1.Hours_Mng.swapAdj</FullName>
   </Variable>
   <Variable>
-    <FullName>InRow.Device1.Resource1.Sort.align.compens</FullName>
+    <FullName>InRow.Device1.Resource1.Hours_Mng.workAdj</FullName>
   </Variable>
   <Variable>
-    <FullName>InRow.Device1.Resource1.Sort.align.diff</FullName>
+    <FullName>InRow.Device1.Resource1.Hours_Mng.downAdj</FullName>
+  </Variable>
+  <Variable>
+    <FullName>InRow.Device1.Resource1.inrow</FullName>
+  </Variable>
+  <Variable>
+    <FullName>InRow.Device1.Resource1.Group.Is_master</FullName>
+  </Variable>
+  <Variable>
+    <FullName>InRow.Device1.Resource1.Group.Mode</FullName>
+  </Variable>
+  <Variable>
+    <FullName>InRow.Device1.Resource1.UnitOn</FullName>
   </Variable>
 </SpyListVars_0>

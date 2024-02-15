@@ -328,6 +328,9 @@
     <DefineWord Name="DF_FILTER_NUM_ON_OFF" Define="2" Comment="" Access="UserDefined" />
     <DefineWord Name="DF_REED_SWITCH" Define="5" Comment="" Access="UserDefined" />
     <DefineWord Name="DF_RETAIN_SAVE" Define="3" Comment="" Access="UserDefined" />
+    <DefineWord Name="DF_MODE_SOLO" Define="0" Comment="" Access="UserDefined" />
+    <DefineWord Name="DF_MODE_RESERVE_ROTATION" Define="1" Comment="" Access="UserDefined" />
+    <DefineWord Name="DF_MODE_POWER_RESERVE" Define="2" Comment="" Access="UserDefined" />
   </DefineWords>
   <DataTypes>
     <DataType Name="STCT_Analog_IO" Comment="Переменные входов/выходов" Access="UserDefined">
@@ -471,17 +474,17 @@
     </DataType>
     <DataType Name="STCT_SORTING_DEVICES" Comment="" Access="UserDefined">
       <Struct FieldOrder="0" Order="1">
-        <Variable Name="Al" DataType="BOOL" Comment="Статус устройства" StringSize="0" Order="1" />
-        <Variable Name="En" DataType="BOOL" Comment="Активация устройства" StringSize="0" Order="2" />
-        <Variable Name="WorkTime" DataType="UDINT" Comment="Время работы без перерыва" StringSize="0" Order="3" />
-        <Variable Name="TotalTime" DataType="UDINT" Comment="Время наработки" StringSize="0" Order="4" />
-        <Variable Name="DownTime" DataType="UDINT" Comment="Минимальное время простоя после ротации" StringSize="0" Order="5" />
-        <Variable Name="LowPrio" DataType="BOOL" Comment="Флаг низкого приоритета после ротации" StringSize="0" Order="6" />
-        <Variable Name="On" DataType="BOOL" Comment="Флаг включения" StringSize="0" Order="7" />
-        <Variable Name="TotalTimeRetain" DataType="UDINT" Comment="Энергонезависимое время наработки" StringSize="0" Order="8" />
-        <Variable Name="AlignL" DataType="BOOL" Comment="Уменьшить время ротации" StringSize="0" Order="9" />
-        <Variable Name="AlignG" DataType="BOOL" Comment="Увеличить время ротации" StringSize="0" Order="10" />
-        <Variable Name="rotationTime" DataType="UDINT" Comment="Конечное время ротации устройства" StringSize="0" Order="11" />
+        <Variable Name="Al" DataType="BOOL" Comment="Статус аварии" StringSize="0" Order="1" />
+        <Variable Name="WorkTime" DataType="UDINT" Comment="Время работы без перерыва" StringSize="0" Order="2" />
+        <Variable Name="TotalTime" DataType="UDINT" Comment="Время наработки" StringSize="0" Order="3" />
+        <Variable Name="DownTime" DataType="UDINT" Comment="Минимальное время простоя после ротации" StringSize="0" Order="4" />
+        <Variable Name="LowPrio" DataType="BOOL" Comment="Флаг низкого приоритета после ротации" StringSize="0" Order="5" />
+        <Variable Name="On" DataType="BOOL" Comment="Флаг включения" StringSize="0" Order="6" />
+        <Variable Name="TotalTimeRetain" DataType="UDINT" Comment="Энергонезависимое время наработки" StringSize="0" Order="7" />
+        <Variable Name="AlignL" DataType="BOOL" Comment="Уменьшить время ротации" StringSize="0" Order="8" />
+        <Variable Name="AlignG" DataType="BOOL" Comment="Увеличить время ротации" StringSize="0" Order="9" />
+        <Variable Name="rotationTime" DataType="UDINT" Comment="Конечное время ротации устройства" StringSize="0" Order="10" />
+        <Variable Name="En" DataType="BOOL" Comment="Статус устрйоства" StringSize="0" Order="11" />
       </Struct>
     </DataType>
     <DataType Name="ARR_SORTING" Comment="" Access="UserDefined">
@@ -754,7 +757,7 @@
     </DataType>
     <DataType Name="STCT_Group" Comment="" Access="UserDefined">
       <Struct FieldOrder="0" Order="1">
-        <Variable Name="Mode" DataType="BYTE" Comment="Групповой режим. Одиночный, локальный, удаленный" StringSize="0" Order="1" />
+        <Variable Name="Mode" DataType="BYTE" Comment="Групповой режим. Одиночный, Ротация + Резерв, Резерв мощности" StringSize="0" Order="1" />
         <Variable Name="Reboot" DataType="BOOL" Comment="Флаг перезагрузки" StringSize="0" Order="2" />
         <Variable Name="Is_master" DataType="BOOL" Comment="Флаг мастера" StringSize="0" Order="3" />
         <Variable Name="Is_slave" DataType="BOOL" Comment="Флаг слейва" StringSize="0" Order="4" />

@@ -336,6 +336,9 @@
   <AcfElementGuid Guid="c84f273d-1453-419d-9a47-1fe1fbd47e93">
     <File>UnitMeas_P_INT.acfmlge</File>
   </AcfElementGuid>
+  <AcfElementGuid Guid="c89caaa7-d12c-464d-986a-7607079a1581">
+    <File>Humidity_Mng.AcfMlge</File>
+  </AcfElementGuid>
   <AcfElementGuid Guid="cb07aff4-7ccb-46d7-ad53-157c6c0b03f8">
     <File>RangeUniv_REAL.acfmlge</File>
   </AcfElementGuid>
@@ -362,6 +365,9 @@
   </AcfElementGuid>
   <AcfElementGuid Guid="db9a6cc7-feda-467c-a410-2797b990737a">
     <File>cpCOe_2_StatusMng.acfmlge</File>
+  </AcfElementGuid>
+  <AcfElementGuid Guid="df3f9025-b6a6-4df1-94ec-395ad9bae2dc">
+    <File>CPY_Mng.AcfMlge</File>
   </AcfElementGuid>
   <AcfElementGuid Guid="df83c858-486d-4873-8e8d-df34c0c1c73f">
     <File>DewPoint_REAL.acfmlge</File>

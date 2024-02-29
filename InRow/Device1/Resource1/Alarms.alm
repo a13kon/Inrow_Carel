@@ -31,4 +31,24 @@
   <Alarm Name="FLR_Fire" Type="AutoReset" Trigger="FLR_Fire.Trigger" Active="FLR_Fire.Active" Description="Пожарная тревога" />
   <Alarm Name="FLR_TRSensor" Type="AutoReset" Trigger="FLR_TRSensor.Trigger" Active="FLR_TRSensor.Active" Description="Заполнение поддона" />
   <Alarm Name="FLR_ReedSwitch" Type="AutoReset" Trigger="FLR_ReedSwitch.Trigger" Active="FLR_ReedSwitch.Active" Description="Концевой выключатель двери" />
+  <Alarm Name="FLR_Humid" Type="AutoReset" Trigger="FLR_Humid.Trigger" Active="FLR_Humid.Active" Description="Авария пароувлажнителя (дискретный вход)" />
+  <Alarm Name="FLR_Offline_CPY" Type="AutoReset" Trigger="FLR_Offline_CPY.Trigger" Active="FLR_Offline_CPY.Active" Description="Потеря связи CPY" />
+  <Alarm Name="FLR_ExpCylLife_CPY" Type="AutoReset" Trigger="FLR_ExpCylLife_CPY.Trigger" Active="FLR_ExpCylLife_CPY.Active" Description="Mn: превышен ресурс бака" />
+  <Alarm Name="FLR_HiConduct_CPY" Type="AutoReset" Trigger="FLR_HiConduct_CPY.Trigger" Active="FLR_HiConduct_CPY.Active" Description="EC: высокая электропроводность" />
+  <Alarm Name="FLR_ParamsNotDwnld" Type="AutoReset" Trigger="FLR_ParamsNotDwnld.Trigger" Active="FLR_ParamsNotDwnld.Active" Description="E1: ошибка конфигурации" />
+  <Alarm Name="FLR_CalibrationParams_CPY" Type="AutoReset" Trigger="FLR_CalibrationParams_CPY.Trigger" Active="FLR_CalibrationParams_CPY.Active" Description="E0: ошибка внутренней памяти CPY" />
+  <Alarm Name="FLR_LowProduction_CPY" Type="AutoReset" Trigger="FLR_LowProduction_CPY.Trigger" Active="FLR_LowProduction_CPY.Active" Description="EP: низкая паропроизводительность" />
+  <Alarm Name="FLR_HiCurr_CPY" Type="AutoReset" Trigger="FLR_HiCurr_CPY.Trigger" Active="FLR_HiCurr_CPY.Active" Description="EH: превышение значения тока на электродах" />
+  <Alarm Name="FLR_CylFull_CPY" Type="AutoReset" Trigger="FLR_CylFull_CPY.Trigger" Active="FLR_CylFull_CPY.Active" Description="EU: высокий уровень воды в баке" />
+  <Alarm Name="FLR_PrbNotConnected_CPY" Type="AutoReset" Trigger="FLR_PrbNotConnected_CPY.Trigger" Active="FLR_PrbNotConnected_CPY.Active" Description="E3: отсутствует сигнал внешнего управления" />
+  <Alarm Name="FLR_MissingW_CPY" Type="AutoReset" Trigger="FLR_MissingW_CPY.Trigger" Active="FLR_MissingW_CPY.Active" Description="EF: нет воды" />
+  <Alarm Name="FLR_AlrmDrn_CPY" Type="AutoReset" Trigger="FLR_AlrmDrn_CPY.Trigger" Active="FLR_AlrmDrn_CPY.Active" Description="Ed: отказ слива" />
+  <Alarm Name="FLR_HiHum_CPY" Type="AutoReset" Trigger="FLR_HiHum_CPY.Trigger" Active="FLR_HiHum_CPY.Active" Description="Eh1: высокая влажность" />
+  <Alarm Name="FLR_LowHum_CPY" Type="AutoReset" Trigger="FLR_LowHum_CPY.Trigger" Active="FLR_LowHum_CPY.Active" Description="Eh2: низкая влажность" />
+  <Alarm Name="FLR_SerialDisconnected_CPY" Type="AutoReset" Trigger="FLR_SerialDisconnected_CPY.Trigger" Active="FLR_SerialDisconnected_CPY.Active" Description="SU: нет связи по последовательному соединению" />
+  <Alarm Name="FLR_CylLifeWarn_CPY" Type="AutoReset" Trigger="FLR_CylLifeWarn_CPY.Trigger" Active="FLR_CylLifeWarn_CPY.Active" Description="Предупреждение CY: наработка бака достигла порога" />
+  <Alarm Name="FLR_FoamWarn_CPY" Type="AutoReset" Trigger="FLR_FoamWarn_CPY.Trigger" Active="FLR_FoamWarn_CPY.Active" Description="Предупреждение EA: пена" />
+  <Alarm Name="FLR_PreExhaustWarn_CPY" Type="AutoReset" Trigger="FLR_PreExhaustWarn_CPY.Trigger" Active="FLR_PreExhaustWarn_CPY.Active" Description="Предупреждение CP:  требуется обслуживание бака" />
+  <Alarm Name="FLR_CylExhaustWarn_CPY" Type="AutoReset" Trigger="FLR_CylExhaustWarn_CPY.Trigger" Active="FLR_CylExhaustWarn_CPY.Active" Description="Предупреждение CL: ресурс бака истёк" />
+  <Alarm Name="FLR_BkpMemExhaustWarn_CPY" Type="AutoReset" Trigger="FLR_BkpMemExhaustWarn_CPY.Trigger" Active="FLR_BkpMemExhaustWarn_CPY.Active" Description="Предупреждение E2: ошибка сохранения в памяти CPY" />
 </Alarms>

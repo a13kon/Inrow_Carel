@@ -97,7 +97,7 @@
         IsRetained="false"
         Alarm="false"
         UoM="NoUnits"
-        Comment="TRUE when CLK rises from FALSE to TRUE. False in other cases"
+        Comment="TRUE when CLK changes from TRUE to FALSE. FALSE if all other cases"
         Kind="VarOutput"
         Access="ReadWrite"
         Acronym=""

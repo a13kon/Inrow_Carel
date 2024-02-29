@@ -331,6 +331,10 @@
     <DefineWord Name="DF_MODE_SOLO" Define="0" Comment="" Access="UserDefined" />
     <DefineWord Name="DF_MODE_RESERVE_ROTATION" Define="1" Comment="" Access="UserDefined" />
     <DefineWord Name="DF_MODE_POWER_RESERVE" Define="2" Comment="" Access="UserDefined" />
+    <DefineWord Name="DF_KUESRF0W21" Define="9" Comment="3 кг/ч, 230В, насос" Access="UserDefined" />
+    <DefineWord Name="DF_KUET2C0W21" Define="33" Comment="8 кг/ч, 400В, насос" Access="UserDefined" />
+    <DefineWord Name="DF_KUET3C0W21" Define="47" Comment="15 кг/ч, 400В, насос" Access="UserDefined" />
+    <DefineWord Name="DF_CPY_NO_CONNECTION" Define="12" Comment="" Access="UserDefined" />
   </DefineWords>
   <DataTypes>
     <DataType Name="STCT_Analog_IO" Comment="Переменные входов/выходов" Access="UserDefined">
@@ -915,6 +919,57 @@
       <Struct FieldOrder="1" Order="4">
         <Variable Name="Trigger" DataType="BOOL" Comment="Alarm status Trigger" StringSize="0" Order="1" />
         <Variable Name="Active" DataType="BOOL" Comment="Alarm status" StringSize="0" Order="2" />
+      </Struct>
+    </DataType>
+    <DataType Name="CPY_WARN_CPY" Comment="CPY warnings" Access="UserDefined">
+      <Struct FieldOrder="0" Order="1">
+        <Variable Name="CylLife" DataType="BOOL" Comment="Cylinder life warning CY" StringSize="0" Order="1" />
+        <Variable Name="Foam" DataType="BOOL" Comment="Foam detected warning EA" StringSize="0" Order="2" />
+        <Variable Name="PreExhaustion" DataType="BOOL" Comment="Pre-depletion warning CP" StringSize="0" Order="3" />
+        <Variable Name="CylExhausted" DataType="BOOL" Comment="Cylinder depleted warning CL" StringSize="0" Order="4" />
+        <Variable Name="BkpMemExhausted" DataType="BOOL" Comment="Backup memory failure warning E2" StringSize="0" Order="5" />
+      </Struct>
+    </DataType>
+    <DataType Name="STCT_CPY_Params" Comment="" Access="UserDefined">
+      <Struct FieldOrder="0" Order="1">
+        <Variable Name="Addr" DataType="UDINT" Comment="" StringSize="0" Order="1" />
+        <Variable Name="Baudrate" DataType="INT" Comment="" StringSize="0" Order="2" />
+        <Variable Name="ConductW" DataType="INT" Comment="" StringSize="0" Order="3" />
+        <Variable Name="ConductWWarning" DataType="INT" Comment="" StringSize="0" Order="4" />
+        <Variable Name="ConductWAlrm" DataType="INT" Comment="" StringSize="0" Order="5" />
+        <Variable Name="CylinderMaintLimThrsh" DataType="INT" Comment="" StringSize="0" Order="6" />
+        <Variable Name="DrnDilutionFreqAdj" DataType="INT" Comment="" StringSize="0" Order="7" />
+        <Variable Name="DrnDurationAdj" DataType="INT" Comment="" StringSize="0" Order="8" />
+        <Variable Name="DTOff" DataType="INT" Comment="" StringSize="0" Order="9" />
+        <Variable Name="FoamDetectThrsh" DataType="INT" Comment="" StringSize="0" Order="10" />
+        <Variable Name="FrameCfg" DataType="INT" Comment="" StringSize="0" Order="11" />
+        <Variable Name="InactivityDrnDayWait" DataType="INT" Comment="" StringSize="0" Order="12" />
+        <Variable Name="OfflineStop" DataType="BOOL" Comment="" StringSize="0" Order="13" />
+        <Variable Name="PeriodicDrnHrsWait" DataType="INT" Comment="" StringSize="0" Order="14" />
+        <Variable Name="SerialAlrmDT" DataType="REAL" Comment="" StringSize="0" Order="15" />
+        <Variable Name="UnitOfMeasure" DataType="INT" Comment="" StringSize="0" Order="16" />
+        <Variable Name="MaxProduct" DataType="INT" Comment="" StringSize="0" Order="17" />
+        <Variable Name="OperationMode" DataType="INT" Comment="" StringSize="0" Order="18" />
+        <Variable Name="OptionalFctBits_0" DataType="BOOL" Comment="" StringSize="0" Order="19" />
+        <Variable Name="OptionalFctBits_1" DataType="BOOL" Comment="" StringSize="0" Order="20" />
+        <Variable Name="OptionalFctBits_2" DataType="BOOL" Comment="" StringSize="0" Order="21" />
+        <Variable Name="OptionalFctBits_3" DataType="BOOL" Comment="" StringSize="0" Order="22" />
+        <Variable Name="OptionalFctBits_4" DataType="BOOL" Comment="" StringSize="0" Order="23" />
+        <Variable Name="OptionalFctBits_5" DataType="BOOL" Comment="" StringSize="0" Order="24" />
+        <Variable Name="OptionalFctBits_6" DataType="BOOL" Comment="" StringSize="0" Order="25" />
+        <Variable Name="OptionalFctBits_7" DataType="BOOL" Comment="" StringSize="0" Order="26" />
+      </Struct>
+    </DataType>
+    <DataType Name="STCT_Humid" Comment="" Access="UserDefined">
+      <Struct FieldOrder="0" Order="1">
+        <Variable Name="Type" DataType="SINT" Comment="" StringSize="0" Order="1" />
+        <Variable Name="Use" DataType="BOOL" Comment="" StringSize="0" Order="2" />
+        <Variable Name="DO" DataType="BOOL" Comment="" StringSize="0" Order="3" />
+        <Variable Name="AO" DataType="REAL" Comment="" StringSize="0" Order="4" />
+        <Variable Name="State" DataType="INT" Comment="" StringSize="0" Order="5" />
+        <Variable Name="CntDwn" DataType="INT" Comment="" StringSize="0" Order="6" />
+        <Variable Name="FB" DataType="BOOL" Comment="" StringSize="0" Order="7" />
+        <Variable Name="ActualType" DataType="SINT" Comment="" StringSize="0" Order="8" />
       </Struct>
     </DataType>
   </DataTypes>

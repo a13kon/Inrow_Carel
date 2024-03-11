@@ -18468,7 +18468,7 @@
         Acronym=""
         Min="1"
         Max="207"
-        InitialValue="1"
+        InitialValue="4"
         StringSize="0" />
       <Variable
         Name="Baudrate"

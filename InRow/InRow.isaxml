@@ -975,6 +975,12 @@
         <Variable Name="Active" DataType="BOOL" Comment="Alarm status" StringSize="0" Order="2" />
       </Struct>
     </DataType>
+    <DataType Name="STCT_UnitOn" Comment="" Access="UserDefined">
+      <Struct FieldOrder="0" Order="1">
+        <Variable Name="Slave" DataType="BOOL" Comment="" StringSize="0" Order="1" />
+        <Variable Name="Display" DataType="BOOL" Comment="" StringSize="0" Order="2" />
+      </Struct>
+    </DataType>
   </DataTypes>
   <Networks>
     <Network Name="HSD" SingleTextLine="" LocalNet="true" DistributedNet="false" Comment="" UsedForBinding="true" BindingService="false" AllowWorkbenchCommunications="true">

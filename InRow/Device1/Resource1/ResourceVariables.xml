@@ -41308,6 +41308,48 @@
       Max=""
       StringSize="0" />
     <Variable
+      Name="UnitOnBms"
+      Comment=""
+      DataType="STCT_UnitOn"
+      Kind="Var">
+      <Variable
+        Name="Slave"
+        DataType="BOOL"
+        IO="false"
+        Protocol="true"
+        UI="false"
+        Default="false"
+        LogPV="false"
+        IsRetained="false"
+        Alarm="false"
+        UoM="NoUnits"
+        Comment=""
+        Kind="Var"
+        Access="ReadWrite"
+        Acronym=""
+        Min=""
+        Max=""
+        StringSize="0" />
+      <Variable
+        Name="Display"
+        DataType="BOOL"
+        IO="false"
+        Protocol="true"
+        UI="false"
+        Default="false"
+        LogPV="false"
+        IsRetained="false"
+        Alarm="false"
+        UoM="NoUnits"
+        Comment=""
+        Kind="Var"
+        Access="ReadWrite"
+        Acronym=""
+        Min=""
+        Max=""
+        StringSize="0" />
+    </Variable>
+    <Variable
       Name="UnitStatus"
       Comment="Статус установки"
       DataType="USINT"

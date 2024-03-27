@@ -1,61 +1,19 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <SpyListVars_0>
   <ConfigurationInfo>
-    <SpyListName>Hours</SpyListName>
+    <SpyListName>Spy List Name[2]</SpyListName>
     <ConfigFileVersion>3</ConfigFileVersion>
     <ToolWindowPaneIndex>0</ToolWindowPaneIndex>
     <DefaultRefreshRateMonitoring>500</DefaultRefreshRateMonitoring>
   </ConfigurationInfo>
   <Variable>
-    <FullName>InRow.Device1.Resource1.Hours_Mng.HoursCounterSwap.Hours</FullName>
+    <FullName>InRow.Device1.Resource1.UnitOn</FullName>
   </Variable>
   <Variable>
-    <FullName>InRow.Device1.Resource1.Group.InRow_qua</FullName>
+    <FullName>InRow.Device1.Resource1.UnitOnBms.Display</FullName>
   </Variable>
   <Variable>
-    <FullName>InRow.Device1.Resource1.Rotation_Mng.indexOff</FullName>
-  </Variable>
-  <Variable>
-    <FullName>InRow.Device1.Resource1.Rotation_Mng.indexOn</FullName>
-  </Variable>
-  <Variable>
-    <FullName>InRow.Device1.Resource1.Hours_Mng.SwapCounter</FullName>
-  </Variable>
-  <Variable>
-    <FullName>InRow.Device1.Resource1.Hours_Mng.lowPCondition</FullName>
-  </Variable>
-  <Variable>
-    <FullName>InRow.Device1.Resource1.Hours_Mng.offByLP</FullName>
-  </Variable>
-  <Variable>
-    <FullName>InRow.Device1.Resource1.Rotation_Mng.i</FullName>
-  </Variable>
-  <Variable>
-    <FullName>InRow.Device1.Resource1.Rotation_Mng.j</FullName>
-  </Variable>
-  <Variable>
-    <FullName>InRow.Device1.Resource1.Rotation_Mng.DEBUG</FullName>
-  </Variable>
-  <Variable>
-    <FullName>InRow.Device1.Resource1.Align_Mng.DEBUG</FullName>
-  </Variable>
-  <Variable>
-    <FullName>InRow.Device1.Resource1.Hours_Mng.DEBUG</FullName>
-  </Variable>
-  <Variable>
-    <FullName>InRow.Device1.Resource1.Hours_Mng.switchTime</FullName>
-  </Variable>
-  <Variable>
-    <FullName>InRow.Device1.Resource1.Hours_Mng.swapAdj</FullName>
-  </Variable>
-  <Variable>
-    <FullName>InRow.Device1.Resource1.Hours_Mng.workAdj</FullName>
-  </Variable>
-  <Variable>
-    <FullName>InRow.Device1.Resource1.Hours_Mng.downAdj</FullName>
-  </Variable>
-  <Variable>
-    <FullName>InRow.Device1.Resource1.inrow</FullName>
+    <FullName>InRow.Device1.Resource1.UnitOnBms.Slave</FullName>
   </Variable>
   <Variable>
     <FullName>InRow.Device1.Resource1.Group.Is_master</FullName>
@@ -64,9 +22,9 @@
     <FullName>InRow.Device1.Resource1.Group.Mode</FullName>
   </Variable>
   <Variable>
-    <FullName>InRow.Device1.Resource1.UnitOn</FullName>
+    <FullName>InRow.Device1.Resource1.inrow</FullName>
   </Variable>
   <Variable>
-    <FullName>InRow.Device1.Resource1.UnitStatus</FullName>
+    <FullName>InRow.Device1.Resource1.Group.Total_Online</FullName>
   </Variable>
 </SpyListVars_0>

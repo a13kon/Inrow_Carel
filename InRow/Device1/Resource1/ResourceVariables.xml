@@ -36163,7 +36163,7 @@
         Acronym=""
         Min=""
         Max=""
-        InitialValue="2"
+        InitialValue="10"
         StringSize="0" />
       <Variable
         Name="totalMain"

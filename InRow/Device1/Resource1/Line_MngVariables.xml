@@ -346,6 +346,66 @@
         StringSize="0" />
     </Variable>
     <Variable
+      Name="R_TRIG_Change_Role"
+      Comment=""
+      DataType="R_TRIG"
+      Kind="Var">
+      <Variable
+        Name="CLK"
+        DataType="BOOL"
+        IO="false"
+        Protocol="false"
+        UI="false"
+        Default="false"
+        LogPV="false"
+        IsRetained="false"
+        Alarm="false"
+        UoM="NoUnits"
+        Comment="any boolean variable"
+        Kind="VarInput"
+        Access="ReadWrite"
+        Acronym=""
+        Min=""
+        Max=""
+        StringSize="0" />
+      <Variable
+        Name="Q"
+        DataType="BOOL"
+        IO="false"
+        Protocol="false"
+        UI="false"
+        Default="false"
+        LogPV="false"
+        IsRetained="false"
+        Alarm="false"
+        UoM="NoUnits"
+        Comment="TRUE when CLK rises from FALSE to TRUE. False in other cases"
+        Kind="VarOutput"
+        Access="ReadWrite"
+        Acronym=""
+        Min=""
+        Max=""
+        StringSize="0" />
+      <Variable
+        Name="Redge"
+        DataType="BOOL"
+        IO="false"
+        Protocol="false"
+        UI="false"
+        Default="false"
+        LogPV="false"
+        IsRetained="false"
+        Alarm="false"
+        UoM="NoUnits"
+        Comment="Rising edge"
+        Kind="Var"
+        Access="ReadWrite"
+        Acronym=""
+        Min=""
+        Max=""
+        StringSize="0" />
+    </Variable>
+    <Variable
       Name="SYS_WRITE_Reboot"
       Comment=""
       DataType="SYS_WRITE"

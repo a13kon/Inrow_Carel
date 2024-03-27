@@ -18796,7 +18796,7 @@
       DataType="BOOL"
       Kind="Var"
       IO="false"
-      Protocol="false"
+      Protocol="true"
       UI="false"
       Default="false"
       LogPV="false"

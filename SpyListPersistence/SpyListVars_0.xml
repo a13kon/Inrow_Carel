@@ -27,4 +27,13 @@
   <Variable>
     <FullName>InRow.Device1.Resource1.Group.Total_Online</FullName>
   </Variable>
+  <Variable>
+    <FullName>InRow.Device1.Resource1.WRN_NoConWithSlaves.Trigger</FullName>
+  </Variable>
+  <Variable>
+    <FullName>InRow.Device1.Resource1.WRN_NoConWithMaster.Trigger</FullName>
+  </Variable>
+  <Variable>
+    <FullName>InRow.Device1.Resource1.Par_DeltaPress</FullName>
+  </Variable>
 </SpyListVars_0>

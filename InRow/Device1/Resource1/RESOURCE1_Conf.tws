@@ -2,15 +2,15 @@
 00000000 :  53 49 4D 55 4C 41 54 4F  -  52 00 00 00 00 00 00 00   * Target Name : SIMULATOR
 00000010 :  0C 00 00 00   * RDCC format version number
 00000014 :  10 CD 3E DC   * Resource check sum
-00000018 :  56 1C 43 FC   * Module check sum
+00000018 :  D7 EF AC 44   * Module check sum
 0000001C :  04 00 00 00   * Module ID parameter
 00000020 :  18 3D 00 00   * Total size
 00000024 :  90 3C 00 00   * Size without __RDCC_MODULE_ID
 00000028 :  44 00 00 00   * Offset -> resource name
 0000002C :  5C 00 00 00   * Offset -> module name
 00000030 :  88 00 00 00   * Offset -> beginning of the data block
-00000034 :  D4 C2 0B 66   * Compilation generation date
-00000038 :  91 02 00 00   * Compilation version number
+00000034 :  F9 D4 0B 66   * Compilation generation date
+00000038 :  93 02 00 00   * Compilation version number
 0000003C :  00 00 00 00   * User module version number
 00000040 :  6B 00 00 00   * Offset -> target auto-validation data
 00000044 :  49 4E 52 4F 57 5C 44 45  -  56 49 43 45 31 5C 52 45 
@@ -82,9 +82,9 @@
 000000FC :  E0 08 00 00   * size of LINE_MNG
 00000100 :  D0 24 00 00   * size of ROTATION_MNG
 00000104 :  80 16 00 00   * size of ALIGN_MNG
-00000108 :  00 62 00 00   * size of HOURS_MNG
+00000108 :  E8 53 00 00   * size of HOURS_MNG
 0000010C :  A8 18 00 00   * size of IP_CONF_MNG
-00000110 :  E8 19 00 00   * size of LOCAL_GROUP_MNG
+00000110 :  28 19 00 00   * size of LOCAL_GROUP_MNG
 00000114 :  20 01 00 00   * size of BUZZER_MNG
 00000118 :  20 05 00 00   * size of HEATER_MNG
 0000011C :  28 03 00 00   * size of HUMIDITY_MNG

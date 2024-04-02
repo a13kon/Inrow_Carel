@@ -41729,6 +41729,90 @@
         StringSize="0" />
     </Variable>
     <Variable
+      Name="WRN_NoConWithMaster"
+      Comment="Нет связи с мастером"
+      DataType="ALM"
+      Kind="Var">
+      <Variable
+        Name="Trigger"
+        DataType="BOOL"
+        IO="false"
+        Protocol="true"
+        UI="true"
+        Default="false"
+        LogPV="false"
+        IsRetained="false"
+        Alarm="true"
+        UoM="NoUnits"
+        Comment="Alarm status Trigger"
+        Kind="Var"
+        Access="ReadWrite"
+        Acronym=""
+        Min=""
+        Max=""
+        StringSize="0" />
+      <Variable
+        Name="Active"
+        DataType="BOOL"
+        IO="false"
+        Protocol="true"
+        UI="true"
+        Default="false"
+        LogPV="false"
+        IsRetained="false"
+        Alarm="true"
+        UoM="NoUnits"
+        Comment="Alarm status"
+        Kind="Var"
+        Access="ReadWrite"
+        Acronym=""
+        Min=""
+        Max=""
+        StringSize="0" />
+    </Variable>
+    <Variable
+      Name="WRN_NoConWithSlaves"
+      Comment="Нет связи с одним из слейвов"
+      DataType="ALM"
+      Kind="Var">
+      <Variable
+        Name="Trigger"
+        DataType="BOOL"
+        IO="false"
+        Protocol="true"
+        UI="true"
+        Default="false"
+        LogPV="false"
+        IsRetained="false"
+        Alarm="true"
+        UoM="NoUnits"
+        Comment="Alarm status Trigger"
+        Kind="Var"
+        Access="ReadWrite"
+        Acronym=""
+        Min=""
+        Max=""
+        StringSize="0" />
+      <Variable
+        Name="Active"
+        DataType="BOOL"
+        IO="false"
+        Protocol="true"
+        UI="true"
+        Default="false"
+        LogPV="false"
+        IsRetained="false"
+        Alarm="true"
+        UoM="NoUnits"
+        Comment="Alarm status"
+        Kind="Var"
+        Access="ReadWrite"
+        Acronym=""
+        Min=""
+        Max=""
+        StringSize="0" />
+    </Variable>
+    <Variable
       Name="WRN_NoFlow"
       Comment="Нет расхода воды"
       DataType="ALM"

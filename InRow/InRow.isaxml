@@ -575,6 +575,12 @@
         <Variable Name="Par_WTd" DataType="REAL" Comment="" StringSize="0" Order="11" />
       </Struct>
     </DataType>
+    <DataType Name="STCT_UnitOn" Comment="" Access="UserDefined">
+      <Struct FieldOrder="0" Order="1">
+        <Variable Name="Slave" DataType="BOOL" Comment="" StringSize="0" Order="1" />
+        <Variable Name="Display" DataType="BOOL" Comment="" StringSize="0" Order="2" />
+      </Struct>
+    </DataType>
     <DataType Name="STCT_Filter" Comment="" Access="UserDefined">
       <Struct FieldOrder="0" Order="1">
         <Variable Name="DPD" DataType="STCT_DigitSens" Comment="" StringSize="0" Order="1" />
@@ -973,12 +979,6 @@
       <Struct FieldOrder="1" Order="4">
         <Variable Name="Trigger" DataType="BOOL" Comment="Alarm status Trigger" StringSize="0" Order="1" />
         <Variable Name="Active" DataType="BOOL" Comment="Alarm status" StringSize="0" Order="2" />
-      </Struct>
-    </DataType>
-    <DataType Name="STCT_UnitOn" Comment="" Access="UserDefined">
-      <Struct FieldOrder="0" Order="1">
-        <Variable Name="Slave" DataType="BOOL" Comment="" StringSize="0" Order="1" />
-        <Variable Name="Display" DataType="BOOL" Comment="" StringSize="0" Order="2" />
       </Struct>
     </DataType>
   </DataTypes>

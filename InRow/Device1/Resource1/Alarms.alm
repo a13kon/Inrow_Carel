@@ -51,4 +51,6 @@
   <Alarm Name="FLR_PreExhaustWarn_CPY" Type="AutoReset" Trigger="FLR_PreExhaustWarn_CPY.Trigger" Active="FLR_PreExhaustWarn_CPY.Active" Description="Предупреждение CP:  требуется обслуживание бака" />
   <Alarm Name="FLR_CylExhaustWarn_CPY" Type="AutoReset" Trigger="FLR_CylExhaustWarn_CPY.Trigger" Active="FLR_CylExhaustWarn_CPY.Active" Description="Предупреждение CL: ресурс бака истёк" />
   <Alarm Name="FLR_BkpMemExhaustWarn_CPY" Type="AutoReset" Trigger="FLR_BkpMemExhaustWarn_CPY.Trigger" Active="FLR_BkpMemExhaustWarn_CPY.Active" Description="Предупреждение E2: ошибка сохранения в памяти CPY" />
+  <Alarm Name="WRN_NoConWithSlaves" Type="AutoReset" Trigger="WRN_NoConWithSlaves.Trigger" Active="WRN_NoConWithSlaves.Active" Description="Нет связи с одним из слейвов" />
+  <Alarm Name="WRN_NoConWithMaster" Type="AutoReset" Trigger="WRN_NoConWithMaster.Trigger" Active="WRN_NoConWithMaster.Active" Description="Нет связи с мастером" />
 </Alarms>

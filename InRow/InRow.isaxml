@@ -489,6 +489,15 @@
         <Variable Name="AlignG" DataType="BOOL" Comment="Увеличить время ротации" StringSize="0" Order="9" />
         <Variable Name="rotationTime" DataType="UDINT" Comment="Конечное время ротации устройства" StringSize="0" Order="10" />
         <Variable Name="En" DataType="BOOL" Comment="Статус устрйоства" StringSize="0" Order="11" />
+        <Variable Name="TempIn" DataType="REAL" Comment="Т воздуха входящая" StringSize="0" Order="12" />
+        <Variable Name="TempOut" DataType="REAL" Comment="Т воздуха вызодящая" StringSize="0" Order="13" />
+        <Variable Name="TVIn" DataType="REAL" Comment="Т воды входящая" StringSize="0" Order="14" />
+        <Variable Name="TVOut" DataType="REAL" Comment="Т воды выходящая" StringSize="0" Order="15" />
+        <Variable Name="AirFlow" DataType="REAL" Comment="Воздушный поток" StringSize="0" Order="16" />
+        <Variable Name="WaterMeter" DataType="REAL" Comment="Расход воды" StringSize="0" Order="17" />
+        <Variable Name="CoolCapacity" DataType="REAL" Comment="Холодопроизводительность" StringSize="0" Order="18" />
+        <Variable Name="ExtTemp" DataType="REAL" Comment="Т выносных датчиков" StringSize="0" Order="19" />
+        <Variable Name="Connection" DataType="BOOL" Comment="Наличие связи со слейвом" StringSize="0" Order="20" />
       </Struct>
     </DataType>
     <DataType Name="ARR_SORTING" Comment="" Access="UserDefined">

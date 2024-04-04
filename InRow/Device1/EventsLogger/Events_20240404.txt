@@ -1,0 +1,9 @@
+   Date      UTC time   Level     Module               Submodule                   Description                                                                                Argument     Task ID             Error Value
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+2024/03/04 - 09:29:01 - Warning - ISaGRAF PRO Target - System layer              - Space is deleted or unable to link with space                                            - 0000000000 - CMG             - 0x12030015
+2024/03/04 - 09:29:01 - Warning - ISaGRAF PRO Target - eXchange Layer (IXL)      - IXL: The configuration completed successfully.                                           - 0000000000 - CMG             - 0x12080533
+2024/03/04 - 09:29:05 - Warning - ISaGRAF PRO Target - System layer              - Invalid message queue identifier                                                         - 0000000000 - CMG             - 0x12030030
+2024/03/04 - 09:29:05 - Warning - ISaGRAF PRO Target - Kernel warning            - Resource Start Report                                                                    - 0000000000 - CMG             - 0x1202000A
+2024/03/04 - 09:52:15 - Warning - ISaGRAF PRO Target - System layer              - Unable to open DSA                                                                       - 0000000000 - CMG             - 0x12030061
+2024/03/04 - 09:52:15 - Warning - ISaGRAF PRO Target - System layer              - Unable to load space                                                                     - 0000000000 - CMG             - 0x12030019
+2024/03/04 - 09:54:58 - Warning - ISaGRAF PRO Target - Kernel warning            - Resource Stop Report                                                                     - 0000000000 - CMG             - 0x1202000B

@@ -36,4 +36,22 @@
   <Variable>
     <FullName>InRow.Device1.Resource1.Par_DeltaPress</FullName>
   </Variable>
+  <Variable>
+    <FullName>InRow.Device1.Resource1.Group.Average_TV_In</FullName>
+  </Variable>
+  <Variable>
+    <FullName>InRow.Device1.Resource1.Local_Group_Mng.Sum_TV_In</FullName>
+  </Variable>
+  <Variable>
+    <FullName>InRow.Device1.Resource1.Local_Group_Mng.AverageDiv</FullName>
+  </Variable>
+  <Variable>
+    <FullName>InRow.Device1.Resource1.U[8].Cur_Value</FullName>
+  </Variable>
+  <Variable>
+    <FullName>InRow.Device1.Resource1.inrow.Dev[0].TVIn</FullName>
+  </Variable>
+  <Variable>
+    <FullName>InRow.Device1.Resource1.Local_Group_Mng.i</FullName>
+  </Variable>
 </SpyListVars_0>

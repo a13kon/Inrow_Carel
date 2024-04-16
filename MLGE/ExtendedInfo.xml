@@ -123,6 +123,9 @@
   <AcfElementGuid Guid="3976fc03-1d0b-4e0a-a686-d07549f36c81">
     <File>RealToDint.acfmlge</File>
   </AcfElementGuid>
+  <AcfElementGuid Guid="3a128326-1f76-4ca2-8be0-5f97c0a1cb90">
+    <File>PowerRes_Mng.AcfMlge</File>
+  </AcfElementGuid>
   <AcfElementGuid Guid="3ce34dfb-3c15-46e0-99ca-aa480bc405ce">
     <File>CPY_2.acfmlge</File>
   </AcfElementGuid>
@@ -200,6 +203,9 @@
   </AcfElementGuid>
   <AcfElementGuid Guid="6ea09a18-c5a6-49bc-b5b1-b5f1363e4309">
     <File>Enthalpy_REAL.acfmlge</File>
+  </AcfElementGuid>
+  <AcfElementGuid Guid="74184ffd-1cab-419d-a99d-f2450b229a70">
+    <File>EnDev.AcfMlge</File>
   </AcfElementGuid>
   <AcfElementGuid Guid="758f5f8b-a765-46d1-b2aa-2b39b388797b">
     <File>FahrToCel_REAL.acfmlge</File>

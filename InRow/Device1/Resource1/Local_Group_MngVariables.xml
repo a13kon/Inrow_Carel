@@ -100,24 +100,6 @@
       InitialValue="0.0"
       StringSize="0" />
     <Variable
-      Name="On_Counter"
-      Comment=""
-      DataType="BYTE"
-      Kind="Var"
-      IO="false"
-      Protocol="false"
-      UI="false"
-      Default="false"
-      LogPV="false"
-      IsRetained="false"
-      Alarm="false"
-      UoM="NoUnits"
-      Access="ReadWrite"
-      Acronym=""
-      Min=""
-      Max=""
-      StringSize="0" />
-    <Variable
       Name="Sum_Air_Flow"
       Comment=""
       DataType="REAL"

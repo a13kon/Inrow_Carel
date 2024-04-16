@@ -38360,6 +38360,45 @@
           Max=""
           StringSize="0" />
       </Variable>
+      <Variable
+        Name="fanSpd"
+        DataType="REAL"
+        IO="false"
+        Protocol="true"
+        UI="false"
+        Default="false"
+        LogPV="false"
+        IsRetained="false"
+        Alarm="false"
+        UoM="NoUnits"
+        Comment=""
+        Kind="Var"
+        Access="ReadWrite"
+        Acronym=""
+        Decimals="1"
+        Min=""
+        Max=""
+        StringSize="0" />
+      <Variable
+        Name="fanSpdRes"
+        DataType="REAL"
+        IO="false"
+        Protocol="true"
+        UI="false"
+        Default="true"
+        LogPV="false"
+        IsRetained="true"
+        Alarm="false"
+        UoM="NoUnits"
+        Comment="Процент резервирования в реж.рез.мощн."
+        Kind="Var"
+        Access="ReadWrite"
+        Acronym=""
+        Decimals="1"
+        Min="0.0"
+        Max="90.0"
+        InitialValue="20.0"
+        StringSize="0" />
     </Variable>
     <Variable
       Name="isMini"

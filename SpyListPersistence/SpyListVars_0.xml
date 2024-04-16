@@ -54,4 +54,16 @@
   <Variable>
     <FullName>InRow.Device1.Resource1.Local_Group_Mng.i</FullName>
   </Variable>
+  <Variable>
+    <FullName>InRow.Device1.Resource1.inrow.fanSpd</FullName>
+  </Variable>
+  <Variable>
+    <FullName>InRow.Device1.Resource1.Group.InRow_qua</FullName>
+  </Variable>
+  <Variable>
+    <FullName>InRow.Device1.Resource1.inrow.fanSpdRes</FullName>
+  </Variable>
+  <Variable>
+    <FullName>InRow.Device1.Resource1.inrow.countOn</FullName>
+  </Variable>
 </SpyListVars_0>

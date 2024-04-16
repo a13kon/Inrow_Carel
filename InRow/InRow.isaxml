@@ -515,6 +515,8 @@
         <Variable Name="totalMain" DataType="DINT" Comment="Кол-во одновременно работающих (не резервных)" StringSize="0" Order="6" />
         <Variable Name="rotationTime" DataType="UDINT" Comment="" StringSize="0" Order="7" />
         <Variable Name="align" DataType="STCT_Align" Comment="Автоматическое выравнивание наработки" StringSize="0" Order="8" />
+        <Variable Name="fanSpd" DataType="REAL" Comment="" StringSize="0" Order="9" />
+        <Variable Name="fanSpdRes" DataType="REAL" Comment="Процент резервирования в реж.рез.мощн." StringSize="0" Order="10" />
       </Struct>
     </DataType>
     <DataType Name="STCT_Align" Comment="Выравнивание наработки" Access="UserDefined">

@@ -186,4 +186,7 @@
   <Variable>
     <FullName>InRow.Device1.Resource1.Group_Mng.test1</FullName>
   </Variable>
+  <Variable>
+    <FullName>InRow.Device1.Resource1.Par_DeltaTemp</FullName>
+  </Variable>
 </SpyListVars_1>

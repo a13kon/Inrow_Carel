@@ -66,4 +66,46 @@
   <Variable>
     <FullName>InRow.Device1.Resource1.inrow.countOn</FullName>
   </Variable>
+  <Variable>
+    <FullName>InRow.Device1.Resource1.Fans_Mng.deltaTemp</FullName>
+  </Variable>
+  <Variable>
+    <FullName>InRow.Device1.Resource1.Sa_Temp.Value</FullName>
+  </Variable>
+  <Variable>
+    <FullName>InRow.Device1.Resource1.Ea_Temp.Value</FullName>
+  </Variable>
+  <Variable>
+    <FullName>InRow.Device1.Resource1.Par_DeltaTemp</FullName>
+  </Variable>
+  <Variable>
+    <FullName>InRow.Device1.Resource1.Fans.RegulMode</FullName>
+  </Variable>
+  <Variable>
+    <FullName>InRow.Device1.Resource1.Fans_Mng.calcSpeed</FullName>
+  </Variable>
+  <Variable>
+    <FullName>InRow.Device1.Resource1.Fans.On</FullName>
+  </Variable>
+  <Variable>
+    <FullName>InRow.Device1.Resource1.Fans.Speed</FullName>
+  </Variable>
+  <Variable>
+    <FullName>InRow.Device1.Resource1.Par_FKp</FullName>
+  </Variable>
+  <Variable>
+    <FullName>InRow.Device1.Resource1.Par_FTi</FullName>
+  </Variable>
+  <Variable>
+    <FullName>InRow.Device1.Resource1.Par_FanMinSpeed</FullName>
+  </Variable>
+  <Variable>
+    <FullName>InRow.Device1.Resource1.Par_FanMaxSpeed</FullName>
+  </Variable>
+  <Variable>
+    <FullName>InRow.Device1.Resource1.Fans_Mng.TON_FanStart</FullName>
+  </Variable>
+  <Variable>
+    <FullName>InRow.Device1.Resource1.Fans_Mng.PID_Adv_2_2</FullName>
+  </Variable>
 </SpyListVars_0>

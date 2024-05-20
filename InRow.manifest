@@ -3,7 +3,7 @@
   <Info ManifestVersion="1.1.0">
     <Name>InRow</Name>
     <Description>Проект для рядных прецизионных кондиционеров</Description>
-    <Version>2.1.0</Version>
+    <Version>2.1.2</Version>
     <CreationDate>2020-02-12T09:31:21.8054866Z</CreationDate>
     <Owner>TechnoGroup</Owner>
     <StorageToolManaged>false</StorageToolManaged>

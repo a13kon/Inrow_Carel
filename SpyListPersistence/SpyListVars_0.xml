@@ -108,4 +108,16 @@
   <Variable>
     <FullName>InRow.Device1.Resource1.Fans_Mng.PID_Adv_2_2</FullName>
   </Variable>
+  <Variable>
+    <FullName>InRow.Device1.Resource1.cpCOe1.CommErr</FullName>
+  </Variable>
+  <Variable>
+    <FullName>InRow.Device1.Resource1.CfgErrAlrm_CPCOE_1.Trigger</FullName>
+  </Variable>
+  <Variable>
+    <FullName>InRow.Device1.Resource1.OfflineAlrm_CPCOE_1.Trigger</FullName>
+  </Variable>
+  <Variable>
+    <FullName>InRow.Device1.Resource1.CondProtect</FullName>
+  </Variable>
 </SpyListVars_0>

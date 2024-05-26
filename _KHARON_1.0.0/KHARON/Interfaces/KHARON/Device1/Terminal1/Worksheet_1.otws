@@ -3,7 +3,7 @@
   <Loop Name="Loop_1" Type="Normal" X="0" Y="0">
     <Mask Name="Main" Type="Normal" X="0" Y="1">
       <Fields>
-        <Field Type="Text" Name="Text" Row="7" Column="3" Content="KHARON  v.0.0.2" />
+        <Field Type="Text" Name="Text" Row="7" Column="3" Content="KHARON  v.1.0.0" />
         <Field Type="Variable" Name="Variable" Row="1" Column="16" Content="Local_Address" Class="CL_INT" Format="io+3" Min="1" Max="255" />
         <Field Type="Text" Name="Text_2" Row="1" Column="2" Content="Address" />
         <Field Type="Text" Name="Text_3" Row="2" Column="2" Content="Baudrate     19200" />

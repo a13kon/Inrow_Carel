@@ -14,7 +14,7 @@ msgstr ""
 #: Worksheet_1.otws
 #| msgctxt "[Mask:Mask_1][Field:Text]"
 msgctxt "[Mask:Main][Field:Text]"
-msgid "KHARON  v.0.0.2"
+msgid "KHARON  v.1.0.0"
 msgstr ""
 
 #: Worksheet_1.otws

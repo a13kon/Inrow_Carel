@@ -341,7 +341,7 @@
     </Network>
   </Networks>
   <NetworkInstances>
-    <NetworkInstance NetworkName="ISARSI" Name="USB1" />
+    <NetworkInstance NetworkName="ISARSI" Name="ISARSI1" />
   </NetworkInstances>
   <Targets>
     <Target Name="CAREL_PCO" />

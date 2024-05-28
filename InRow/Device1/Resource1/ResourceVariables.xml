@@ -766,7 +766,7 @@
       Kind="Var">
       <Variable
         Name="Address"
-        DataType="INT"
+        DataType="UDINT"
         IO="false"
         Protocol="true"
         UI="false"

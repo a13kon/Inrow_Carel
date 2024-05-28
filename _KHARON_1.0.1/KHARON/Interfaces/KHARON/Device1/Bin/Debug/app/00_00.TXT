@@ -1,10 +1,13 @@
 [DEFAULT]
 Kharon
+╗oЗф╦цд╦ц TCP -> RTU
+v.2.0.01
+ENT ╥©с Зacдцo╦╬
 A╥ц╦c
 C╬oцocдн
 Cдoа-╣╪д
 ╚╦дЗocдн
-v.1.0.01
+ESC - Зaйa╥
 1200
 2400
 4800

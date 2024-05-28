@@ -85,29 +85,50 @@ msgstr ""
 #: Worksheet_1.otws
 #| msgctxt "[Mask:Mask_1][Field:Text_2]"
 msgctxt "[Mask:Main][Field:Text_2]"
-msgid "A·Ã¸c"
+msgid "¨oúÆ¸ÃÄ¸Ã TCP -> RTU"
 msgstr ""
 
 #: Worksheet_1.otws
-#| msgctxt "[Mask:Mask_1][Field:Text_3]"
 msgctxt "[Mask:Main][Field:Text_3]"
-msgid "C¾oÃocÄÎ"
+msgid "ENT ·¿Ó úacÄÃo¸¾"
 msgstr ""
 
 #: Worksheet_1.otws
 msgctxt "[Mask:Main][Field:Text_4]"
-msgid "v.1.0.01"
+msgid "v.2.0.01"
 msgstr ""
 
 #: Worksheet_1.otws
-#| msgctxt "[Mask:Mask_1][Field:Text_5]"
-msgctxt "[Mask:Main][Field:Text_5]"
+#| msgctxt "[Mask:Main_Clone_2][Field:Text_2]"
+msgctxt "[Mask:Network][Field:Text_2]"
+msgid "A·Ã¸c"
+msgstr ""
+
+#: Worksheet_1.otws
+#| msgctxt "[Mask:Main_Clone_2][Field:Text_3]"
+msgctxt "[Mask:Network][Field:Text_3]"
+msgid "C¾oÃocÄÎ"
+msgstr ""
+
+#: Worksheet_1.otws
+msgctxt "[Mask:Network][Field:Text_4]"
+msgid "ESC - úaÊa·"
+msgstr ""
+
+#: Worksheet_1.otws
+#| msgctxt "[Mask:Main_Clone_2][Field:Text_5]"
+msgctxt "[Mask:Network][Field:Text_5]"
 msgid "CÄoÁ-µ¼Ä"
 msgstr ""
 
 #: Worksheet_1.otws
-#| msgctxt "[Mask:Mask_1][Field:Text_6]"
-msgctxt "[Mask:Main][Field:Text_6]"
+#| msgctxt "[Mask:Main_Clone_2][Field:Text_6]"
+msgctxt "[Mask:Network][Field:Text_6]"
 msgid "«¸ÄúocÄÎ"
+msgstr ""
+
+#: Worksheet_1.otws
+msgctxt "[Mask:Network][Field:Text_7]"
+msgid "ªaÃaÀ¸ÄÃË ÁoÃÄa BMS"
 msgstr ""
 

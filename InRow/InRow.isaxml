@@ -459,7 +459,7 @@
     </DataType>
     <DataType Name="CRTUtoMRTU" Comment="" Access="UserDefined">
       <Struct FieldOrder="0" Order="1">
-        <Variable Name="Address" DataType="INT" Comment="" StringSize="0" Order="1" />
+        <Variable Name="Address" DataType="UDINT" Comment="" StringSize="0" Order="1" />
         <Variable Name="OfflineAlrm" DataType="BOOL" Comment="" StringSize="0" Order="2" />
         <Variable Name="En" DataType="BOOL" Comment="" StringSize="0" Order="3" />
         <Variable Name="U" DataType="ARR_U" Comment="" StringSize="0" Order="4" />
@@ -1026,7 +1026,7 @@
     </Network>
   </Networks>
   <NetworkInstances>
-    <NetworkInstance NetworkName="ETCP" Name="ETCP1" />
+    <NetworkInstance NetworkName="ISARSI" Name="ISARSI1" />
   </NetworkInstances>
   <Targets>
     <Target Name="CAREL_PCO" />

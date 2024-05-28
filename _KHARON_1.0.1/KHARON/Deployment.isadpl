@@ -1,7 +1,8 @@
-﻿<DeploymentView>
+<?xml version="1.0" encoding="utf-8"?>
+<DeploymentView>
   <DVNodeType Location="0 0" IndexName="Node10506676" Type="CategoryStation" MyWidth="200" Name="WorkStation" DataTemplate="Workstation" />
-  <DVNodeType Location="0 330" IndexName="e5619c74-aed5-4bfa-87ad-8e4823a88b2d" Type="CategoryDevice" MyWidth="200" Name="CRTUtoMBRTU.Device1" />
-  <DVNodeType Location="0 205" IndexName="Node28507060" Type="CategoryNetwork" MyWidth="200" Name="USB1" MyColor="Green" DataTemplate="Network" />
-  <DVDeviceLinkData From="Node10506676" To="Node28507060" ToSpotX="0.45" />
-  <DVDeviceLinkData From="e5619c74-aed5-4bfa-87ad-8e4823a88b2d" To="Node28507060" ToSpotX="0.45" />
+  <DVNodeType Location="380 590" IndexName="e5619c74-aed5-4bfa-87ad-8e4823a88b2d" Type="CategoryDevice" MyWidth="200" Name="KHARON.Device1" />
+  <DVNodeType Location="50 233.07692307692307" IndexName="Node66155875" Type="CategoryNetwork" MyWidth="730.76923076923072" Name="ISARSI1" MyColor="Green" DataTemplate="Network" />
+  <DVDeviceLinkData From="e5619c74-aed5-4bfa-87ad-8e4823a88b2d" To="Node66155875" ToSpotX="0.57473684210526321" />
+  <DVDeviceLinkData From="Node10506676" To="Node66155875" ToSpotX="0.05473684210526316" />
 </DeploymentView>

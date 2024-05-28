@@ -120,4 +120,13 @@
   <Variable>
     <FullName>InRow.Device1.Resource1.CondProtect</FullName>
   </Variable>
+  <Variable>
+    <FullName>InRow.Device1.Resource1.Conv.U[1].Value</FullName>
+  </Variable>
+  <Variable>
+    <FullName>InRow.Device1.Resource1.DIn[2].Cur_Value</FullName>
+  </Variable>
+  <Variable>
+    <FullName>InRow.Device1.Resource1.Conv.U[2].Value</FullName>
+  </Variable>
 </SpyListVars_0>

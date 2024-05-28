@@ -11,39 +11,103 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: \n"
 
+#: Classes.otsf
+msgctxt "[Class:Baudrate][Resource:0]"
+msgid "1200"
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Baudrate][Resource:1]"
+msgid "2400"
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Baudrate][Resource:2]"
+msgid "4800"
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Baudrate][Resource:3]"
+msgid "9600"
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Baudrate][Resource:4]"
+msgid "19200"
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Baudrate][Resource:5]"
+msgid "38400"
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Baudrate][Resource:6]"
+msgid "57600"
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Baudrate][Resource:7]"
+msgid "76800"
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Baudrate][Resource:8]"
+msgid "115200"
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Baudrate][Resource:9]"
+msgid "375000"
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Parity][Resource:0]"
+msgid "H¸Ä"
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Parity][Resource:1]"
+msgid "H¸Â¸Ä"
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Parity][Resource:2]"
+msgid "«¸Ä"
+msgstr ""
+
 #: Worksheet_1.otws
 #| msgctxt "[Mask:Mask_1][Field:Text]"
 msgctxt "[Mask:Main][Field:Text]"
-msgid "KHARON  v.1.0.0"
+msgid "Kharon"
 msgstr ""
 
 #: Worksheet_1.otws
 #| msgctxt "[Mask:Mask_1][Field:Text_2]"
 msgctxt "[Mask:Main][Field:Text_2]"
-msgid "Address"
+msgid "A·Ã¸c"
 msgstr ""
 
 #: Worksheet_1.otws
 #| msgctxt "[Mask:Mask_1][Field:Text_3]"
 msgctxt "[Mask:Main][Field:Text_3]"
-msgid "Baudrate     19200"
+msgid "C¾oÃocÄÎ"
 msgstr ""
 
 #: Worksheet_1.otws
-#| msgctxt "[Mask:Mask_1][Field:Text_4]"
 msgctxt "[Mask:Main][Field:Text_4]"
-msgid "Data length      8"
+msgid "v.1.0.01"
 msgstr ""
 
 #: Worksheet_1.otws
 #| msgctxt "[Mask:Mask_1][Field:Text_5]"
 msgctxt "[Mask:Main][Field:Text_5]"
-msgid "Stop bit         1"
+msgid "CÄoÁ-µ¼Ä"
 msgstr ""
 
 #: Worksheet_1.otws
 #| msgctxt "[Mask:Mask_1][Field:Text_6]"
 msgctxt "[Mask:Main][Field:Text_6]"
-msgid "Parity        None"
+msgid "«¸ÄúocÄÎ"
 msgstr ""
 

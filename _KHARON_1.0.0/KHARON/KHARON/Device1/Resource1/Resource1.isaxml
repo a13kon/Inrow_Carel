@@ -78,7 +78,11 @@
     <Variable Name="Local_U_Value" DataType="REAL" InitialValue="" Comment="" Address="" Modifier="NonRetain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="">
       <Dimension Lower="1" Upper="10" />
     </Variable>
+    <Variable Name="Baudrate" DataType="UDINT" InitialValue="19200" Comment="" Address="" Modifier="Retain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
     <Variable Name="Local_Address" DataType="INT" InitialValue="1" Comment="" Address="" Modifier="Retain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="CaseBaudrate" DataType="INT" InitialValue="4" Comment="" Address="" Modifier="Retain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="StopBit" DataType="UDINT" InitialValue="1" Comment="" Address="" Modifier="Retain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="Parity" DataType="UDINT" InitialValue="0" Comment="" Address="" Modifier="Retain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
   </GlobalVars>
   <Devices />
   <ExportedGroups />

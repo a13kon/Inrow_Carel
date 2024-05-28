@@ -1,16 +1,16 @@
 ****** __RDCC_MODULE_ID ******
 00000000 :  43 41 52 45 4C 5F 50 43  -  4F 00 00 00 00 00 00 00   * Target Name : CAREL_PCO
 00000010 :  00 00 00 0C   * RDCC format version number
-00000014 :  EE 44 E6 1C   * Resource check sum
-00000018 :  7E FB 1D 51   * Module check sum
+00000014 :  89 4F 79 45   * Resource check sum
+00000018 :  AC 4F A2 2F   * Module check sum
 0000001C :  00 00 00 04   * Module ID parameter
-00000020 :  00 00 03 A4   * Total size
-00000024 :  00 00 03 1C   * Size without __RDCC_MODULE_ID
+00000020 :  00 00 04 68   * Total size
+00000024 :  00 00 03 E0   * Size without __RDCC_MODULE_ID
 00000028 :  00 00 00 44   * Offset -> resource name
 0000002C :  00 00 00 5D   * Offset -> module name
 00000030 :  00 00 00 88   * Offset -> beginning of the data block
-00000034 :  63 E6 05 58   * Compilation generation date
-00000038 :  00 00 00 40   * Compilation version number
+00000034 :  66 55 7B 52   * Compilation generation date
+00000038 :  00 00 00 41   * Compilation version number
 0000003C :  00 00 00 00   * User module version number
 00000040 :  00 00 00 6C   * Offset -> target auto-validation data
 00000044 :  4B 48 41 52 4F 4E 5C 44  -  45 56 49 43 45 31 5C 52 
@@ -52,11 +52,11 @@
 00000098 :  00 00 01 74   * Address of __DEFFCNV
 0000009C :  00 00 01 7C   * Address of __DEFVAR
 000000A0 :  00 00 01 B8   * Address of __INITVAR
-000000A4 :  00 00 03 54   * Address of __KVB
-000000A8 :  00 00 03 58   * Address of __DEFIO
-000000AC :  00 00 03 88   * Address of __DEFHIE
-000000B0 :  00 00 03 9C   * Address of __DEFPROG
-000000B4 :  00 00 02 B0   * Address of __RETAIN
+000000A4 :  00 00 04 18   * Address of __KVB
+000000A8 :  00 00 04 1C   * Address of __DEFIO
+000000AC :  00 00 04 4C   * Address of __DEFHIE
+000000B0 :  00 00 04 60   * Address of __DEFPROG
+000000B4 :  00 00 03 68   * Address of __RETAIN
 000000B8 :  00 00 00 00   * Address of __ADI
 000000BC :  00 00 00 00   * Address of __INTERRUPT
 000000C0 :  00 00 00 00   * Address of __FB_INPUT_INIT
@@ -70,9 +70,9 @@
 000000D0 :  00 08   * Offset -> POU
 000000D2 :  00 14   * Offset -> data block
 000000D4 :  00 00 00 00   * size of POU 0
-000000D8 :  00 00 00 B0   * size of MAIN
+000000D8 :  00 00 03 00   * size of MAIN
 000000DC :  00 00 00 00   * POUs size terminated
-000000E0 :  00 01 07 44   * size of data block 1
+000000E0 :  00 01 07 50   * size of data block 1
 000000E4 :  00 00 00 00   * Data blocks size terminated
 
 
@@ -141,14 +141,14 @@
 
 ****** __DEFVAR ******
 0000017C :  00 00 04 00   * First Va
-00000180 :  00 01 07 44   * Last Va limit
+00000180 :  00 01 07 50   * Last Va limit
 00000184 :  00 00 00 00   * Steps block Va
 00000188 :  00 00 00 00   * Transitions block Va
 0000018C :  00 00 00 00   * Number of steps for all the POUs
 00000190 :  00 00 00 00   * Number of transitions for all the POUs
 00000194 :  00 00 00 00   * Call stack deepness -> Nb fct=<0>  FB max level=<0>
-00000198 :  00 00 07 28   * POUs status Va
-0000019C :  00 00 07 30   * Stepping info Va
+00000198 :  00 00 07 34   * POUs status Va
+0000019C :  00 00 07 3C   * Stepping info Va
 000001A0 :  00 00 00 08   * POUs status size
 000001A4 :  00 00 00 14   * Stepping info size
 000001A8 :  00 00 00 00   * Reserved
@@ -161,24 +161,24 @@
 000001B8 :  00 00 02 20   * Address of __INIT_BOOL
 000001BC :  00 00 02 30   * Address of __INIT_SINT_USINT
 000001C0 :  00 00 02 38   * Address of __INIT_DINT_UDINT_REAL_TIME_DATE
-000001C4 :  00 00 02 40   * Address of __INIT_STRING
-000001C8 :  00 00 02 48   * Address of __INIT_MAXSTRING
-000001CC :  00 00 02 84   * Address of __INIT_BLOCK
+000001C4 :  00 00 02 F0   * Address of __INIT_STRING
+000001C8 :  00 00 02 F8   * Address of __INIT_MAXSTRING
+000001CC :  00 00 03 34   * Address of __INIT_BLOCK
 000001D0 :  00 00 00 00   * Cst. Nb. in __INIT_BOOL
 000001D4 :  00 00 00 01   * Total Elt. in __INIT_BOOL
 000001D8 :  00 00 00 00   * Cst. Nb. in __INIT_SINT_USINT
 000001DC :  00 00 00 00   * Total Elt. in __INIT_SINT_USINT
-000001E0 :  00 00 00 00   * Cst. Nb. in __INIT_DINT_UDINT_REAL_TIME_DATE
-000001E4 :  00 00 00 00   * Total Elt. in __INIT_DINT_UDINT_REAL_TIME_DATE
+000001E0 :  00 00 00 14   * Cst. Nb. in __INIT_DINT_UDINT_REAL_TIME_DATE
+000001E4 :  00 00 00 16   * Total Elt. in __INIT_DINT_UDINT_REAL_TIME_DATE
 000001E8 :  00 00 00 00   * Cst. Nb. in __INIT_STRING
 000001EC :  00 00 00 00   * Total Elt. in __INIT_STRING
 000001F0 :  00 00 00 04   * Total Elt. in __INIT_MAXSTRING
 000001F4 :  00 00 00 00   * Cst. Nb. in __INIT_BLOCK
 000001F8 :  00 00 00 00   * Total Elt. in __INIT_BLOCK
-000001FC :  00 00 02 94   * Address of __INIT_INT_UINT
+000001FC :  00 00 03 44   * Address of __INIT_INT_UINT
 00000200 :  00 00 00 00   * Cst. Nb. in __INIT_INT_UINT
-00000204 :  00 00 00 01   * Total Elt. in __INIT_INT_UINT
-00000208 :  00 00 02 A4   * Address of __INIT_LINT_ULINT_LREAL
+00000204 :  00 00 00 02   * Total Elt. in __INIT_INT_UINT
+00000208 :  00 00 03 5C   * Address of __INIT_LINT_ULINT_LREAL
 0000020C :  00 00 00 00   * Cst. Nb. in __INIT_LINT_ULINT_LREAL
 00000210 :  00 00 00 00   * Total Elt. in __INIT_LINT_ULINT_LREAL
 00000214 :  00 00 02 28   * Address of __INIT_BOOL_FALSE
@@ -204,135 +204,185 @@
 
 
 ****** __INIT_DINT_UDINT_REAL_TIME_DATE ******
-00000238 :  00 00 00 00   * Terminator
-0000023C :  00 00 00 00   * Terminator
+00000238 :  00 00 07 54   * __CDINT00000009
+0000023C :  00 00 00 09   * 9
+00000240 :  00 00 07 58   * __CDINT00000008
+00000244 :  00 00 00 08   * 8
+00000248 :  00 00 07 5C   * __CDINT00000007
+0000024C :  00 00 00 07   * 7
+00000250 :  00 00 07 60   * __CDINT00000006
+00000254 :  00 00 00 06   * 6
+00000258 :  00 00 07 64   * __CDINT00000005
+0000025C :  00 00 00 05   * 5
+00000260 :  00 00 07 68   * __CDINT00000004
+00000264 :  00 00 00 04   * 4
+00000268 :  00 00 07 6C   * __CDINT00000003
+0000026C :  00 00 00 03   * 3
+00000270 :  00 00 07 70   * __CDINT00000002
+00000274 :  00 00 00 02   * 2
+00000278 :  00 00 07 74   * __CDINT00000001
+0000027C :  00 00 00 01   * 1
+00000280 :  00 00 07 78   * __DINT_NULL
+00000284 :  00 00 00 00   * 0
+00000288 :  00 00 07 80   * __CUDINT000004B0
+0000028C :  00 00 04 B0   * 1200
+00000290 :  00 00 07 84   * __CUDINT00000960
+00000294 :  00 00 09 60   * 2400
+00000298 :  00 00 07 88   * __CUDINT000012C0
+0000029C :  00 00 12 C0   * 4800
+000002A0 :  00 00 07 8C   * __CUDINT00002580
+000002A4 :  00 00 25 80   * 9600
+000002A8 :  00 00 07 90   * __CUDINT00004B00
+000002AC :  00 00 4B 00   * 19200
+000002B0 :  00 00 07 94   * __CUDINT00009600
+000002B4 :  00 00 96 00   * 38400
+000002B8 :  00 00 07 98   * __CUDINT0000E100
+000002BC :  00 00 E1 00   * 57600
+000002C0 :  00 00 07 9C   * __CUDINT00012C00
+000002C4 :  00 01 2C 00   * 76800
+000002C8 :  00 00 07 A0   * __CUDINT0001C200
+000002CC :  00 01 C2 00   * 115200
+000002D0 :  00 00 07 A4   * __CUDINT0005B8D8
+000002D4 :  00 05 B8 D8   * 375000
+000002D8 :  00 00 04 88   * BAUDRATE
+000002DC :  00 00 4B 00   * 19200
+000002E0 :  00 00 04 8C   * STOPBIT
+000002E4 :  00 00 00 01   * 1
+000002E8 :  00 00 00 00   * Terminator
+000002EC :  00 00 00 00   * Terminator
 
 
 ****** __INIT_STRING ******
-00000240 :  00 00 00 00   * Terminator
-00000244 :  00   * Terminator
-00000245 :  00 00 00  
+000002F0 :  00 00 00 00   * Terminator
+000002F4 :  00   * Terminator
+000002F5 :  00 00 00  
 
 
 
 ****** __INIT_MAXSTRING ******
-00000248 :  00 00 00 04   * VA of : __SYSVA_RESNAME
-0000024C :  00 00 00 01   * Number of elements
-00000250 :  FF   * Max length of : __SYSVA_RESNAME
-00000251 :  00 00 00  
-00000254 :  00 00 01 30   * VA of : __SYSVA_WNGCMPTNM
-00000258 :  00 00 00 01   * Number of elements
-0000025C :  08   * Max length of : __SYSVA_WNGCMPTNM
-0000025D :  00 00 00  
-00000260 :  00 00 04 8C   * VA of : __STRING_NULL
-00000264 :  00 00 00 01   * Number of elements
-00000268 :  00   * Max length of : __STRING_NULL
-00000269 :  00 00 00  
-0000026C :  00 00 04 8F   * VA of : _REG_STRING
-00000270 :  00 00 00 01   * Number of elements
-00000274 :  FF   * Max length of : _REG_STRING
-00000275 :  00 00 00  
-00000278 :  00 00 00 00   * Terminator
-0000027C :  00 00 00 00   * Terminator
-00000280 :  00   * Terminator
-00000281 :  00 00 00  
+000002F8 :  00 00 00 04   * VA of : __SYSVA_RESNAME
+000002FC :  00 00 00 01   * Number of elements
+00000300 :  FF   * Max length of : __SYSVA_RESNAME
+00000301 :  00 00 00  
+00000304 :  00 00 01 30   * VA of : __SYSVA_WNGCMPTNM
+00000308 :  00 00 00 01   * Number of elements
+0000030C :  08   * Max length of : __SYSVA_WNGCMPTNM
+0000030D :  00 00 00  
+00000310 :  00 00 04 98   * VA of : __STRING_NULL
+00000314 :  00 00 00 01   * Number of elements
+00000318 :  00   * Max length of : __STRING_NULL
+00000319 :  00 00 00  
+0000031C :  00 00 04 9B   * VA of : _REG_STRING
+00000320 :  00 00 00 01   * Number of elements
+00000324 :  FF   * Max length of : _REG_STRING
+00000325 :  00 00 00  
+00000328 :  00 00 00 00   * Terminator
+0000032C :  00 00 00 00   * Terminator
+00000330 :  00   * Terminator
+00000331 :  00 00 00  
 
 
 
 ****** __INIT_BLOCK ******
-00000284 :  00 00 00 00   * Terminator
-00000288 :  00 00 00 00   * Terminator
-0000028C :  00 00 00 00   * Terminator
-00000290 :  00 00 00 00   * Terminator
+00000334 :  00 00 00 00   * Terminator
+00000338 :  00 00 00 00   * Terminator
+0000033C :  00 00 00 00   * Terminator
+00000340 :  00 00 00 00   * Terminator
 
 
 ****** __INIT_INT_UINT ******
-00000294 :  00 00 04 0E   * LOCAL_ADDRESS
-00000298 :  00 01   * 1
-0000029A :  00 00  
-0000029C :  00 00 00 00   * Terminator
-000002A0 :  00 00   * Terminator
-000002A2 :  00 00  
+00000344 :  00 00 04 0E   * LOCAL_ADDRESS
+00000348 :  00 01   * 1
+0000034A :  00 00  
+0000034C :  00 00 04 10   * CASEBAUDRATE
+00000350 :  00 04   * 4
+00000352 :  00 00  
+00000354 :  00 00 00 00   * Terminator
+00000358 :  00 00   * Terminator
+0000035A :  00 00  
 
 
 
 ****** __INIT_LINT_ULINT_LREAL ******
-000002A4 :  00 00 00 00   * Terminator
-000002A8 :  00 00 00 00 00 00 00 00   * Terminator
+0000035C :  00 00 00 00   * Terminator
+00000360 :  00 00 00 00 00 00 00 00   * Terminator
 
 
 ****** __RETAIN ******
-000002B0 :  E9 34 89 87   * CRC
-000002B4 :  52 65 74 61 69 6E 52 65  -  73 31 00 00 00 00 00 00 
-000002C4 :  00 00 00 00 00 00 00 00  -  00 00 00 00 00 00 00 00 
-000002D4 :  00 00 00 00 00 00 00 00  -  00 00 00 00 00 00 00 00 
-000002E4 :  00 00 00 00 00 00 00 00  -  00 00 00 00 00 00 00 00 
-000002F4 :  00 00 00 00 00 00 00 00  -  00 00 00 00 00 00 00 00 
-00000304 :  00 00 00 00 00 00 00 00  -  00 00 00 00 00 00 00 00 
-00000314 :  00 00 00 00 00 00 00 00  -  00 00 00 00 00 00 00 00 
-00000324 :  00 00 00 00 00 00 00 00  -  00 00 00 00 00 00 00 00   * Memory location description
-00000334 :  00 00 00 01   * Number of blocks 
-00000338 :  00 8C   * Offset
-0000033A :  00 00 
-0000033C :  00 00 00 00   * Identifier 
-00000340 :  00 00 04 0E   * Va of a block
-00000344 :  00 00 00 02   * Block size (bytes)
-00000348 :  00 00 00 00   * Terminator
-0000034C :  00 00 00 00   * Terminator
-00000350 :  00 00 00 00   * Terminator
+00000368 :  92 7E 2A 0D   * CRC
+0000036C :  52 65 74 61 69 6E 52 65  -  73 31 00 00 00 00 00 00 
+0000037C :  00 00 00 00 00 00 00 00  -  00 00 00 00 00 00 00 00 
+0000038C :  00 00 00 00 00 00 00 00  -  00 00 00 00 00 00 00 00 
+0000039C :  00 00 00 00 00 00 00 00  -  00 00 00 00 00 00 00 00 
+000003AC :  00 00 00 00 00 00 00 00  -  00 00 00 00 00 00 00 00 
+000003BC :  00 00 00 00 00 00 00 00  -  00 00 00 00 00 00 00 00 
+000003CC :  00 00 00 00 00 00 00 00  -  00 00 00 00 00 00 00 00 
+000003DC :  00 00 00 00 00 00 00 00  -  00 00 00 00 00 00 00 00   * Memory location description
+000003EC :  00 00 00 02   * Number of blocks 
+000003F0 :  00 8C   * Offset
+000003F2 :  00 00 
+000003F4 :  00 00 00 00   * Identifier 
+000003F8 :  00 00 04 0E   * Va of a block
+000003FC :  00 00 00 04   * Block size (bytes)
+00000400 :  00 00 00 01   * Identifier 
+00000404 :  00 00 04 88   * Va of a block
+00000408 :  00 00 00 0C   * Block size (bytes)
+0000040C :  00 00 00 00   * Terminator
+00000410 :  00 00 00 00   * Terminator
+00000414 :  00 00 00 00   * Terminator
 
 
 ****** __KVB ******
-00000354 :  00 00   * Number of drivers
-00000356 :  00 00   * Offset -> drivers definition list
+00000418 :  00 00   * Number of drivers
+0000041A :  00 00   * Offset -> drivers definition list
 
 
 ****** __DEFIO ******
-00000358 :  00 00 03 70   * Address of __DEFIO_DRV
-0000035C :  00 00 03 74   * Address of __DEFIO_CPXDVC
-00000360 :  00 00 03 78   * Address of __DEFIO_SPLDVC
-00000364 :  00 00 03 7C   * Address of __DEFIO_CHAN
-00000368 :  00 00   * Number of virtual drivers
-0000036A :  00 00   * Number of level 1 device
-0000036C :  00 00   * Number of simple devices in input
-0000036E :  00 00   * Number of simple devices in output
+0000041C :  00 00 04 34   * Address of __DEFIO_DRV
+00000420 :  00 00 04 38   * Address of __DEFIO_CPXDVC
+00000424 :  00 00 04 3C   * Address of __DEFIO_SPLDVC
+00000428 :  00 00 04 40   * Address of __DEFIO_CHAN
+0000042C :  00 00   * Number of virtual drivers
+0000042E :  00 00   * Number of level 1 device
+00000430 :  00 00   * Number of simple devices in input
+00000432 :  00 00   * Number of simple devices in output
 
 
 ****** __DEFIO_DRV ******
-00000370 :  00 00   * Number of IO drivers
-00000372 :  00 00   * Offset -> drivers definition list
+00000434 :  00 00   * Number of IO drivers
+00000436 :  00 00   * Offset -> drivers definition list
 
 
 ****** __DEFIO_CPXDVC ******
-00000374 :  00 00   * Number of complex devices
-00000376 :  00 00   * Offset -> complex devices description
+00000438 :  00 00   * Number of complex devices
+0000043A :  00 00   * Offset -> complex devices description
 
 
 ****** __DEFIO_SPLDVC ******
-00000378 :  00 00   * Number of simple devices
-0000037A :  00 00   * Offset -> simple devices description
+0000043C :  00 00   * Number of simple devices
+0000043E :  00 00   * Offset -> simple devices description
 
 
 ****** __DEFIO_CHAN ******
-0000037C :  00 00 00 00   * Number of IO variables
-00000380 :  00 00   * Offset -> variables description
-00000382 :  00 00 
-00000384 :  00 00 00 00   * Offset -> OEM parameters offset table
+00000440 :  00 00 00 00   * Number of IO variables
+00000444 :  00 00   * Offset -> variables description
+00000446 :  00 00 
+00000448 :  00 00 00 00   * Offset -> OEM parameters offset table
 
 
 ****** __DEFHIE ******
-00000388 :  00 01   * number of cyclic program before SFC
-0000038A :  00 00   * number of cyclic program after SFC
-0000038C :  00 00   * number of SFC program
-0000038E :  00 00   * number of SFC child
-00000390 :  00 00   * number of function and FB
-00000392 :  00 0C   * Offset -> beginning of hierarchy definition
-00000394 :  00 00 00 00 00 00   * Terminator
-0000039A :  00 00 
+0000044C :  00 01   * number of cyclic program before SFC
+0000044E :  00 00   * number of cyclic program after SFC
+00000450 :  00 00   * number of SFC program
+00000452 :  00 00   * number of SFC child
+00000454 :  00 00   * number of function and FB
+00000456 :  00 0C   * Offset -> beginning of hierarchy definition
+00000458 :  00 00 00 00 00 00   * Terminator
+0000045E :  00 00 
 
 
 ****** __DEFPROG ******
-0000039C :  00 01 00 00   * POU : MAIN, type and level
-000003A0 :  00 00 00 00   * Terminator
+00000460 :  00 01 00 00   * POU : MAIN, type and level
+00000464 :  00 00 00 00   * Terminator
 
 

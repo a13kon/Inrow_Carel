@@ -1,16 +1,19 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Worksheet Name="Worksheet_1" Version="1.0.0">
   <Loop Name="Loop_1" Type="Normal" X="0" Y="0">
-    <Mask Name="Main" Type="Normal" X="0" Y="1">
+    <Mask Name="Main" Type="Normal" X="0" Y="1" ZoomCode="5">
       <Fields>
-        <Field Type="Text" Name="Text" Row="7" Column="3" Content="KHARON  v.1.0.0" />
-        <Field Type="Variable" Name="Variable" Row="1" Column="16" Content="Local_Address" Class="CL_INT" Format="io+3" Min="1" Max="255" />
-        <Field Type="Text" Name="Text_2" Row="1" Column="2" Content="Address" />
-        <Field Type="Text" Name="Text_3" Row="2" Column="2" Content="Baudrate     19200" />
-        <Field Type="Text" Name="Text_4" Row="3" Column="2" Content="Data length      8" />
-        <Field Type="Text" Name="Text_5" Row="4" Column="2" Content="Stop bit         1" />
-        <Field Type="Text" Name="Text_6" Row="5" Column="2" Content="Parity        None" />
+        <Field Type="Text" Name="Text" Row="4" Column="2" Content="Kharon" />
+        <Field Type="Variable" Name="Variable" Row="0" Column="14" Content="Local_Address" Class="CL_INT" Format="io+3" Min="1" Max="255" />
+        <Field Type="Text" Name="Text_2" Row="0" Column="2" Content="A·Ã¸c" />
+        <Field Type="Text" Name="Text_3" Row="1" Column="2" Content="C¾oÃocÄÎ" />
+        <Field Type="Text" Name="Text_5" Row="2" Column="2" Content="CÄoÁ-µ¼Ä" />
+        <Field Type="Text" Name="Text_6" Row="3" Column="2" Content="«¸ÄúocÄÎ" />
         <Field Name="Variable_2" Type="Variable" Content="dummy" Column="0" Row="0" Class="CL_Move" Format="ib" Min="0" Max="1" />
+        <Field Type="Variable" Name="Variable_3" Row="1" Column="15" Content="CaseBaudrate" Min="0" Max="9" Class="Baudrate" Format="io+5" SimulationValue="9" />
+        <Field Type="Variable" Name="Variable_4" Row="2" Column="15" Content="StopBit" Min="1" Max="2" Class="CL_UDINT" Format="io1" SimulationValue="1" />
+        <Field Type="Variable" Name="Variable_5" Row="3" Column="15" Content="Parity" Min="0" Max="2" Class="Parity" Format="io+5" SimulationValue="0" />
+        <Field Type="Text" Name="Text_4" Row="6" Column="14" Content="v.1.0.01" />
       </Fields>
     </Mask>
   </Loop>

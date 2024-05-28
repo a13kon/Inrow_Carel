@@ -14,4 +14,42 @@
       <KeyBinding Key="ENTER" BindOn="SetCurrentValue" />
     </KeyBindings>
   </FormatField>
+  <FormatField Name="Baudrate" Format="io+5">
+    <KeyBindings>
+      <KeyBinding Key="UP" BindOn="Increment_WORD" />
+      <KeyBinding Key="DOWN" BindOn="Decrement_WORD" />
+      <KeyBinding Key="ENTER" BindOn="SetCurrentValue" />
+    </KeyBindings>
+    <ResourceUsedOnInt>
+      <Index Value="0" Content="6" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_EAST" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="1" Content="7" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_EAST" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="2" Content="8" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_EAST" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="3" Content="9" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_EAST" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="4" Content="10" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_EAST" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="5" Content="11" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_EAST" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="6" Content="12" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_EAST" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="7" Content="13" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_EAST" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="8" Content="14" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_EAST" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="9" Content="15" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_EAST" FontHeight="9" ProportionalCharWidth="true" />
+    </ResourceUsedOnInt>
+  </FormatField>
+  <FormatField Name="CL_UDINT" Format="io6">
+    <KeyBindings>
+      <KeyBinding Key="UP" BindOn="Increment_DWORD" />
+      <KeyBinding Key="DOWN" BindOn="Decrement_DWORD" />
+      <KeyBinding Key="ENTER" BindOn="SetCurrentValue" />
+    </KeyBindings>
+  </FormatField>
+  <FormatField Name="Parity" Format="io+5">
+    <KeyBindings>
+      <KeyBinding Key="UP" BindOn="Increment_DWORD" />
+      <KeyBinding Key="DOWN" BindOn="Decrement_DWORD" />
+      <KeyBinding Key="ENTER" BindOn="SetCurrentValue" />
+    </KeyBindings>
+    <ResourceUsedOnInt>
+      <Index Value="0" Content="16" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_EAST" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="1" Content="17" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_EAST" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="2" Content="18" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_EAST" FontHeight="9" ProportionalCharWidth="true" />
+    </ResourceUsedOnInt>
+  </FormatField>
 </FormatFields>

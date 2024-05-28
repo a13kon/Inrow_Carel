@@ -3,7 +3,7 @@
   <Info ManifestVersion="1.1.0">
     <Name>KHARON</Name>
     <Description>An empty project template.</Description>
-    <Version>1.0.0</Version>
+    <Version>1.0.1</Version>
     <CreationDate>2023-02-10T08:50:18.3856451Z</CreationDate>
     <Owner>technogroup</Owner>
     <StorageToolManaged>false</StorageToolManaged>

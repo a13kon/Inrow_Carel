@@ -1,16 +1,16 @@
 ****** __RDCC_MODULE_ID ******
 00000000 :  43 41 52 45 4C 5F 50 43  -  4F 00 00 00 00 00 00 00   * Target Name : CAREL_PCO
 00000010 :  00 00 00 0C   * RDCC format version number
-00000014 :  EE 44 E6 1C   * Resource check sum
-00000018 :  1C 41 90 71   * Module check sum
+00000014 :  89 4F 79 45   * Resource check sum
+00000018 :  9E FF 27 F2   * Module check sum
 0000001C :  00 00 00 00   * Module ID parameter
-00000020 :  00 00 01 40   * Total size
-00000024 :  00 00 00 B8   * Size without __RDCC_MODULE_ID
+00000020 :  00 00 01 E0   * Total size
+00000024 :  00 00 01 58   * Size without __RDCC_MODULE_ID
 00000028 :  00 00 00 44   * Offset -> resource name
 0000002C :  00 00 00 5D   * Offset -> module name
 00000030 :  00 00 00 88   * Offset -> beginning of the data block
-00000034 :  63 E6 05 58   * Compilation generation date
-00000038 :  00 00 00 40   * Compilation version number
+00000034 :  66 55 7B 52   * Compilation generation date
+00000038 :  00 00 00 41   * Compilation version number
 0000003C :  00 00 00 00   * User module version number
 00000040 :  00 00 00 6E   * Offset -> target auto-validation data
 00000044 :  4B 48 41 52 4F 4E 5C 44  -  45 56 49 43 45 31 5C 52 
@@ -49,24 +49,24 @@
 00000088 :  00 00 00 F0   * Address of __INIT_BOOL
 0000008C :  00 00 00 F8   * Address of __INIT_SINT_USINT
 00000090 :  00 00 01 00   * Address of __INIT_DINT_UDINT_REAL_TIME_DATE
-00000094 :  00 00 01 08   * Address of __INIT_STRING
-00000098 :  00 00 01 10   * Address of __INIT_MAXSTRING
-0000009C :  00 00 01 1C   * Address of __INIT_BLOCK
+00000094 :  00 00 01 A8   * Address of __INIT_STRING
+00000098 :  00 00 01 B0   * Address of __INIT_MAXSTRING
+0000009C :  00 00 01 BC   * Address of __INIT_BLOCK
 000000A0 :  00 00 00 00   * Cst. Nb. in __INIT_BOOL
 000000A4 :  00 00 00 00   * Total Elt. in __INIT_BOOL
 000000A8 :  00 00 00 00   * Cst. Nb. in __INIT_SINT_USINT
 000000AC :  00 00 00 00   * Total Elt. in __INIT_SINT_USINT
-000000B0 :  00 00 00 00   * Cst. Nb. in __INIT_DINT_UDINT_REAL_TIME_DATE
-000000B4 :  00 00 00 00   * Total Elt. in __INIT_DINT_UDINT_REAL_TIME_DATE
+000000B0 :  00 00 00 14   * Cst. Nb. in __INIT_DINT_UDINT_REAL_TIME_DATE
+000000B4 :  00 00 00 14   * Total Elt. in __INIT_DINT_UDINT_REAL_TIME_DATE
 000000B8 :  00 00 00 00   * Cst. Nb. in __INIT_STRING
 000000BC :  00 00 00 00   * Total Elt. in __INIT_STRING
 000000C0 :  00 00 00 00   * Total Elt. in __INIT_MAXSTRING
 000000C4 :  00 00 00 00   * Cst. Nb. in __INIT_BLOCK
 000000C8 :  00 00 00 00   * Total Elt. in __INIT_BLOCK
-000000CC :  00 00 01 2C   * Address of __INIT_INT_UINT
+000000CC :  00 00 01 CC   * Address of __INIT_INT_UINT
 000000D0 :  00 00 00 00   * Cst. Nb. in __INIT_INT_UINT
 000000D4 :  00 00 00 00   * Total Elt. in __INIT_INT_UINT
-000000D8 :  00 00 01 34   * Address of __INIT_LINT_ULINT_LREAL
+000000D8 :  00 00 01 D4   * Address of __INIT_LINT_ULINT_LREAL
 000000DC :  00 00 00 00   * Cst. Nb. in __INIT_LINT_ULINT_LREAL
 000000E0 :  00 00 00 00   * Total Elt. in __INIT_LINT_ULINT_LREAL
 000000E4 :  00 00 00 F4   * Address of __INIT_BOOL_FALSE
@@ -90,41 +90,81 @@
 
 
 ****** __INIT_DINT_UDINT_REAL_TIME_DATE ******
-00000100 :  00 00 00 00   * Terminator
-00000104 :  00 00 00 00   * Terminator
+00000100 :  00 00 07 78   * __DINT_NULL
+00000104 :  00 00 00 00   * 0
+00000108 :  00 00 07 80   * __CUDINT000004B0
+0000010C :  00 00 04 B0   * 1200
+00000110 :  00 00 07 74   * __CDINT00000001
+00000114 :  00 00 00 01   * 1
+00000118 :  00 00 07 84   * __CUDINT00000960
+0000011C :  00 00 09 60   * 2400
+00000120 :  00 00 07 70   * __CDINT00000002
+00000124 :  00 00 00 02   * 2
+00000128 :  00 00 07 88   * __CUDINT000012C0
+0000012C :  00 00 12 C0   * 4800
+00000130 :  00 00 07 6C   * __CDINT00000003
+00000134 :  00 00 00 03   * 3
+00000138 :  00 00 07 8C   * __CUDINT00002580
+0000013C :  00 00 25 80   * 9600
+00000140 :  00 00 07 68   * __CDINT00000004
+00000144 :  00 00 00 04   * 4
+00000148 :  00 00 07 90   * __CUDINT00004B00
+0000014C :  00 00 4B 00   * 19200
+00000150 :  00 00 07 64   * __CDINT00000005
+00000154 :  00 00 00 05   * 5
+00000158 :  00 00 07 94   * __CUDINT00009600
+0000015C :  00 00 96 00   * 38400
+00000160 :  00 00 07 60   * __CDINT00000006
+00000164 :  00 00 00 06   * 6
+00000168 :  00 00 07 98   * __CUDINT0000E100
+0000016C :  00 00 E1 00   * 57600
+00000170 :  00 00 07 5C   * __CDINT00000007
+00000174 :  00 00 00 07   * 7
+00000178 :  00 00 07 9C   * __CUDINT00012C00
+0000017C :  00 01 2C 00   * 76800
+00000180 :  00 00 07 58   * __CDINT00000008
+00000184 :  00 00 00 08   * 8
+00000188 :  00 00 07 A0   * __CUDINT0001C200
+0000018C :  00 01 C2 00   * 115200
+00000190 :  00 00 07 54   * __CDINT00000009
+00000194 :  00 00 00 09   * 9
+00000198 :  00 00 07 A4   * __CUDINT0005B8D8
+0000019C :  00 05 B8 D8   * 375000
+000001A0 :  00 00 00 00   * Terminator
+000001A4 :  00 00 00 00   * Terminator
 
 
 ****** __INIT_STRING ******
-00000108 :  00 00 00 00   * Terminator
-0000010C :  00   * Terminator
-0000010D :  00 00 00  
+000001A8 :  00 00 00 00   * Terminator
+000001AC :  00   * Terminator
+000001AD :  00 00 00  
 
 
 
 ****** __INIT_MAXSTRING ******
-00000110 :  00 00 00 00   * Terminator
-00000114 :  00 00 00 00   * Terminator
-00000118 :  00   * Terminator
-00000119 :  00 00 00  
+000001B0 :  00 00 00 00   * Terminator
+000001B4 :  00 00 00 00   * Terminator
+000001B8 :  00   * Terminator
+000001B9 :  00 00 00  
 
 
 
 ****** __INIT_BLOCK ******
-0000011C :  00 00 00 00   * Terminator
-00000120 :  00 00 00 00   * Terminator
-00000124 :  00 00 00 00   * Terminator
-00000128 :  00 00 00 00   * Terminator
+000001BC :  00 00 00 00   * Terminator
+000001C0 :  00 00 00 00   * Terminator
+000001C4 :  00 00 00 00   * Terminator
+000001C8 :  00 00 00 00   * Terminator
 
 
 ****** __INIT_INT_UINT ******
-0000012C :  00 00 00 00   * Terminator
-00000130 :  00 00   * Terminator
-00000132 :  00 00  
+000001CC :  00 00 00 00   * Terminator
+000001D0 :  00 00   * Terminator
+000001D2 :  00 00  
 
 
 
 ****** __INIT_LINT_ULINT_LREAL ******
-00000134 :  00 00 00 00   * Terminator
-00000138 :  00 00 00 00 00 00 00 00   * Terminator
+000001D4 :  00 00 00 00   * Terminator
+000001D8 :  00 00 00 00 00 00 00 00   * Terminator
 
 

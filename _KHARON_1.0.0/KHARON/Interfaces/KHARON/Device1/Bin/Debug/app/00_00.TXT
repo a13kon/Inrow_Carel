@@ -1,8 +1,21 @@
 [DEFAULT]
-KHARON  v.1.0.0
-Address
-Baudrate     19200
-Data length      8
-Stop bit         1
-Parity        None
+Kharon
+A·Ã¸c
+C¾oÃocÄÎ
+CÄoÁ-µ¼Ä
+«¸ÄúocÄÎ
+v.1.0.01
+1200
+2400
+4800
+9600
+19200
+38400
+57600
+76800
+115200
+375000
+H¸Ä
+H¸Â¸Ä
+«¸Ä
 [DEFAULT]

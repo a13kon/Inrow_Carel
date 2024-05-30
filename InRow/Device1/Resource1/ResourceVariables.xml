@@ -24524,6 +24524,24 @@
         Max=""
         InitialValue="TRUE"
         StringSize="0" />
+      <Variable
+        Name="GeneralStatus"
+        DataType="BOOL"
+        IO="false"
+        Protocol="false"
+        UI="false"
+        Default="false"
+        LogPV="false"
+        IsRetained="false"
+        Alarm="false"
+        UoM="NoUnits"
+        Comment="Общая авария всех вентиляторов"
+        Kind="Var"
+        Access="ReadWrite"
+        Acronym=""
+        Min=""
+        Max=""
+        StringSize="0" />
     </Variable>
     <Variable
       Name="Filter"

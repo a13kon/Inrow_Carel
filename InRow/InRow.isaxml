@@ -679,6 +679,7 @@
         <Variable Name="K_Factor" DataType="REAL" Comment="Коэффициент k для расчета скорости вентиляторов" StringSize="0" Order="14" />
         <Variable Name="OnOffTime" DataType="INT" Comment="Время запуска и останова вентиляторов (се)" StringSize="0" Order="15" />
         <Variable Name="EnStatusControl" DataType="BOOL" Comment="Активировать функцию контроля статуса вент-ров" StringSize="0" Order="16" />
+        <Variable Name="GeneralStatus" DataType="BOOL" Comment="Общая авария всех вентиляторов" StringSize="0" Order="17" />
       </Struct>
     </DataType>
     <DataType Name="STCT_Valve" Comment="" Access="UserDefined">

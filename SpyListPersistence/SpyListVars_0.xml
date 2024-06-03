@@ -129,4 +129,49 @@
   <Variable>
     <FullName>InRow.Device1.Resource1.Conv.U[2].Value</FullName>
   </Variable>
+  <Variable>
+    <FullName>InRow.Device1.Resource1.CPY_Mng.ShutDwnAlrm_CPY.ParamsNotDwnld</FullName>
+  </Variable>
+  <Variable>
+    <FullName>InRow.Device1.Resource1.Humid.ActualType</FullName>
+  </Variable>
+  <Variable>
+    <FullName>InRow.Device1.Resource1.Humid.Type</FullName>
+  </Variable>
+  <Variable>
+    <FullName>InRow.Device1.Resource1.CPY_Mng.CPY_2_1.ModelChg_CPY_1.I80_CPY_UEY_ActualModel</FullName>
+  </Variable>
+  <Variable>
+    <FullName>InRow.Device1.Resource1.CPY_Mng.Cfg_CPY</FullName>
+  </Variable>
+  <Variable>
+    <FullName>InRow.Device1.Resource1.CPY_Mng.En_NewModel_CPY</FullName>
+  </Variable>
+  <Variable>
+    <FullName>InRow.Device1.Resource1.CPY_Mng.DevAddr_CPY</FullName>
+  </Variable>
+  <Variable>
+    <FullName>InRow.Device1.Resource1.CPY_Mng.NewModel_CPY</FullName>
+  </Variable>
+  <Variable>
+    <FullName>InRow.Device1.Resource1.CPY_Mng.CPY_2_1.ModelChg_CPY_1.ChgRun</FullName>
+  </Variable>
+  <Variable>
+    <FullName>InRow.Device1.Resource1.CPY_Mng.CPY_2_1.ModelChg_CPY_1.I79_CPY_UEY_Model</FullName>
+  </Variable>
+  <Variable>
+    <FullName>InRow.Device1.Resource1.Humid.AO</FullName>
+  </Variable>
+  <Variable>
+    <FullName>InRow.Device1.Resource1.Humid.DO</FullName>
+  </Variable>
+  <Variable>
+    <FullName>InRow.Device1.Resource1.CPY_Mng.En_CPY</FullName>
+  </Variable>
+  <Variable>
+    <FullName>InRow.Device1.Resource1.Humid.State</FullName>
+  </Variable>
+  <Variable>
+    <FullName>InRow.Device1.Resource1.CPY_Mng.CPY_2_1</FullName>
+  </Variable>
 </SpyListVars_0>
